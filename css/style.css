@@ -28,6 +28,15 @@ header{
 .navbar-brand img{
 width: 16rem;
 }
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(218, 163, 62);
+} 
+
 .navbar-dropdowns{
     display: flex;
     justify-content: center;
@@ -116,17 +125,26 @@ margin-top: 0.5rem;
     font-size: 15px;
     padding-left: 20px;
 }
-#history, #world, #monsters, #heroes{
-    display: block;
-    position: relative;
-    top: -152.04px;
-    visibility: hidden;
+.index-history-title{
+    padding-top: 15px;
+}
+.index-history-video{
+    padding-bottom: 15px;
 }
 .index-history-content-right{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+}
+.index-history-content-right img{
+    width: 100%;
+}
+#history, #world, #monsters, #heroes{
+    display: block;
+    position: relative;
+    top: -152.04px;
+    visibility: hidden;
 }
 .index-main-world-container {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background-world-001.png);
@@ -147,6 +165,21 @@ margin-top: 0.5rem;
     font-size: 15px;
     margin-left: 20px;
     margin-right: 20px;
+}
+.index-world-title{
+    padding-top: 15px;
+}
+.index-world-video{
+    padding-bottom: 15px;
+}
+.index-world-content-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.index-world-content-left img{
+    width: 100%;
 }
 .index-world-video {
     margin-top: 50px;
@@ -170,8 +203,23 @@ margin-top: 0.5rem;
     margin-left: 20px;
     margin-right: 20px;
 }
+.index-monster-content-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.index-monster-content-right img{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.index-monster-title{
+    padding-top: 15px;
+}
 .index-monster-video {
     margin-top: 50px;
+    padding-bottom: 15px;
 }
 .index-main-heroes-container {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background-home-03.jpg);
@@ -191,6 +239,21 @@ margin-top: 0.5rem;
     font-size: 15px;
     margin-left: 20px;
     margin-right: 20px;
+}
+.index-heroes-title{
+    padding-top: 15px;
+}
+.index-heroes-video{
+    padding-bottom: 15px;
+}
+.index-heroes-content-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.index-heroes-content-left img{
+    width: 100%;
 }
 .index-heroes-video {
     margin-top: 50px;
