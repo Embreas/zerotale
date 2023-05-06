@@ -1,0 +1,177 @@
+
+.heroes-classes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgba(19, 37, 201, 0.507);
+    row-gap: 100px;
+}
+/* warrior */
+.hero-hero {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+}
+.hero-hero img {
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 4px turquoise double;
+    border-radius: 15px;
+}
+.hero-hero div {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+}
+.hero-hero div iframe {
+    margin-top: 10px;
+    border: 3px turquoise double;
+    border-radius: 15px;
+}
+.hero-hero div p {
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 1%;
+    border: 4px turquoise double;
+    border-radius: 15px;
+    background-color: rgba(165, 42, 42, 0.411);
+}
+.hero-hero-imgs {
+    width: 50%;
+}
+.hero-img01 {
+    width: 40%;
+}
+.hero-img02 {
+    width: 40%;
+}
+/* archmage */
+.hero-archmage {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+}
+.hero-archmage img {
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 4px turquoise double;
+    border-radius: 15px;
+}
+.hero-archmage div {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+}
+.hero-archmage div iframe {
+    margin-top: 10px;
+    border: 3px turquoise double;
+    border-radius: 15px;
+}
+.hero-archmage div p {
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 1%;
+    border: 4px turquoise double;
+    border-radius: 15px;
+    background-color: rgba(165, 42, 42, 0.411);
+}
+.hero-archmage-imgs {
+    width: 50%;
+}
+.archmage-img01 {
+    width: 40%;
+}
+.archmage-img02 {
+    width: 40%;
+}
+/* savior */
+.hero-savior {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+}
+.hero-savior img {
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 4px turquoise double;
+    border-radius: 15px;
+}
+.hero-savior div {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+}
+.hero-savior div iframe {
+    margin-top: 10px;
+    border: 3px turquoise double;
+    border-radius: 15px;
+}
+.hero-savior div p {
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 1%;
+    border: 4px turquoise double;
+    border-radius: 15px;
+    background-color: rgba(165, 42, 42, 0.411);
+}
+.hero-savior-imgs {
+    width: 50%;
+}
+.savior-img01 {
+    width: 40%;
+}
+.savior-img02 {
+    width: 40%;
+}
+/* windstalker */
+.hero-windstalker {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+}
+.hero-windstalker img {
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 4px turquoise double;
+    border-radius: 15px;
+}
+.hero-windstalker div {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+}
+.hero-windstalker div iframe {
+    margin-top: 10px;
+    border: 3px turquoise double;
+    border-radius: 15px;
+}
+.hero-windstalker div p {
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 1%;
+    border: 4px turquoise double;
+    border-radius: 15px;
+    background-color: rgba(165, 42, 42, 0.411);
+}
+.hero-windstalker-imgs {
+    width: 50%;
+}
+.windstalker-img01 {
+    width: 40%;
+}
+.windstalker-img02 {
+    width: 40%;
+}

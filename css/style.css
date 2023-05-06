@@ -10,8 +10,6 @@
 }
 
 /* HEADER */
-
-
 /* BOOTSTRAP NAVBAR */
 header{
     position: sticky;
@@ -102,7 +100,8 @@ margin-top: 0.5rem;
 }
 /* BOOTSTRAP CAROUSEL */
 
-/* MAIN */
+/* INDEX MAIN PAGE */
+
 .index-main-history-section{
     display: flex;
     flex-wrap: wrap;
@@ -140,7 +139,7 @@ margin-top: 0.5rem;
 .index-history-content-right img{
     width: 100%;
 }
-#history, #world, #monsters, #heroes{
+#history, #world, #monsters, #heroes, #heroclass, #archemageclass, #saviorclass, #windstalkerclass{
     display: block;
     position: relative;
     top: -152.04px;
@@ -258,183 +257,209 @@ margin-top: 0.5rem;
 .index-heroes-video {
     margin-top: 50px;
 }
-/* heroes html doc */
-.heroes-classes {
+
+/* HEROES HTML PAGE */
+
+.grid-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: /* 25% 25% 25% 25% */ auto auto auto auto;
+    grid-template-areas:
+    "hero hero"
+    "arch arch"
+    "sav sav"
+    "wind wind"
+    ;
+}
+
+.heroes-container-left{
+    width: 50%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.heroes-container-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heroes-container-right p{
+    width: 100%;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    color: white;
+}
+.heroes-container-right iframe{
+    padding-top: 10px;
+}
+
+.hero-hero{
+    background-image: url(../img/class-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: hero;
+    display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    background-color: rgba(19, 37, 201, 0.507);
-    row-gap: 100px;
-}
-/* warrior */
-.hero-hero {
-    display: flex;
-    justify-content: right;
     align-items: center;
+    padding-left: 15px
+}
+.hero-img01 img{
+    width: 75%;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.hero-img02 img{
     width: 100%;
+    padding-top: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
 }
-.hero-hero img {
-    margin-left: 3%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    border: 4px turquoise double;
-    border-radius: 15px;
+
+
+
+.hero-archmage{
+    background-image: url(../img/class-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: arch;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px
 }
-.hero-hero div {
+.archmage-img01 img{
+    width: 75%;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.archmage-img02 img{
+    width: 100%;
+    padding-top: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.hero-savior{
+    background-image: url(../img/class-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: sav;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px
+}
+.savior-img01 img{
+    width: 75%;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.savior-img02 img{
+    width: 100%;
+    padding-top: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.hero-windstalker{
+    background-image: url(../img/class-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: wind;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px
+}
+.windstalker-img01 img{
+    width: 75%;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.windstalker-img02 img{
+    width: 100%;
+    padding-top: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+/* EULA HTML PAGE */
+
+.main-eula{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* PRIVACY HTML PAGE */
+
+.main-privacy{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* TERMS HTML PAGE */
+
+.main-terms{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* ABOUT HTML PAGE */
+
+.about-main-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.about-container-left {
     display: flex;
     flex-direction: column;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
+    color: beige;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
-.hero-hero div iframe {
-    margin-top: 10px;
-    border: 3px turquoise double;
-    border-radius: 15px;
-}
-.hero-hero div p {
-    text-align: left;
-    margin-left: 5%;
-    margin-right: 1%;
-    border: 4px turquoise double;
-    border-radius: 15px;
-    background-color: rgba(165, 42, 42, 0.411);
-}
-.hero-hero-imgs {
-    width: 50%;
-}
-.hero-img01 {
-    width: 40%;
-}
-.hero-img02 {
-    width: 40%;
-}
-/* archmage */
-.hero-archmage {
+.about-container-left-links{
     display: flex;
-    justify-content: right;
-    align-items: center;
-    width: 100%;
 }
-.hero-archmage img {
-    margin-left: 3%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    border: 4px turquoise double;
-    border-radius: 15px;
+.about-container-left-links a {
+    margin-right: 25px;
+    color: white;
+    border: 2px white solid;
+    padding: 5px;
 }
-.hero-archmage div {
+.about-container-right{
     display: flex;
-    flex-direction: column;
-    justify-content: right;
-    align-items: center;
+    justify-content: center;
 }
-.hero-archmage div iframe {
-    margin-top: 10px;
-    border: 3px turquoise double;
-    border-radius: 15px;
+.about-container-right img{
+    width: 75%;
 }
-.hero-archmage div p {
-    text-align: left;
-    margin-left: 5%;
-    margin-right: 1%;
-    border: 4px turquoise double;
-    border-radius: 15px;
-    background-color: rgba(165, 42, 42, 0.411);
-}
-.hero-archmage-imgs {
-    width: 50%;
-}
-.archmage-img01 {
-    width: 40%;
-}
-.archmage-img02 {
-    width: 40%;
-}
-/* savior */
-.hero-savior {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    width: 100%;
-}
-.hero-savior img {
-    margin-left: 3%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    border: 4px turquoise double;
-    border-radius: 15px;
-}
-.hero-savior div {
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-    align-items: center;
-}
-.hero-savior div iframe {
-    margin-top: 10px;
-    border: 3px turquoise double;
-    border-radius: 15px;
-}
-.hero-savior div p {
-    text-align: left;
-    margin-left: 5%;
-    margin-right: 1%;
-    border: 4px turquoise double;
-    border-radius: 15px;
-    background-color: rgba(165, 42, 42, 0.411);
-}
-.hero-savior-imgs {
-    width: 50%;
-}
-.savior-img01 {
-    width: 40%;
-}
-.savior-img02 {
-    width: 40%;
-}
-/* windstalker */
-.hero-windstalker {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    width: 100%;
-}
-.hero-windstalker img {
-    margin-left: 3%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    border: 4px turquoise double;
-    border-radius: 15px;
-}
-.hero-windstalker div {
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-    align-items: center;
-}
-.hero-windstalker div iframe {
-    margin-top: 10px;
-    border: 3px turquoise double;
-    border-radius: 15px;
-}
-.hero-windstalker div p {
-    text-align: left;
-    margin-left: 5%;
-    margin-right: 1%;
-    border: 4px turquoise double;
-    border-radius: 15px;
-    background-color: rgba(165, 42, 42, 0.411);
-}
-.hero-windstalker-imgs {
-    width: 50%;
-}
-.windstalker-img01 {
-    width: 40%;
-}
-.windstalker-img02 {
-    width: 40%;
-}
+
+/*  */
 
 /* FOOTER */
 
@@ -471,3 +496,5 @@ height: 60px;
     right: 3%;
     bottom: 3%;
 }
+
+/* END OF CONTENT */
