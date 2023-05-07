@@ -698,7 +698,10 @@ top: -20px;
 }
 
 /* ABOUT HTML PAGE */
-
+/* .body-about-page{
+    height: 90vh
+}
+ */
 .about-main-container {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background01.jpg);
     background-repeat: no-repeat;
