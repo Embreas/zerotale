@@ -7,6 +7,30 @@
     font-family: 'Open Sans', sans-serif;
     list-style: none;
     text-decoration: none;
+    
+}
+textarea:focus, input:focus, input[type]:focus {
+    border-color: rgb(218, 163, 62);
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px rgba(218, 163, 62, 0.671);
+    outline: 0 none;
+}
+.my-buttons:hover{
+    background-color: yellow !important;
+    color: black !important;
+    box-shadow: none !important;
+    border-color: rgb(218, 163, 62) !important;
+}
+.my-buttons:active{
+    background-color: yellow !important;
+    color: black !important;
+    box-shadow: none !important;
+    border-color: rgb(218, 163, 62) !important;
+}
+.my-buttons:focus{
+    background-color: yellow !important;
+    color: black !important;
+    box-shadow: none !important;
+    border-color: rgb(218, 163, 62) !important;
 }
 
 /* HEADER */
@@ -54,6 +78,18 @@ width: 16rem;
     text-align: center;
     margin: 1px solid;
 }
+.dropdown-item:active{
+    background-color: yellow !important;
+    color: black !important;
+    box-shadow: none !important;
+    border-color: rgb(218, 163, 62) !important;
+}
+.dropdown-item:hover{
+    background-color: yellow !important;
+    color: black !important;
+    box-shadow: none !important;
+    border-color: rgb(218, 163, 62) !important;
+}
 .dropdown-menu.show{
     display: flex;
     flex-direction: column;
@@ -82,6 +118,7 @@ margin-top: 0.5rem;
 .navbar-login-buttons button{
     margin-left: 0.2rem;
 }
+
 .navbar-login-forgot{
     display: flex;
     justify-content: end;
@@ -139,7 +176,7 @@ margin-top: 0.5rem;
 .index-history-content-right img{
     width: 100%;
 }
-#history, #world, #monsters, #heroes, #heroclass, #archemageclass, #saviorclass, #windstalkerclass{
+#history, #world, #monsters, #heroes, #hero, #archmage, #savior, #windstalker{
     display: block;
     position: relative;
     top: -152.04px;
@@ -394,7 +431,7 @@ margin-top: 0.5rem;
     border-radius: 10px;
 }
 
-/* WIKI HTML PAGE */
+/* NEWS HTML PAGE */
 
 .news-main-container{
     background-image: url(../img/topbg.jpg);
@@ -424,19 +461,38 @@ margin-top: 0.5rem;
     border-radius: 10px;
     padding: 4px 10px 4px 10px;
 }
+.modal-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.modal-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.modal-body img{
+    width: 80%;
+    align-items: center;
+}
 
 .news-grid-container-patch-notes{
-        width: 100%;
-        display: grid;
-        padding: 20px;
-        gap: 5px;
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: auto auto auto;
-        grid-template-areas:
-        "pnews01img pnews02img pnews03img"
-        "patch01 patch02 patch03"
-        "ptitle01 ptitle02 ptitle03"
-        ;
+    width: 100%;
+    display: grid;
+    padding: 20px;
+    gap: 5px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+    "pnews01img pnews02img pnews03img"
+    "patch01 patch02 patch03"
+    "ptitle01 ptitle02 ptitle03"
+    ;
+}
+.news-patch-font{
+    color: rgb(218, 163, 62);
 }
 
 .pneuma-modal{
@@ -671,8 +727,6 @@ position: relative;
 top: -20px;
 }
 
-
-
 /* EULA HTML PAGE */
 
 .main-eula{
@@ -698,10 +752,13 @@ top: -20px;
 }
 
 /* ABOUT HTML PAGE */
-/* .body-about-page{
-    height: 90vh
+
+.main-about-page{
+    height: calc(100vh - 243.3px);
 }
- */
+.about-main-section{
+    height: 100%;
+}
 .about-main-container {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background01.jpg);
     background-repeat: no-repeat;
@@ -736,10 +793,60 @@ top: -20px;
     justify-content: center;
 }
 .about-container-right img{
-    width: 75%;
+    width: 100%;
+    object-fit: contain;
 }
 
-/*  */
+/* ACCOUNT HTML PAGE */
+
+.sign-up-container{
+    background-image: url(../img/laboom-elias.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.sign-up-title-container{
+    text-align: center;
+    padding-top: 50px;
+}
+.sign-up-title{
+    text-align: center;
+    color: white;
+    background-color: rgb(218, 163, 62);
+    border: 2px solid rgb(218, 163, 62);
+}
+.sign-up-subtitle-container{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 25px;
+}
+.sign-up-subtitle{
+    text-align: center;
+    color: white;
+    background-color: rgba(218, 163, 62, 0.678);
+    border-top: 2px solid rgb(218, 163, 62);
+    border-bottom: 2px solid rgb(218, 163, 62);
+    font-size: 20px;
+}
+.sign-up-form{
+    display: block;
+    width: 450px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-check{
+    padding-top: 55px;
+}
+.account-form-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
 
 /* FOOTER */
 
