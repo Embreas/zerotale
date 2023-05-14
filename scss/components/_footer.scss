@@ -1,0 +1,43 @@
+footer{
+    section{
+        .footer-main-container{
+            display: flex;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.696), rgba(238, 234, 15, 0.288)), url(../img/slider2.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            color: beige;
+            .footer-container-left{
+                .footer-container-left-img{
+                    a{
+                        img{
+                            height: 60px;
+                        }
+                    }
+                    p{
+                        font-size: 10px;
+                    }
+                }
+            }
+            .footer-container-right{
+                margin-top: 15px;
+                margin-right: 150px;
+                a{
+                    margin-right: 30px;
+                    padding-left: 25px;
+                    color: beige;
+                    border-left: 2px beige solid; 
+                }
+            }
+        }
+    }
+    .scrolltotop{
+        position: fixed;
+        right: 3%;
+        bottom: 3%;
+    }
+}
