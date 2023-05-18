@@ -1,0 +1,51 @@
+body{
+    header{
+        position: sticky;
+        top: 0;
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.578)),  url(../img/slider2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        z-index: 3;
+        nav{
+            .container-fluid{
+                display: flex;
+                justify-content: space-between;
+                .navbar-logo{
+                    position: fixed;
+                    top: 50px;
+                    right: 45px;
+                    .navbar-brand{
+                        img{
+                            width: 83%;
+                        }
+                    }
+                    .tale-navbar-button{
+                        border-color: rgb(218, 163, 62);
+                        .navbar-toggler-icon{
+                            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+                        }
+                    }
+                }
+                .navbar-dropdowns{
+                    display: flex;
+                    justify-content: center;
+                    .navbar-nav{
+                        li{
+                            margin-right: 4rem;
+                            border: 1px solid ;
+                            border-radius: 6px;
+                            border-color: rgb(218, 163, 62);
+                            .nav-dropdown-section{
+                                color: white !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
