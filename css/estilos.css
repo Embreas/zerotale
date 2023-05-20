@@ -253,6 +253,42 @@ main .index-main-heroes-section {
         padding-bottom: 15px;
         margin-top: 50px; }
 
+body .main-screen-complete-page {
+  height: calc(100vh - 243.3px); }
+  body .main-screen-complete-page .about-main-section {
+    height: 100%; }
+    body .main-screen-complete-page .about-main-section .about-main-container {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background01.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: space-around; }
+      body .main-screen-complete-page .about-main-section .about-main-container .about-container-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: beige;
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 20px; }
+        body .main-screen-complete-page .about-main-section .about-main-container .about-container-left .about-container-left-links {
+          display: flex; }
+          body .main-screen-complete-page .about-main-section .about-main-container .about-container-left .about-container-left-links a {
+            margin-right: 25px;
+            color: white;
+            border: 2px white solid;
+            padding: 5px; }
+      body .main-screen-complete-page .about-main-section .about-main-container .about-container-right {
+        display: flex;
+        justify-content: center; }
+        body .main-screen-complete-page .about-main-section .about-main-container .about-container-right img {
+          width: 100%;
+          object-fit: contain; }
+
 footer section .footer-main-container {
   display: flex;
   background-image: linear-gradient(rgba(0, 0, 0, 0.696), rgba(238, 234, 15, 0.288)), url(../img/slider2.jpg);
