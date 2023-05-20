@@ -70,6 +70,38 @@ body header {
         border-color: #daa33e; }
         body header nav .container-fluid .navbar-dropdowns .navbar-nav li .nav-dropdown-section {
           color: white !important; }
+        body header nav .container-fluid .navbar-dropdowns .navbar-nav li .dropdown-menu.show {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          background-color: rgba(241, 232, 242, 0.7);
+          padding-left: 4rem; }
+          body header nav .container-fluid .navbar-dropdowns .navbar-nav li .dropdown-menu.show .dropdown-menu-box {
+            margin-top: 0.5rem; }
+    body header nav .container-fluid .navbar-login .navbar-login-textbox {
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      align-items: end;
+      margin-bottom: 0.2rem;
+      margin-top: -0.5rem; }
+    body header nav .container-fluid .navbar-login .navbar-login-buttons {
+      display: flex;
+      flex-direction: row;
+      justify-content: end;
+      align-items: center;
+      margin-right: 0.8rem; }
+      body header nav .container-fluid .navbar-login .navbar-login-buttons button {
+        margin-left: 0.2rem; }
+    body header nav .container-fluid .navbar-login .navbar-login-forgot {
+      display: flex;
+      justify-content: end;
+      color: black; }
+      body header nav .container-fluid .navbar-login .navbar-login-forgot a {
+        color: white;
+        text-decoration: none;
+        font-size: 0.8rem;
+        margin-right: 0.8rem; }
 
 footer section .footer-main-container {
   display: flex;

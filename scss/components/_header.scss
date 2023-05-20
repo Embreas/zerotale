@@ -42,6 +42,47 @@ body{
                             .nav-dropdown-section{
                                 color: white !important;
                             }
+                            .dropdown-menu.show{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                background-color: rgba(241, 232, 242, 0.7);
+                                padding-left: 4rem;
+                                .dropdown-menu-box{
+                                    margin-top: 0.5rem;
+                                }
+                            }
+                        }
+                    }
+                }
+                .navbar-login{
+                    .navbar-login-textbox{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: end;
+                        align-items: end;
+                        margin-bottom: 0.2rem;
+                        margin-top: -0.5rem;
+                    }
+                    .navbar-login-buttons{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: end;
+                        align-items: center;
+                        margin-right: 0.8rem;
+                        button{
+                            margin-left: 0.2rem;
+                        }
+                    }
+                    .navbar-login-forgot{
+                        display: flex;
+                        justify-content: end;
+                        color: black;
+                        a{
+                            color: white;
+                            text-decoration: none;
+                            font-size: 0.8rem;
+                            margin-right: 0.8rem;
                         }
                     }
                 }
