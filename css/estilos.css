@@ -18,6 +18,12 @@ textarea:focus, input:focus, input[type]:focus {
 .main-screen-complete-page {
   height: calc(100vh - 243.3px); }
 
+#history, #world, #monsters, #heroes, #hero, #archmage, #savior, #windstalker {
+  display: block;
+  position: absolute;
+  top: -152.04px;
+  visibility: hidden; }
+
 body header {
   position: sticky;
   top: 0;
@@ -113,6 +119,139 @@ body header {
         text-decoration: none;
         font-size: 0.8rem;
         margin-right: 0.8rem; }
+
+main .index-main-history-section {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative; }
+  main .index-main-history-section .index-main-history-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0)), url(../img/background-home-01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex; }
+    main .index-main-history-section .index-main-history-container .index-history-content-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: beige;
+      font-size: 15px;
+      padding-left: 20px; }
+      main .index-main-history-section .index-main-history-container .index-history-content-left .index-history-title {
+        padding-top: 15px; }
+      main .index-main-history-section .index-main-history-container .index-history-content-left .index-history-text {
+        font-size: 16px; }
+      main .index-main-history-section .index-main-history-container .index-history-content-left .index-history-video {
+        padding-bottom: 15px; }
+    main .index-main-history-section .index-main-history-container .index-history-content-right {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%; }
+      main .index-main-history-section .index-main-history-container .index-history-content-right img {
+        width: 100%; }
+
+main .index-main-world-section {
+  position: relative; }
+  main .index-main-world-section .index-main-world-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background-world-001.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex; }
+    main .index-main-world-section .index-main-world-container .index-world-content-left {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%; }
+      main .index-main-world-section .index-main-world-container .index-world-content-left img {
+        width: 100%; }
+    main .index-main-world-section .index-main-world-container .index-world-content-right {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      color: beige;
+      font-size: 15px;
+      margin-left: 20px;
+      margin-right: 20px; }
+      main .index-main-world-section .index-main-world-container .index-world-content-right .index-world-title {
+        padding-top: 15px; }
+      main .index-main-world-section .index-main-world-container .index-world-content-right .index-world-video {
+        padding-bottom: 15px;
+        margin-top: 50px; }
+
+main .index-main-monster-section {
+  position: relative; }
+  main .index-main-monster-section .index-main-monster-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background-home-02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex; }
+    main .index-main-monster-section .index-main-monster-container .index-monster-content-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: beige;
+      font-size: 15px;
+      margin-left: 20px;
+      margin-right: 20px; }
+      main .index-main-monster-section .index-main-monster-container .index-monster-content-left .index-monster-title {
+        padding-top: 15px; }
+      main .index-main-monster-section .index-main-monster-container .index-monster-content-left .index-monster-video {
+        margin-top: 50px;
+        padding-bottom: 15px; }
+    main .index-main-monster-section .index-main-monster-container .index-monster-content-right {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%; }
+      main .index-main-monster-section .index-main-monster-container .index-monster-content-right img {
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px; }
+
+main .index-main-heroes-section {
+  position: relative; }
+  main .index-main-heroes-section .index-main-heroes-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background-home-03.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex; }
+    main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-left {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%; }
+      main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-left img {
+        width: 100%; }
+    main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: beige;
+      font-size: 15px;
+      margin-left: 20px;
+      margin-right: 20px; }
+      main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right .index-heroes-title {
+        padding-top: 15px; }
+      main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right .index-heroes-video {
+        padding-bottom: 15px;
+        margin-top: 50px; }
 
 footer section .footer-main-container {
   display: flex;

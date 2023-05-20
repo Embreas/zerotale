@@ -1,0 +1,160 @@
+main{
+    .index-main-history-section{
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        .index-main-history-container{
+            background-image:  linear-gradient(rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0)), url(../img/background-home-01.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            .index-history-content-left {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                color: beige;
+                font-size: 15px;
+                padding-left: 20px;
+                .index-history-title{
+                    padding-top: 15px;
+                }
+                .index-history-text{
+                    font-size: 16px;
+                }
+                .index-history-video{
+                    padding-bottom: 15px;
+                }
+            }
+            .index-history-content-right{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .index-main-world-section{
+        position: relative;
+        .index-main-world-container {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background-world-001.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            .index-world-content-left{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+            .index-world-content-right {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                color: beige;
+                font-size: 15px;
+                margin-left: 20px;
+                margin-right: 20px;
+                .index-world-title{
+                    padding-top: 15px;
+                }
+                .index-world-video{
+                    padding-bottom: 15px;
+                    margin-top: 50px;
+                }
+            }
+        }
+    }
+    .index-main-monster-section{
+        position: relative;
+        .index-main-monster-container {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background-home-02.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            .index-monster-content-left {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                color: beige;
+                font-size: 15px;
+                margin-left: 20px;
+                margin-right: 20px;
+                .index-monster-title{
+                    padding-top: 15px;
+                }
+                .index-monster-video {
+                    margin-top: 50px;
+                    padding-bottom: 15px;
+                }
+            }
+            .index-monster-content-right{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                img{
+                    width: 100%;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                }
+            }
+        }
+    }
+    .index-main-heroes-section{
+        position: relative;
+        .index-main-heroes-container {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background-home-03.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            .index-heroes-content-left{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+            .index-heroes-content-right {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                color: beige;
+                font-size: 15px;
+                margin-left: 20px;
+                margin-right: 20px;
+                .index-heroes-title{
+                    padding-top: 15px;
+                }
+                .index-heroes-video{
+                    padding-bottom: 15px;
+                    margin-top: 50px;
+                }
+            }
+        }
+    }
+}

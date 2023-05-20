@@ -23,3 +23,10 @@ textarea:focus, input:focus, input[type]:focus {
 .main-screen-complete-page{
     height: calc(100vh - 243.3px);
 }
+
+#history, #world, #monsters, #heroes, #hero, #archmage, #savior, #windstalker{
+    display: block;
+    position: absolute;
+    top: -152.04px;
+    visibility: hidden;
+}

@@ -141,9 +141,10 @@ margin-top: 0.5rem;
     color: white;
     border-color: rgb(12, 12, 13);
 }
-/* BOOTSTRAP CAROUSEL */
 
 /* INDEX MAIN PAGE */
+
+/* BOOTSTRAP CAROUSEL */
 
 .index-main-history-section{
     display: flex;
@@ -217,6 +218,7 @@ margin-top: 0.5rem;
 }
 .index-world-video{
     padding-bottom: 15px;
+    margin-top: 50px;
 }
 .index-world-content-left{
     display: flex;
@@ -226,9 +228,6 @@ margin-top: 0.5rem;
 }
 .index-world-content-left img{
     width: 100%;
-}
-.index-world-video {
-    margin-top: 50px;
 }
 .index-main-monster-section{
     position: relative;
@@ -297,6 +296,7 @@ margin-top: 0.5rem;
 }
 .index-heroes-video{
     padding-bottom: 15px;
+    margin-top: 50px;
 }
 .index-heroes-content-left{
     display: flex;
@@ -307,9 +307,7 @@ margin-top: 0.5rem;
 .index-heroes-content-left img{
     width: 100%;
 }
-.index-heroes-video {
-    margin-top: 50px;
-}
+
 
 /* HEROES HTML PAGE */
 
