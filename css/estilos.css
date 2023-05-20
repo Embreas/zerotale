@@ -11,24 +11,6 @@ textarea:focus, input:focus, input[type]:focus {
   box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px rgba(218, 163, 62, 0.671);
   outline: 0 none; }
 
-.my-buttons:hover {
-  background-color: yellow !important;
-  color: black !important;
-  box-shadow: none !important;
-  border-color: #daa33e !important; }
-
-.my-buttons:active {
-  background-color: yellow !important;
-  color: black !important;
-  box-shadow: none !important;
-  border-color: #daa33e !important; }
-
-.my-buttons:focus {
-  background-color: yellow !important;
-  color: black !important;
-  box-shadow: none !important;
-  border-color: #daa33e !important; }
-
 .modal-button-img img:hover {
   box-shadow: 0px 0px 14px 0px;
   cursor: pointer; }
@@ -102,11 +84,26 @@ body header {
       justify-content: end;
       align-items: center;
       margin-right: 0.8rem; }
-      body header nav .tale-container-fluid .navbar-login .navbar-login-buttons button {
+      body header nav .tale-container-fluid .navbar-login .navbar-login-buttons .my-buttons {
         margin-left: 0.2rem;
         background-color: #daa33e;
         color: white;
         border-color: #0c0c0d; }
+        body header nav .tale-container-fluid .navbar-login .navbar-login-buttons .my-buttons:hover {
+          background-color: yellow !important;
+          color: black !important;
+          box-shadow: none !important;
+          border-color: #daa33e !important; }
+        body header nav .tale-container-fluid .navbar-login .navbar-login-buttons .my-buttons:active {
+          background-color: yellow !important;
+          color: black !important;
+          box-shadow: none !important;
+          border-color: #daa33e !important; }
+        body header nav .tale-container-fluid .navbar-login .navbar-login-buttons .my-buttons:focus {
+          background-color: yellow !important;
+          color: black !important;
+          box-shadow: none !important;
+          border-color: #daa33e !important; }
     body header nav .tale-container-fluid .navbar-login .navbar-login-forgot {
       display: flex;
       justify-content: end;
