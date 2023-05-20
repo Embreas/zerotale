@@ -330,6 +330,233 @@ body .main-screen-complete-page .sign-up-container {
       align-items: center;
       padding-top: 50px; }
 
+.main-eula {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+main .heroes-main-section .grid-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas: "hero hero" "arch arch" "sav sav" "wind wind"; }
+  main .heroes-main-section .grid-container .hero-hero {
+    background-image: url(../img/class-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: hero;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    position: relative; }
+    main .heroes-main-section .grid-container .hero-hero .heroes-container-left {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 15px;
+      padding-bottom: 15px; }
+      main .heroes-main-section .grid-container .hero-hero .heroes-container-left .hero-img01 img {
+        width: 75%;
+        margin-left: 25px;
+        margin-bottom: 10px;
+        border: 1px solid white;
+        border-radius: 10px; }
+      main .heroes-main-section .grid-container .hero-hero .heroes-container-left .hero-img02 img {
+        width: 100%;
+        padding-top: 5px;
+        border: 1px solid white;
+        border-radius: 10px; }
+    main .heroes-main-section .grid-container .hero-hero .heroes-container-right {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      main .heroes-main-section .grid-container .hero-hero .heroes-container-right p {
+        width: 100%;
+        padding-bottom: 10px;
+        padding-right: 30px;
+        color: white; }
+      main .heroes-main-section .grid-container .hero-hero .heroes-container-right iframe {
+        padding-top: 10px; }
+  main .heroes-main-section .grid-container .hero-archmage {
+    background-image: url(../img/class-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: arch;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    position: relative; }
+    main .heroes-main-section .grid-container .hero-archmage .heroes-container-left {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 15px;
+      padding-bottom: 15px; }
+      main .heroes-main-section .grid-container .hero-archmage .heroes-container-left .archmage-img01 img {
+        width: 75%;
+        margin-left: 25px;
+        margin-bottom: 10px;
+        border: 1px solid white;
+        border-radius: 10px; }
+      main .heroes-main-section .grid-container .hero-archmage .heroes-container-left .archmage-img02 img {
+        width: 100%;
+        padding-top: 5px;
+        border: 1px solid white;
+        border-radius: 10px; }
+    main .heroes-main-section .grid-container .hero-archmage .heroes-container-right {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      main .heroes-main-section .grid-container .hero-archmage .heroes-container-right p {
+        width: 100%;
+        padding-bottom: 10px;
+        padding-right: 30px;
+        color: white; }
+      main .heroes-main-section .grid-container .hero-archmage .heroes-container-right iframe {
+        padding-top: 10px; }
+  main .heroes-main-section .grid-container .hero-savior {
+    background-image: url(../img/class-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: sav;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    position: relative; }
+    main .heroes-main-section .grid-container .hero-savior .heroes-container-left {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 15px;
+      padding-bottom: 15px; }
+      main .heroes-main-section .grid-container .hero-savior .heroes-container-left .savior-img01 img {
+        width: 75%;
+        margin-left: 25px;
+        margin-bottom: 10px;
+        border: 1px solid white;
+        border-radius: 10px; }
+      main .heroes-main-section .grid-container .hero-savior .heroes-container-left .savior-img02 img {
+        width: 100%;
+        padding-top: 5px;
+        border: 1px solid white;
+        border-radius: 10px; }
+    main .heroes-main-section .grid-container .hero-savior .heroes-container-right {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      main .heroes-main-section .grid-container .hero-savior .heroes-container-right p {
+        width: 100%;
+        padding-bottom: 10px;
+        padding-right: 30px;
+        color: white; }
+      main .heroes-main-section .grid-container .hero-savior .heroes-container-right iframe {
+        padding-top: 10px; }
+  main .heroes-main-section .grid-container .hero-windstalker {
+    background-image: url(../img/class-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: wind;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    position: relative; }
+    main .heroes-main-section .grid-container .hero-windstalker .heroes-container-left {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 15px;
+      padding-bottom: 15px; }
+      main .heroes-main-section .grid-container .hero-windstalker .heroes-container-left .windstalker-img01 img {
+        width: 75%;
+        margin-left: 25px;
+        margin-bottom: 10px;
+        border: 1px solid white;
+        border-radius: 10px; }
+      main .heroes-main-section .grid-container .hero-windstalker .heroes-container-left .windstalker-img02 img {
+        width: 100%;
+        padding-top: 5px;
+        border: 1px solid white;
+        border-radius: 10px; }
+    main .heroes-main-section .grid-container .hero-windstalker .heroes-container-right {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      main .heroes-main-section .grid-container .hero-windstalker .heroes-container-right p {
+        width: 100%;
+        padding-bottom: 10px;
+        padding-right: 30px;
+        color: white; }
+      main .heroes-main-section .grid-container .hero-windstalker .heroes-container-right iframe {
+        padding-top: 10px; }
+
+.main-privacy {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+body .main-screen-complete-page .sign-up-container {
+  background-image: url(../img/laboom-elias.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%; }
+  body .main-screen-complete-page .sign-up-container .sign-up-title-container {
+    text-align: center;
+    padding-top: 50px; }
+    body .main-screen-complete-page .sign-up-container .sign-up-title-container .sign-up-title {
+      text-align: center;
+      color: white;
+      background-color: #daa33e;
+      border: 2px solid #daa33e; }
+  body .main-screen-complete-page .sign-up-container .sign-up-subtitle-container {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 25px; }
+    body .main-screen-complete-page .sign-up-container .sign-up-subtitle-container .sign-up-subtitle {
+      text-align: center;
+      color: white;
+      background-color: rgba(218, 163, 62, 0.678);
+      border-top: 2px solid #daa33e;
+      border-bottom: 2px solid #daa33e;
+      font-size: 20px; }
+  body .main-screen-complete-page .sign-up-container .sign-up-form-container .sign-up-form {
+    display: block;
+    width: 450px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 55px;
+    margin-left: auto;
+    margin-right: auto; }
+    body .main-screen-complete-page .sign-up-container .sign-up-form-container .sign-up-form .form-check-container .form-check {
+      padding-top: 55px; }
+    body .main-screen-complete-page .sign-up-container .sign-up-form-container .sign-up-form .account-form-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 50px; }
+
+.main-terms {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px; }
+
 footer section .footer-main-container {
   display: flex;
   background-image: linear-gradient(rgba(0, 0, 0, 0.696), rgba(238, 234, 15, 0.288)), url(../img/slider2.jpg);

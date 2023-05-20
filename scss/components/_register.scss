@@ -1,0 +1,56 @@
+body{
+    .main-screen-complete-page{
+        .sign-up-container{
+            background-image: url(../img/laboom-elias.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 100%;
+            .sign-up-title-container{
+                text-align: center;
+                padding-top: 50px;
+                .sign-up-title{
+                    text-align: center;
+                    color: white;
+                    background-color: rgb(218, 163, 62);
+                    border: 2px solid rgb(218, 163, 62);
+                }
+            }
+            .sign-up-subtitle-container{
+                text-align: center;
+                padding-bottom: 50px;
+                padding-top: 25px;
+                .sign-up-subtitle{
+                    text-align: center;
+                    color: white;
+                    background-color: rgba(218, 163, 62, 0.678);
+                    border-top: 2px solid rgb(218, 163, 62);
+                    border-bottom: 2px solid rgb(218, 163, 62);
+                    font-size: 20px;
+                }
+            }
+            .sign-up-form-container{
+                .sign-up-form{
+                    display: block;
+                    width: 450px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    padding-bottom: 55px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    .form-check-container{
+                        .form-check{
+                            padding-top: 55px;
+                        }
+                    }
+                    .account-form-button{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding-top: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
