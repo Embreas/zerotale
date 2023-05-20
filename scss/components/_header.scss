@@ -11,14 +11,11 @@ body{
         width: 100%;
         z-index: 3;
         nav{
-            .container-fluid{
+            .tale-container-fluid{
                 display: flex;
                 justify-content: space-between;
-                .navbar-logo{
-                    position: fixed;
-                    top: 50px;
-                    right: 45px;
-                    .navbar-brand{
+                .tale-navbar-logo{
+                    .tale-navbar-brand{
                         img{
                             width: 83%;
                         }
@@ -50,6 +47,24 @@ body{
                                 padding-left: 4rem;
                                 .dropdown-menu-box{
                                     margin-top: 0.5rem;
+                                    .dropdown-item{
+                                        color: white;
+                                        background-color: rgb(218, 163, 62);
+                                        text-align: center;
+                                        margin: 1px solid;
+                                        &:active{
+                                            background-color: yellow !important;
+                                            color: black !important;
+                                            box-shadow: none !important;
+                                            border-color: rgb(218, 163, 62) !important;
+                                        }
+                                        &:hover{
+                                            background-color: yellow !important;
+                                            color: black !important;
+                                            box-shadow: none !important;
+                                            border-color: rgb(218, 163, 62) !important;
+                                        }
+                                    }
                                 }
                             }
                         }
@@ -72,6 +87,9 @@ body{
                         margin-right: 0.8rem;
                         button{
                             margin-left: 0.2rem;
+                            background-color: rgb(218, 163, 62);
+                            color: white;
+                            border-color: rgb(12, 12, 13);
                         }
                     }
                     .navbar-login-forgot{
