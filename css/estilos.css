@@ -289,6 +289,47 @@ body .main-screen-complete-page {
           width: 100%;
           object-fit: contain; }
 
+body .main-screen-complete-page .sign-up-container {
+  background-image: url(../img/laboom-elias.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%; }
+  body .main-screen-complete-page .sign-up-container .sign-up-title-container {
+    text-align: center;
+    padding-top: 50px; }
+    body .main-screen-complete-page .sign-up-container .sign-up-title-container .sign-up-title {
+      text-align: center;
+      color: white;
+      background-color: #daa33e;
+      border: 2px solid #daa33e; }
+  body .main-screen-complete-page .sign-up-container .sign-up-subtitle-container {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 25px; }
+    body .main-screen-complete-page .sign-up-container .sign-up-subtitle-container .sign-up-subtitle {
+      text-align: center;
+      color: white;
+      background-color: rgba(218, 163, 62, 0.678);
+      border-top: 2px solid #daa33e;
+      border-bottom: 2px solid #daa33e;
+      font-size: 20px; }
+  body .main-screen-complete-page .sign-up-container .sign-up-form-container .sign-up-form {
+    display: block;
+    width: 450px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 55px;
+    margin-left: auto;
+    margin-right: auto; }
+    body .main-screen-complete-page .sign-up-container .sign-up-form-container .sign-up-form .form-check-container .form-check {
+      padding-top: 55px; }
+    body .main-screen-complete-page .sign-up-container .sign-up-form-container .sign-up-form .account-form-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 50px; }
+
 footer section .footer-main-container {
   display: flex;
   background-image: linear-gradient(rgba(0, 0, 0, 0.696), rgba(238, 234, 15, 0.288)), url(../img/slider2.jpg);
