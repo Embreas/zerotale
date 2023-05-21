@@ -1107,12 +1107,12 @@ footer .scrolltotop {
     display: none; } }
 
 @media screen and (max-width: 650px) {
-  .tale-container-fluid .tale-navbar-logo .navbar-dropdowns .navbar-nav .nav-item {
+  .tale-container-fluid .tale-navbar-logo .navbar-dropdowns .navbar-nav {
     margin-left: 1rem;
     margin-right: 1rem; }
-    .tale-container-fluid .tale-navbar-logo .navbar-dropdowns .navbar-nav .nav-item .nav-item.dropdown {
+    .tale-container-fluid .tale-navbar-logo .navbar-dropdowns .navbar-nav .nav-item {
       position: static; }
-      .tale-container-fluid .tale-navbar-logo .navbar-dropdowns .navbar-nav .nav-item .nav-item.dropdown .dropdown-menu.show {
+      .tale-container-fluid .tale-navbar-logo .navbar-dropdowns .navbar-nav .nav-item .dropdown-menu {
         display: flex;
         flex-direction: row;
         position: absolute;
@@ -1124,9 +1124,23 @@ footer .scrolltotop {
         padding-left: 0rem;
         padding-right: 0rem;
         width: 100%; }
-        .tale-container-fluid .tale-navbar-logo .navbar-dropdowns .navbar-nav .nav-item .nav-item.dropdown .dropdown-menu.show .dropdown-menu-box li {
+        .tale-container-fluid .tale-navbar-logo .navbar-dropdowns .navbar-nav .nav-item .dropdown-menu .dropdown-menu-box li {
           margin-left: 0.5rem;
           margin-right: 0.5rem; }
+  .nav-item.dropdown {
+    position: static; }
+  .dropdown-menu.show {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 0;
+    left: 0%;
+    right: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    width: 100%; }
   main .index-main-history-section .index-main-history-container {
     display: flex;
     flex-direction: column;
@@ -1190,6 +1204,18 @@ footer .scrolltotop {
   .heroes-main-section .heroes-classes .hero-hero .heroes-container-right p {
     font-size: 20px; }
   .heroes-main-section .heroes-classes .hero-hero .heroes-container-right iframe {
+    display: none; }
+  .heroes-main-section .heroes-classes .hero-archmage .heroes-container-right p {
+    font-size: 20px; }
+  .heroes-main-section .heroes-classes .hero-archmage .heroes-container-right iframe {
+    display: none; }
+  .heroes-main-section .heroes-classes .hero-savior .heroes-container-right p {
+    font-size: 20px; }
+  .heroes-main-section .heroes-classes .hero-savior .heroes-container-right iframe {
+    display: none; }
+  .heroes-main-section .heroes-classes .hero-windstalker .heroes-container-right p {
+    font-size: 20px; }
+  .heroes-main-section .heroes-classes .hero-windstalker .heroes-container-right iframe {
     display: none; } }
 
 @media screen and (max-width: 460px) {

@@ -385,12 +385,12 @@
     .tale-container-fluid{
         .tale-navbar-logo{
             .navbar-dropdowns{
-                .navbar-nav .nav-item{
+                .navbar-nav{
                     margin-left: 1rem;
                     margin-right: 1rem;
-                    .nav-item.dropdown{
+                    .nav-item{
                         position: static;
-                        .dropdown-menu.show{
+                        .dropdown-menu{
                             display: flex;
                             flex-direction: row;
                             position: absolute;
@@ -413,6 +413,22 @@
                 }
             }
         }
+    }
+    .nav-item.dropdown{
+        position: static;
+    }
+    .dropdown-menu.show{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        left: 0;
+        left: 0%;
+        right: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        width: 100%;
     }
     main{
         .index-main-history-section{
@@ -527,6 +543,36 @@
     .heroes-main-section{
         .heroes-classes{
             .hero-hero{
+                .heroes-container-right{
+                    p{
+                        font-size: 20px;
+                    }
+                    iframe{
+                        display: none;
+                    }
+                }
+            }
+            .hero-archmage{
+                .heroes-container-right{
+                    p{
+                        font-size: 20px;
+                    }
+                    iframe{
+                        display: none;
+                    }
+                }
+            }
+            .hero-savior{
+                .heroes-container-right{
+                    p{
+                        font-size: 20px;
+                    }
+                    iframe{
+                        display: none;
+                    }
+                }
+            }
+            .hero-windstalker{
                 .heroes-container-right{
                     p{
                         font-size: 20px;
