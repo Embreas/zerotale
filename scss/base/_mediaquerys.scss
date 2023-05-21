@@ -1,0 +1,627 @@
+
+@media screen and (max-width:1100px){
+    main{
+        .index-main-history-section{
+            .index-main-history-container{
+                .index-history-content-left{
+                    font-size: 13px;
+                    .index-history-video{
+                        iframe{
+                            width: 350px;
+                            height: 160px;
+                        }
+                    }
+                }
+            }
+        }
+        .index-main-world-section{
+            .index-main-world-container{
+                .index-world-content-right {
+                    font-size: 13px;
+                    .index-world-video{
+                        iframe{
+                            width: 350px;
+                            height: 160px;
+                        }
+                    }
+                }
+            }
+        }
+        .index-main-monster-section{
+            .index-main-monster-container{
+                .index-monster-content-left {
+                    font-size: 13px;
+                    .index-monster-video{
+                        iframe{
+                            width: 350px;
+                            height: 160px;
+                        }
+                    }
+                }
+            }
+        }
+        .index-main-heroes-section{
+            .index-main-heroes-container{
+                .index-heroes-content-right {
+                    font-size: 13px;
+                    .index-heroes-video{
+                        iframe{
+                            width: 350px;
+                            height: 160px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .about-container-left-links{
+        display: flex;
+        flex-direction: column;
+        a{
+            margin-bottom: 20px;
+        }
+    }
+    .grid-container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas:
+        "hero hero"
+        "arch arch"
+        "sav sav"
+        "wind wind"
+        ;
+        .hero-hero{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            align-items: center;
+            text-align: center;
+            .heroes-container-right{
+                width: 100%;
+                p{
+                    padding: 0;
+                }
+            }
+            .heroes-container-left{
+                width: 100%;
+            }
+        }
+        .hero-archmage{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            align-items: center;
+            text-align: center;
+            .heroes-container-right{
+                width: 100%;
+                p{
+                    padding: 0;
+                }
+            }
+            .heroes-container-left{
+                width: 100%;
+            }
+        }
+        .hero-savior{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            align-items: center;
+            text-align: center;
+            .heroes-container-right{
+                width: 100%;
+                p{
+                    padding: 0;
+                }
+            }
+            .heroes-container-left{
+                width: 100%;
+            }
+        }
+        .hero-windstalker{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            align-items: center;
+            text-align: center;
+            .heroes-container-right{
+                width: 100%;
+                p{
+                    padding: 0;
+                }
+            }
+            .heroes-container-left{
+                width: 100%;
+            }
+        }
+    }
+    footer{
+        .footer-main-section{
+            .footer-main-container{
+                .footer-container-left{
+                    .footer-container-left-img{
+                        img{
+                            height: 50px;
+                        }
+                    }
+                }
+                .footer-container-right{
+                    a{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        .scrolltotop{
+            .scroll-img-top{
+                a{
+                    .sticky-top-button{
+                        height: 60px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:990px) {
+    .tale-container-fluid{
+        .tale-navbar-logo{
+            .tale-navbar-brand{
+                img{
+                    width: 60%;
+                }
+            }
+            .tale-navbar-button{
+                position: fixed;
+                top: 50px;
+                right: 45px;
+            }
+        }
+        .navbar-dropdowns{
+            .navbar-nav{
+                display: flex;
+                flex-direction: row;
+                .dropdown-menu{
+                    position: absolute !important;
+                }
+            }
+        }
+        .navbar-login{
+            display: none;
+        }
+    }
+    .news-nav-tabs-section{
+        div{
+            .tale-pill-tab{
+                padding-right: 3rem;
+            }
+            div{
+                .news-grid-container-patch-notes{
+                    width: 100%;
+                    display: grid;
+                    padding: 20px;
+                    gap: 5px;
+                    grid-template-columns: repeat(2,1fr);
+                    grid-template-rows: auto auto auto;
+                    grid-template-areas:
+                    "pnews01img pnews02img"
+                    "patch01 patch02"
+                    "ptitle01 ptitle02"
+                    ;
+                }
+                .news-grid-container-events{
+                    width: 100%;
+                    display: grid;
+                    padding: 20px;
+                    gap: 5px;
+                    grid-template-columns: repeat(2,1fr);
+                    grid-template-rows: auto auto auto;
+                    grid-template-areas:
+                    "enews01img enews02img"
+                    "event01 event02"
+                    "etitle01 etitle02"
+                    ;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:900px){
+    .tale-container-fluid{
+        display: flex;
+        justify-content: space-between;
+        .tale-navbar-logo{
+            .tale-navbar-brand{
+                img{
+                    width: 60%;
+                }
+            }
+            .tale-navbar-button{
+                position: fixed;
+                top: 50px;
+                right: 45px;
+            }
+        }
+        .navbar-dropdowns{
+            .navbar-nav{
+                display: flex;
+                flex-direction: row;
+                justify-content: left;
+                .dropdown-menu{
+                    position: absolute !important;
+                }
+            }
+        }
+        .navbar-login{
+            display: none;
+        }
+    }
+    main{
+        .index-main-history-section{
+            .index-main-history-container{
+                .index-history-content-left{
+                    font-size: 16px;
+                    .index-history-title{
+                        h2{
+                            font-size: 24px;
+                        }
+                    }
+                    .index-history-video{
+                        iframe{
+                            width: 250px;
+                            height: 120px;
+                        }
+                    }
+                }
+            }
+        }
+        .index-main-world-section{
+            .index-main-world-container{
+                .index-world-content-right {
+                    font-size: 15px;
+                    .index-world-title{
+                        h2{
+                            font-size: 16px;
+                        }
+                    }
+                    .index-world-video{
+                        iframe{
+                            width: 250px;
+                            height: 120px;
+                        }
+                    }
+                }
+            }
+        }
+        .index-main-monster-section{
+            .index-main-monster-container{
+                .index-monster-content-left {
+                    font-size: 15px;
+                    .index-monster-title{
+                        h2{
+                            font-size: 16px;
+                        }
+                    }
+                    .index-monster-video{
+                        iframe{
+                            width: 250px;
+                            height: 120px;
+                        }
+                    }
+                }
+            }
+        }
+        .index-main-heroes-section{
+            .index-main-heroes-container{
+                .index-heroes-content-right {
+                    font-size: 15px;
+                    .index-heroes-title{
+                        h2{
+                            font-size: 16px;
+                        }
+                    }
+                    .index-heroes-video{
+                        iframe{
+                            width: 250px;
+                            height: 120px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        .footer-main-section{
+            .footer-main-container{
+                .footer-container-left{
+                    .footer-container-left-img{
+                        img{
+                            height: 40px;
+                        }
+                    }
+                }
+                .footer-container-right{
+                    margin-right: 0px;
+                    a{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        .scrolltotop{
+            .scroll-img-top{
+                a{
+                    .sticky-top-button{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:650px){
+    .tale-container-fluid{
+        .tale-navbar-logo{
+            .navbar-dropdowns{
+                .navbar-nav .nav-item{
+                    margin-left: 1rem;
+                    margin-right: 1rem;
+                    .nav-item.dropdown{
+                        position: static;
+                        .dropdown-menu.show{
+                            display: flex;
+                            flex-direction: row;
+                            position: absolute;
+                            left: 0;
+                            left: 0%;
+                            right: 0%;
+                            margin-left: auto;
+                            margin-right: auto;
+                            padding-left: 0rem;
+                            padding-right: 0rem;
+                            width: 100%;
+                            .dropdown-menu-box{
+                                li{
+                                    margin-left: 0.5rem;
+                                    margin-right: 0.5rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    main{
+        .index-main-history-section{
+            .index-main-history-container{
+                display: flex;
+                flex-direction: column;
+                padding-right: 15px;
+                padding-left: 15px;
+                .index-history-content-left{
+                    padding: 0;
+                    .index-history-title{
+                        h2{
+                            font-size: 24px;
+                        }
+                    }
+                    .index-history-text{
+                        font-size: 16px;
+                    }
+                    .index-history-video{
+                        iframe{
+                            display: none;
+                        }
+                    }
+                }
+                .index-history-content-right{
+                    display: inherit;
+                }
+            }
+        }
+        .index-main-world-section{
+            .index-main-world-container{
+                display: flex;
+                flex-direction: column-reverse;
+                padding-right: 15px;
+                padding-left: 15px;
+                .index-world-content-right {
+                    padding: 0;
+                    .index-world-title{
+                        h2{
+                            font-size: 24px;
+                        }
+                    }
+                    .index-world-text{
+                        font-size: 16px;
+                    }
+                    .index-world-video{
+                        iframe{
+                            display: none;
+                        }
+                    }
+                }
+                .index-world-content-left{
+                    display: inherit;
+                }
+            }
+        }
+        .index-main-monster-section{
+            .index-main-monster-container{
+                display: flex;
+                flex-direction: column;
+                padding-right: 15px;
+                padding-left: 15px;
+                .index-monster-content-left{
+                    padding: 0;
+                    .index-monster-title{
+                        h2{
+                            font-size: 24px;
+                        }
+                    }
+                    .index-monster-text{
+                        font-size: 16px;
+                    }
+                    .index-monster-video{
+                        iframe{
+                            display: none;
+                        }
+                    }
+                }
+                .index-monster-content-right{
+                    display: inherit;
+                }
+            }
+        }
+        .index-main-heroes-section{
+            .index-main-heroes-container{
+                display: flex;
+                flex-direction: column-reverse;
+                padding-right: 15px;
+                padding-left: 15px;
+                .index-heroes-content-right {
+                    padding: 0;
+                    .index-heroes-title{
+                        h2{
+                            font-size: 24px;
+                        }
+                    }
+                    .index-heroes-text{
+                        font-size: 16px;
+                    }
+                    .index-heroes-video{
+                        iframe{
+                            display: none;
+                        }
+                    }
+                }
+                .index-heroes-content-left{
+                    display: inherit;
+                }
+            }
+        }
+    }
+    .heroes-main-section{
+        .heroes-classes{
+            .hero-hero{
+                .heroes-container-right{
+                    p{
+                        font-size: 20px;
+                    }
+                    iframe{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:460px){
+    .tale-container-fluid{
+        .tale-navbar-logo{
+            .tale-navbar-brand{
+                img{
+                    width: 55%;
+                }
+            }
+        }
+        .navbar-dropdowns{
+            .navbar-nav{
+                .nav-item{
+                    margin-left: 1rem;
+                    margin-right: 1rem;
+                }
+                .nav-item.dropdown{
+                    position: static;
+                    .dropdown-menu.show{
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+    }
+    .sign-up-form{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .news-nav-tabs-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .tale-pill-tab{
+            padding: 0;
+            margin: 0;
+            justify-content: center !important;
+            align-items: center !important;
+        }
+    }
+    footer{
+        .footer-main-section{
+            .footer-main-container{
+                display: flex;
+                flex-direction: column-reverse;
+                justify-content: center;
+                align-items: center;
+                .footer-container-left{
+                    .footer-container-left-img{
+                        img{
+                            height: 40px;
+                        }
+                    }
+                    .footer-container-left-text p{
+                        margin-bottom: 0;
+                        padding-top: 1rem;
+                    }
+                }
+                .footer-container-right{
+                    padding-bottom: 1rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    a{
+                        margin-right: 0;
+                        padding-left: 0;
+                        padding-right: 0;
+                        padding-bottom: 10px;
+                        border-left: 0;
+                    }
+                }
+            }
+        }
+        .scrolltotop{
+            .scroll-img-top{
+                a{
+                    .sticky-top-button{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

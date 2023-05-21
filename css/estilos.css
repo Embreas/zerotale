@@ -11,10 +11,6 @@ textarea:focus, input:focus, input[type]:focus {
   box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px rgba(218, 163, 62, 0.671);
   outline: 0 none; }
 
-.modal-button-img img:hover {
-  box-shadow: 0px 0px 14px 0px;
-  cursor: pointer; }
-
 .main-screen-complete-page {
   height: calc(100vh - 243.3px); }
 
@@ -914,3 +910,333 @@ footer .scrolltotop {
   position: fixed;
   right: 3%;
   bottom: 3%; }
+
+@media screen and (max-width: 1100px) {
+  main .index-main-history-section .index-main-history-container .index-history-content-left {
+    font-size: 13px; }
+    main .index-main-history-section .index-main-history-container .index-history-content-left .index-history-video iframe {
+      width: 350px;
+      height: 160px; }
+  main .index-main-world-section .index-main-world-container .index-world-content-right {
+    font-size: 13px; }
+    main .index-main-world-section .index-main-world-container .index-world-content-right .index-world-video iframe {
+      width: 350px;
+      height: 160px; }
+  main .index-main-monster-section .index-main-monster-container .index-monster-content-left {
+    font-size: 13px; }
+    main .index-main-monster-section .index-main-monster-container .index-monster-content-left .index-monster-video iframe {
+      width: 350px;
+      height: 160px; }
+  main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right {
+    font-size: 13px; }
+    main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right .index-heroes-video iframe {
+      width: 350px;
+      height: 160px; }
+  .about-container-left-links {
+    display: flex;
+    flex-direction: column; }
+    .about-container-left-links a {
+      margin-bottom: 20px; }
+  .grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "hero hero" "arch arch" "sav sav" "wind wind"; }
+    .grid-container .hero-hero {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      align-items: center;
+      text-align: center; }
+      .grid-container .hero-hero .heroes-container-right {
+        width: 100%; }
+        .grid-container .hero-hero .heroes-container-right p {
+          padding: 0; }
+      .grid-container .hero-hero .heroes-container-left {
+        width: 100%; }
+    .grid-container .hero-archmage {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      align-items: center;
+      text-align: center; }
+      .grid-container .hero-archmage .heroes-container-right {
+        width: 100%; }
+        .grid-container .hero-archmage .heroes-container-right p {
+          padding: 0; }
+      .grid-container .hero-archmage .heroes-container-left {
+        width: 100%; }
+    .grid-container .hero-savior {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      align-items: center;
+      text-align: center; }
+      .grid-container .hero-savior .heroes-container-right {
+        width: 100%; }
+        .grid-container .hero-savior .heroes-container-right p {
+          padding: 0; }
+      .grid-container .hero-savior .heroes-container-left {
+        width: 100%; }
+    .grid-container .hero-windstalker {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      align-items: center;
+      text-align: center; }
+      .grid-container .hero-windstalker .heroes-container-right {
+        width: 100%; }
+        .grid-container .hero-windstalker .heroes-container-right p {
+          padding: 0; }
+      .grid-container .hero-windstalker .heroes-container-left {
+        width: 100%; }
+  footer .footer-main-section .footer-main-container .footer-container-left .footer-container-left-img img {
+    height: 50px; }
+  footer .footer-main-section .footer-main-container .footer-container-right a {
+    font-size: 14px; }
+  footer .scrolltotop .scroll-img-top a .sticky-top-button {
+    height: 60px; } }
+
+@media screen and (max-width: 990px) {
+  .tale-container-fluid .tale-navbar-logo .tale-navbar-brand img {
+    width: 60%; }
+  .tale-container-fluid .tale-navbar-logo .tale-navbar-button {
+    position: fixed;
+    top: 50px;
+    right: 45px; }
+  .tale-container-fluid .navbar-dropdowns .navbar-nav {
+    display: flex;
+    flex-direction: row; }
+    .tale-container-fluid .navbar-dropdowns .navbar-nav .dropdown-menu {
+      position: absolute !important; }
+  .tale-container-fluid .navbar-login {
+    display: none; }
+  .news-nav-tabs-section div .tale-pill-tab {
+    padding-right: 3rem; }
+  .news-nav-tabs-section div div .news-grid-container-patch-notes {
+    width: 100%;
+    display: grid;
+    padding: 20px;
+    gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "pnews01img pnews02img" "patch01 patch02" "ptitle01 ptitle02"; }
+  .news-nav-tabs-section div div .news-grid-container-events {
+    width: 100%;
+    display: grid;
+    padding: 20px;
+    gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "enews01img enews02img" "event01 event02" "etitle01 etitle02"; } }
+
+@media screen and (max-width: 900px) {
+  .tale-container-fluid {
+    display: flex;
+    justify-content: space-between; }
+    .tale-container-fluid .tale-navbar-logo .tale-navbar-brand img {
+      width: 60%; }
+    .tale-container-fluid .tale-navbar-logo .tale-navbar-button {
+      position: fixed;
+      top: 50px;
+      right: 45px; }
+    .tale-container-fluid .navbar-dropdowns .navbar-nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: left; }
+      .tale-container-fluid .navbar-dropdowns .navbar-nav .dropdown-menu {
+        position: absolute !important; }
+    .tale-container-fluid .navbar-login {
+      display: none; }
+  main .index-main-history-section .index-main-history-container .index-history-content-left {
+    font-size: 16px; }
+    main .index-main-history-section .index-main-history-container .index-history-content-left .index-history-title h2 {
+      font-size: 24px; }
+    main .index-main-history-section .index-main-history-container .index-history-content-left .index-history-video iframe {
+      width: 250px;
+      height: 120px; }
+  main .index-main-world-section .index-main-world-container .index-world-content-right {
+    font-size: 15px; }
+    main .index-main-world-section .index-main-world-container .index-world-content-right .index-world-title h2 {
+      font-size: 16px; }
+    main .index-main-world-section .index-main-world-container .index-world-content-right .index-world-video iframe {
+      width: 250px;
+      height: 120px; }
+  main .index-main-monster-section .index-main-monster-container .index-monster-content-left {
+    font-size: 15px; }
+    main .index-main-monster-section .index-main-monster-container .index-monster-content-left .index-monster-title h2 {
+      font-size: 16px; }
+    main .index-main-monster-section .index-main-monster-container .index-monster-content-left .index-monster-video iframe {
+      width: 250px;
+      height: 120px; }
+  main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right {
+    font-size: 15px; }
+    main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right .index-heroes-title h2 {
+      font-size: 16px; }
+    main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right .index-heroes-video iframe {
+      width: 250px;
+      height: 120px; }
+  footer .footer-main-section .footer-main-container .footer-container-left .footer-container-left-img img {
+    height: 40px; }
+  footer .footer-main-section .footer-main-container .footer-container-right {
+    margin-right: 0px; }
+    footer .footer-main-section .footer-main-container .footer-container-right a {
+      font-size: 12px; }
+  footer .scrolltotop .scroll-img-top a .sticky-top-button {
+    display: none; } }
+
+@media screen and (max-width: 650px) {
+  .tale-container-fluid .tale-navbar-logo .navbar-dropdowns .navbar-nav .nav-item {
+    margin-left: 1rem;
+    margin-right: 1rem; }
+    .tale-container-fluid .tale-navbar-logo .navbar-dropdowns .navbar-nav .nav-item .nav-item.dropdown {
+      position: static; }
+      .tale-container-fluid .tale-navbar-logo .navbar-dropdowns .navbar-nav .nav-item .nav-item.dropdown .dropdown-menu.show {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        left: 0;
+        left: 0%;
+        right: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        width: 100%; }
+        .tale-container-fluid .tale-navbar-logo .navbar-dropdowns .navbar-nav .nav-item .nav-item.dropdown .dropdown-menu.show .dropdown-menu-box li {
+          margin-left: 0.5rem;
+          margin-right: 0.5rem; }
+  main .index-main-history-section .index-main-history-container {
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
+    padding-left: 15px; }
+    main .index-main-history-section .index-main-history-container .index-history-content-left {
+      padding: 0; }
+      main .index-main-history-section .index-main-history-container .index-history-content-left .index-history-title h2 {
+        font-size: 24px; }
+      main .index-main-history-section .index-main-history-container .index-history-content-left .index-history-text {
+        font-size: 16px; }
+      main .index-main-history-section .index-main-history-container .index-history-content-left .index-history-video iframe {
+        display: none; }
+    main .index-main-history-section .index-main-history-container .index-history-content-right {
+      display: inherit; }
+  main .index-main-world-section .index-main-world-container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-right: 15px;
+    padding-left: 15px; }
+    main .index-main-world-section .index-main-world-container .index-world-content-right {
+      padding: 0; }
+      main .index-main-world-section .index-main-world-container .index-world-content-right .index-world-title h2 {
+        font-size: 24px; }
+      main .index-main-world-section .index-main-world-container .index-world-content-right .index-world-text {
+        font-size: 16px; }
+      main .index-main-world-section .index-main-world-container .index-world-content-right .index-world-video iframe {
+        display: none; }
+    main .index-main-world-section .index-main-world-container .index-world-content-left {
+      display: inherit; }
+  main .index-main-monster-section .index-main-monster-container {
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
+    padding-left: 15px; }
+    main .index-main-monster-section .index-main-monster-container .index-monster-content-left {
+      padding: 0; }
+      main .index-main-monster-section .index-main-monster-container .index-monster-content-left .index-monster-title h2 {
+        font-size: 24px; }
+      main .index-main-monster-section .index-main-monster-container .index-monster-content-left .index-monster-text {
+        font-size: 16px; }
+      main .index-main-monster-section .index-main-monster-container .index-monster-content-left .index-monster-video iframe {
+        display: none; }
+    main .index-main-monster-section .index-main-monster-container .index-monster-content-right {
+      display: inherit; }
+  main .index-main-heroes-section .index-main-heroes-container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-right: 15px;
+    padding-left: 15px; }
+    main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right {
+      padding: 0; }
+      main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right .index-heroes-title h2 {
+        font-size: 24px; }
+      main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right .index-heroes-text {
+        font-size: 16px; }
+      main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right .index-heroes-video iframe {
+        display: none; }
+    main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-left {
+      display: inherit; }
+  .heroes-main-section .heroes-classes .hero-hero .heroes-container-right p {
+    font-size: 20px; }
+  .heroes-main-section .heroes-classes .hero-hero .heroes-container-right iframe {
+    display: none; } }
+
+@media screen and (max-width: 460px) {
+  .tale-container-fluid .tale-navbar-logo .tale-navbar-brand img {
+    width: 55%; }
+  .tale-container-fluid .navbar-dropdowns .navbar-nav .nav-item {
+    margin-left: 1rem;
+    margin-right: 1rem; }
+  .tale-container-fluid .navbar-dropdowns .navbar-nav .nav-item.dropdown {
+    position: static; }
+    .tale-container-fluid .navbar-dropdowns .navbar-nav .nav-item.dropdown .dropdown-menu.show {
+      display: flex;
+      flex-direction: column; }
+  .sign-up-form {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0; }
+  .news-nav-tabs-section {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .news-nav-tabs-section .tale-pill-tab {
+      padding: 0;
+      margin: 0;
+      justify-content: center !important;
+      align-items: center !important; }
+  footer .footer-main-section .footer-main-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center; }
+    footer .footer-main-section .footer-main-container .footer-container-left .footer-container-left-img img {
+      height: 40px; }
+    footer .footer-main-section .footer-main-container .footer-container-left .footer-container-left-text p {
+      margin-bottom: 0;
+      padding-top: 1rem; }
+    footer .footer-main-section .footer-main-container .footer-container-right {
+      padding-bottom: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      footer .footer-main-section .footer-main-container .footer-container-right a {
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 10px;
+        border-left: 0; }
+  footer .scrolltotop .scroll-img-top a .sticky-top-button {
+    display: none; } }
