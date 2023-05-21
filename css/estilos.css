@@ -506,6 +506,335 @@ main .heroes-main-section .grid-container {
       main .heroes-main-section .grid-container .hero-windstalker .heroes-container-right iframe {
         padding-top: 10px; }
 
+main .news-main-container {
+  background-image: url(../img/topbg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center; }
+  main .news-main-container .news-main-title {
+    text-align: center;
+    color: #daa33e;
+    font-size: 50px;
+    margin: 0;
+    font-family: fantasy; }
+
+main .news-nav-tabs-section {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding-top: 40px; }
+  main .news-nav-tabs-section .tale-pill-tab {
+    padding-right: 3rem; }
+    main .news-nav-tabs-section .tale-pill-tab .nav-item .nav-link {
+      color: black; }
+    main .news-nav-tabs-section .tale-pill-tab .nav-item .nav-link.active {
+      background-color: #daa33e !important;
+      border-radius: 10px;
+      padding: 4px 10px 4px 10px; }
+  main .news-nav-tabs-section .tab-content div .news-grid-container-events {
+    width: 100%;
+    display: grid;
+    padding: 20px;
+    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "enews01img enews02img enews03img" "event01 event02 event03" "etitle01 etitle02 etitle03"; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-journey .news-events-modal .modal-button-img .journey-modal {
+      grid-area: enews01img;
+      width: 100%; }
+      main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-journey .news-events-modal .modal-button-img .journey-modal:hover {
+        box-shadow: 0px 0px 14px 0px;
+        cursor: pointer; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-journey .news-events-modal .modal-button-data .epatch01 {
+      grid-area: event01;
+      position: relative;
+      top: -15px;
+      left: 45%;
+      width: 90px;
+      height: 90px;
+      border-radius: 10px;
+      background-color: #daa33e;
+      color: white;
+      font-size: 13px;
+      letter-spacing: 1px;
+      line-height: 20px;
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: 600;
+      padding: 3px; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-journey .news-events-modal .modal-button-data .etitle01 {
+      grid-area: etitle01;
+      display: block;
+      max-width: 100%;
+      color: black;
+      font-size: 20px;
+      font-weight: 500;
+      letter-spacing: 0.25px;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      position: relative;
+      top: -20px; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-journey .news-events-modal .tale-modal-container div .modal-content .modal-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-journey .news-events-modal .tale-modal-container div .modal-content .modal-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-journey .news-events-modal .tale-modal-container div .modal-content .modal-body img {
+        width: 80%;
+        align-items: center; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-gatekeeper .news-events-modal .modal-button-img .gatekeeper-modal {
+      grid-area: enews02img;
+      width: 100%; }
+      main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-gatekeeper .news-events-modal .modal-button-img .gatekeeper-modal:hover {
+        box-shadow: 0px 0px 14px 0px;
+        cursor: pointer; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-gatekeeper .news-events-modal .modal-button-data .epatch02 {
+      grid-area: event02;
+      position: relative;
+      top: -15px;
+      left: 45%;
+      width: 90px;
+      height: 90px;
+      border-radius: 10px;
+      background-color: #daa33e;
+      color: white;
+      font-size: 13px;
+      letter-spacing: 1px;
+      line-height: 20px;
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: 600;
+      padding: 3px; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-gatekeeper .news-events-modal .modal-button-data .etitle02 {
+      grid-area: etitle02;
+      display: block;
+      max-width: 100%;
+      color: black;
+      font-size: 20px;
+      font-weight: 500;
+      letter-spacing: 0.25px;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      position: relative;
+      top: -20px; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-gatekeeper .news-events-modal .tale-modal-container div .modal-content .modal-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-gatekeeper .news-events-modal .tale-modal-container div .modal-content .modal-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-gatekeeper .news-events-modal .tale-modal-container div .modal-content .modal-body img {
+        width: 80%;
+        align-items: center; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-training .news-events-modal .modal-button-img .training-modal {
+      grid-area: enews03img;
+      width: 100%; }
+      main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-training .news-events-modal .modal-button-img .training-modal:hover {
+        box-shadow: 0px 0px 14px 0px;
+        cursor: pointer; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-training .news-events-modal .modal-button-data .epatch03 {
+      grid-area: event03;
+      position: relative;
+      top: -15px;
+      left: 45%;
+      width: 90px;
+      height: 90px;
+      border-radius: 10px;
+      background-color: #daa33e;
+      color: white;
+      font-size: 13px;
+      letter-spacing: 1px;
+      line-height: 20px;
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: 600;
+      padding: 3px; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-training .news-events-modal .modal-button-data .etitle03 {
+      grid-area: etitle03;
+      display: block;
+      max-width: 100%;
+      color: black;
+      font-size: 20px;
+      font-weight: 500;
+      letter-spacing: 0.25px;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      position: relative;
+      top: -20px; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-training .news-events-modal .tale-modal-container div .modal-content .modal-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-training .news-events-modal .tale-modal-container div .modal-content .modal-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-training .news-events-modal .tale-modal-container div .modal-content .modal-body img {
+        width: 80%;
+        align-items: center; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-pneuma .news-patch-modal .modal-button-img .pneuma-modal {
+      grid-area: pnews01img;
+      width: 100%; }
+      main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-pneuma .news-patch-modal .modal-button-img .pneuma-modal:hover {
+        box-shadow: 0px 0px 14px 0px;
+        cursor: pointer; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-pneuma .news-patch-modal .modal-button-data .ppatch01 {
+      grid-area: patch01;
+      position: relative;
+      top: -15px;
+      left: 45%;
+      width: 90px;
+      height: 90px;
+      border-radius: 10px;
+      background-color: #daa33e;
+      color: white;
+      font-size: 13px;
+      letter-spacing: 1px;
+      line-height: 20px;
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: 600;
+      padding: 3px; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-pneuma .news-patch-modal .modal-button-data .ptitle01 {
+      grid-area: ptitle01;
+      display: block;
+      max-width: 100%;
+      color: black;
+      font-size: 20px;
+      font-weight: 500;
+      letter-spacing: 0.25px;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      position: relative;
+      top: -20px; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-pneuma .news-patch-modal .tale-modal-container div .modal-content .modal-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-pneuma .news-patch-modal .tale-modal-container div .modal-content .modal-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-pneuma .news-patch-modal .tale-modal-container div .modal-content .modal-body img {
+        width: 80%;
+        align-items: center; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-aie .news-patch-modal .modal-button-img .aie-modal {
+      grid-area: pnews02img;
+      width: 100%; }
+      main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-aie .news-patch-modal .modal-button-img .aie-modal:hover {
+        box-shadow: 0px 0px 14px 0px;
+        cursor: pointer; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-aie .news-patch-modal .modal-button-data .ppatch02 {
+      grid-area: patch02;
+      position: relative;
+      top: -15px;
+      left: 45%;
+      width: 90px;
+      height: 90px;
+      border-radius: 10px;
+      background-color: #daa33e;
+      color: white;
+      font-size: 13px;
+      letter-spacing: 1px;
+      line-height: 20px;
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: 600;
+      padding: 3px; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-aie .news-patch-modal .modal-button-data .ptitle02 {
+      grid-area: ptitle02;
+      display: block;
+      max-width: 100%;
+      color: black;
+      font-size: 20px;
+      font-weight: 500;
+      letter-spacing: 0.25px;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      position: relative;
+      top: -20px; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-aie .news-patch-modal .tale-modal-container div .modal-content .modal-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-aie .news-patch-modal .tale-modal-container div .modal-content .modal-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-aie .news-patch-modal .tale-modal-container div .modal-content .modal-body img {
+        width: 80%;
+        align-items: center; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-laboom .news-patch-modal .modal-button-img .laboom-modal {
+      grid-area: pnews03img;
+      width: 100%; }
+      main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-laboom .news-patch-modal .modal-button-img .laboom-modal:hover {
+        box-shadow: 0px 0px 14px 0px;
+        cursor: pointer; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-laboom .news-patch-modal .modal-button-data .ppatch03 {
+      grid-area: patch03;
+      position: relative;
+      top: -15px;
+      left: 45%;
+      width: 90px;
+      height: 90px;
+      border-radius: 10px;
+      background-color: #daa33e;
+      color: white;
+      font-size: 13px;
+      letter-spacing: 1px;
+      line-height: 20px;
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: 600;
+      padding: 3px; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-laboom .news-patch-modal .modal-button-data .ptitle03 {
+      grid-area: ptitle03;
+      display: block;
+      max-width: 100%;
+      color: black;
+      font-size: 20px;
+      font-weight: 500;
+      letter-spacing: 0.25px;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      position: relative;
+      top: -20px; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-laboom .news-patch-modal .tale-modal-container div .modal-content .modal-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+    main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-laboom .news-patch-modal .tale-modal-container div .modal-content .modal-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-laboom .news-patch-modal .tale-modal-container div .modal-content .modal-body img {
+        width: 80%;
+        align-items: center; }
+
 .main-privacy {
   padding-top: 20px;
   padding-left: 10px;
