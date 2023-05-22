@@ -3,6 +3,9 @@ main{
         display: flex;
         flex-wrap: wrap;
         position: relative;
+        #history{
+            @extend %anchor;
+        }
         .index-main-history-container{
             background-image:  linear-gradient(rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0)), url(../img/background-home-01.jpg);
             background-repeat: no-repeat;
@@ -12,27 +15,23 @@ main{
             width: 100%;
             display: flex;
             .index-history-content-left {
-                display: flex;
+                @extend %flex;
                 flex-direction: column;
-                justify-content: center;
-                align-items: center;
                 color: beige;
-                font-size: 15px;
+                font-size: nth($font-size, 6);
                 padding-left: 20px;
                 .index-history-title{
                     padding-top: 15px;
                 }
                 .index-history-text{
-                    font-size: 16px;
+                    font-size: nth($font-size, 7);
                 }
                 .index-history-video{
                     padding-bottom: 15px;
                 }
             }
             .index-history-content-right{
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @extend %flex;
                 width: 100%;
                 img{
                     width: 100%;
@@ -42,6 +41,9 @@ main{
     }
     .index-main-world-section{
         position: relative;
+        #world{
+            @extend %anchor;
+        }
         .index-main-world-container {
             background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background-world-001.png);
             background-repeat: no-repeat;
@@ -51,22 +53,18 @@ main{
             width: 100%;
             display: flex;
             .index-world-content-left{
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @extend %flex;
                 width: 100%;
                 img{
                     width: 100%;
                 }
             }
             .index-world-content-right {
-                display: flex;
+                @extend %flex;
                 flex-direction: column;
                 flex-wrap: wrap;
-                justify-content: center;
-                align-items: center;
                 color: beige;
-                font-size: 15px;
+                font-size: nth($font-size, 6);
                 margin-left: 20px;
                 margin-right: 20px;
                 .index-world-title{
@@ -81,6 +79,9 @@ main{
     }
     .index-main-monster-section{
         position: relative;
+        #monsters{
+            @extend %anchor;
+        }
         .index-main-monster-container {
             background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background-home-02.jpg);
             background-repeat: no-repeat;
@@ -90,12 +91,10 @@ main{
             width: 100%;
             display: flex;
             .index-monster-content-left {
-                display: flex;
+                @extend %flex;
                 flex-direction: column;
-                justify-content: center;
-                align-items: center;
                 color: beige;
-                font-size: 15px;
+                font-size: nth($font-size, 6);
                 margin-left: 20px;
                 margin-right: 20px;
                 .index-monster-title{
@@ -107,9 +106,7 @@ main{
                 }
             }
             .index-monster-content-right{
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @extend %flex;
                 width: 100%;
                 img{
                     width: 100%;
@@ -121,6 +118,9 @@ main{
     }
     .index-main-heroes-section{
         position: relative;
+        #heroes{
+            @extend %anchor;
+        }
         .index-main-heroes-container {
             background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background-home-03.jpg);
             background-repeat: no-repeat;
@@ -130,21 +130,17 @@ main{
             width: 100%;
             display: flex;
             .index-heroes-content-left{
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @extend %flex;
                 width: 100%;
                 img{
                     width: 100%;
                 }
             }
             .index-heroes-content-right {
-                display: flex;
+                @extend %flex;
                 flex-direction: column;
-                justify-content: center;
-                align-items: center;
                 color: beige;
-                font-size: 15px;
+                font-size: nth($font-size, 6);
                 margin-left: 20px;
                 margin-right: 20px;
                 .index-heroes-title{

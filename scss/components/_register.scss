@@ -11,9 +11,9 @@ body{
                 padding-top: 50px;
                 .sign-up-title{
                     text-align: center;
-                    color: white;
-                    background-color: rgb(218, 163, 62);
-                    border: 2px solid rgb(218, 163, 62);
+                    color: $color-border;
+                    background-color: $color-main;
+                    border: 2px solid $color-main;
                 }
             }
             .sign-up-subtitle-container{
@@ -22,11 +22,11 @@ body{
                 padding-top: 25px;
                 .sign-up-subtitle{
                     text-align: center;
-                    color: white;
-                    background-color: rgba(218, 163, 62, 0.678);
-                    border-top: 2px solid rgb(218, 163, 62);
-                    border-bottom: 2px solid rgb(218, 163, 62);
-                    font-size: 20px;
+                    color: $color-border;
+                    background-color: $color-background;
+                    border-top: 2px solid $color-main;
+                    border-bottom: 2px solid $color-main;
+                    font-size: nth($font-size, 8);
                 }
             }
             .sign-up-form-container{
@@ -44,9 +44,7 @@ body{
                         }
                     }
                     .account-form-button{
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
+                        @extend %flex;
                         padding-top: 50px;
                     }
                 }

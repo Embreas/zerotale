@@ -1,0 +1,51 @@
+// Variables
+$color-main:rgb(218, 163, 62);
+$color-border:white;
+$color-background:rgba(218, 163, 62, 0.678);
+$color-background-bootstrap:yellow;
+
+// Listas
+$font-size:
+10px,
+11px,
+12px,
+13px,
+14px,
+15px,
+16px,
+20px,
+24px,
+50px;
+
+// Extends
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+%anchor{
+    display: block;
+    position: absolute;
+    top: -152.04px;
+    visibility: hidden;
+}
+
+// Mixins
+@mixin video ($width, $height){
+    width: $width;
+    height: $height;
+}
+
+@mixin flex ($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+@mixin direction ($display, $direction){
+    display: $display;
+    flex-direction: $direction;
+}
+@mixin justify ($fle, $justify){
+    display: $fle;
+    justify-content: $justify;
+}

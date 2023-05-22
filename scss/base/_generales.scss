@@ -10,18 +10,11 @@
 }
 
 textarea:focus, input:focus, input[type]:focus {
-    border-color: rgb(218, 163, 62);
+    border-color: $color-main;
     box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px rgba(218, 163, 62, 0.671);
     outline: 0 none;
 }
 
 .main-screen-complete-page{
     height: calc(100vh - 243.3px);
-}
-
-#history, #world, #monsters, #heroes, #hero, #archmage, #savior, #windstalker{
-    display: block;
-    position: absolute;
-    top: -152.04px;
-    visibility: hidden;
 }

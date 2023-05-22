@@ -12,8 +12,7 @@ body{
         z-index: 3;
         nav{
             .tale-container-fluid{
-                display: flex;
-                justify-content: space-between;
+                @include justify (flex, space-between);
                 .tale-navbar-logo{
                     .tale-navbar-brand{
                         img{
@@ -21,48 +20,46 @@ body{
                         }
                     }
                     .tale-navbar-button{
-                        border-color: rgb(218, 163, 62);
+                        border-color: $color-main;
                         .navbar-toggler-icon{
                             background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
                         }
                     }
                 }
                 .navbar-dropdowns{
-                    display: flex;
-                    justify-content: center;
+                    @include justify (flex, center);
                     .navbar-nav{
                         li{
                             margin-right: 4rem;
                             border: 1px solid ;
                             border-radius: 6px;
-                            border-color: rgb(218, 163, 62);
+                            border-color: $color-main;
                             .nav-dropdown-section{
-                                color: white !important;
+                                color: $color-border !important;
                             }
                             .dropdown-menu.show{
-                                display: flex;
-                                flex-direction: column;
+                                @include direction (flex, column);
                                 justify-content: center;
                                 background-color: rgba(241, 232, 242, 0.7);
                                 padding-left: 4rem;
                                 .dropdown-menu-box{
                                     margin-top: 0.5rem;
                                     .dropdown-item{
-                                        color: white;
-                                        background-color: rgb(218, 163, 62);
+                                        color: $color-border;
+                                        background-color: $color-main;
                                         text-align: center;
                                         margin: 1px solid;
                                         &:active{
-                                            background-color: yellow !important;
+                                            background-color: $color-background-bootstrap !important;
                                             color: black !important;
                                             box-shadow: none !important;
-                                            border-color: rgb(218, 163, 62) !important;
+                                            border-color: $color-main !important;
                                         }
                                         &:hover{
-                                            background-color: yellow !important;
+                                            background-color: $color-background-bootstrap !important;
                                             color: black !important;
                                             box-shadow: none !important;
-                                            border-color: rgb(218, 163, 62) !important;
+                                            border-color: $color-main !important;
                                         }
                                     }
                                 }
@@ -72,52 +69,47 @@ body{
                 }
                 .navbar-login{
                     .navbar-login-textbox{
-                        display: flex;
+                        @include flex (flex, end, end);
                         flex-direction: column;
-                        justify-content: end;
-                        align-items: end;
                         margin-bottom: 0.2rem;
                         margin-top: -0.5rem;
                     }
                     .navbar-login-buttons{
-                        display: flex;
+                        @include flex (flex, end, center);
                         flex-direction: row;
-                        justify-content: end;
-                        align-items: center;
                         margin-right: 0.8rem;
                         .my-buttons{
                             margin-left: 0.2rem;
-                            background-color: rgb(218, 163, 62);
-                            color: white;
+                            background-color: $color-main;
+                            color: $color-border;
                             border-color: rgb(12, 12, 13);
                             &:hover{
-                                background-color: yellow !important;
+                                background-color: $color-background-bootstrap !important;
                                 color: black !important;
                                 box-shadow: none !important;
-                                border-color: rgb(218, 163, 62) !important;
+                                border-color: $color-main !important;
                             }
                             &:active{
-                                background-color: yellow !important;
+                                background-color: $color-background-bootstrap !important;
                                 color: black !important;
                                 box-shadow: none !important;
-                                border-color: rgb(218, 163, 62) !important;
+                                border-color: $color-main !important;
                             }
                             &:focus{
-                                background-color: yellow !important;
+                                background-color: $color-background-bootstrap !important;
                                 color: black !important;
                                 box-shadow: none !important;
-                                border-color: rgb(218, 163, 62) !important;
+                                border-color: $color-main !important;
                             }
                         }
                     }
                     .navbar-login-forgot{
-                        display: flex;
-                        justify-content: end;
+                        @include justify (flex, end);
                         color: black;
                         a{
-                            color: white;
+                            color: $color-border;
                             text-decoration: none;
-                            font-size: 0.8rem;
+                            font-size: nth($font-size, 5);
                             margin-right: 0.8rem;
                         }
                     }

@@ -7,15 +7,14 @@ main{
         text-align: center;
         .news-main-title{
             text-align: center;
-            color: rgb(218, 163, 62);
-            font-size: 50px;
+            color: $color-main;
+            font-size: nth($font-size, 10);
             margin: 0;
             font-family: fantasy;
         }
     }
     .news-nav-tabs-section{
-        display: flex;
-        flex-direction: column;
+        @include direction (flex, column);
         align-items: end;
         padding-top: 40px;
         .tale-pill-tab{
@@ -25,7 +24,7 @@ main{
                     color: black;
                 }
                 .nav-link.active{
-                    background-color: rgb(218, 163, 62) !important;
+                    background-color: $color-main !important;
                     border-radius: 10px;
                     padding: 4px 10px 4px 10px;
                 }
@@ -67,9 +66,9 @@ main{
                                         width: 90px;
                                         height: 90px;
                                         border-radius: 10px;
-                                        background-color: rgb(218, 163, 62);
-                                        color: white;
-                                        font-size: 13px;
+                                        background-color: $color-main;
+                                        color: $color-border;
+                                        font-size: nth($font-size, 4);
                                         letter-spacing: 1px;
                                         line-height: 20px;
                                         text-transform: uppercase;
@@ -82,7 +81,7 @@ main{
                                         display: block;
                                         max-width: 100%;
                                         color: black;
-                                        font-size: 20px;
+                                        font-size: nth($font-size, 8);
                                         font-weight: 500;
                                         letter-spacing: 0.25px;
                                         text-align: center;
@@ -96,16 +95,12 @@ main{
                                     div{
                                         .modal-content{
                                             .modal-header{
-                                                display: flex;
+                                                @extend %flex;
                                                 flex-direction: column;
-                                                justify-content: center;
-                                                align-items: center;
                                             }
                                             .modal-body{
-                                                display: flex;
+                                                @extend %flex;
                                                 flex-direction: column;
-                                                justify-content: center;
-                                                align-items: center;
                                                 img{
                                                     width: 80%;
                                                     align-items: center;
@@ -139,9 +134,9 @@ main{
                                         width: 90px;
                                         height: 90px;
                                         border-radius: 10px;
-                                        background-color: rgb(218, 163, 62);
-                                        color: white;
-                                        font-size: 13px;
+                                        background-color: $color-main;
+                                        color: $color-border;
+                                        font-size: nth($font-size, 4);
                                         letter-spacing: 1px;
                                         line-height: 20px;
                                         text-transform: uppercase;
@@ -154,7 +149,7 @@ main{
                                         display: block;
                                         max-width: 100%;
                                         color: black;
-                                        font-size: 20px;
+                                        font-size: nth($font-size, 8);
                                         font-weight: 500;
                                         letter-spacing: 0.25px;
                                         text-align: center;
@@ -168,16 +163,12 @@ main{
                                     div{
                                         .modal-content{
                                             .modal-header{
-                                                display: flex;
+                                                @extend %flex;
                                                 flex-direction: column;
-                                                justify-content: center;
-                                                align-items: center;
                                             }
                                             .modal-body{
-                                                display: flex;
+                                                @extend %flex;
                                                 flex-direction: column;
-                                                justify-content: center;
-                                                align-items: center;
                                                 img{
                                                     width: 80%;
                                                     align-items: center;
@@ -211,9 +202,9 @@ main{
                                         width: 90px;
                                         height: 90px;
                                         border-radius: 10px;
-                                        background-color: rgb(218, 163, 62);
-                                        color: white;
-                                        font-size: 13px;
+                                        background-color: $color-main;
+                                        color: $color-border;
+                                        font-size: nth($font-size, 4);
                                         letter-spacing: 1px;
                                         line-height: 20px;
                                         text-transform: uppercase;
@@ -226,7 +217,7 @@ main{
                                         display: block;
                                         max-width: 100%;
                                         color: black;
-                                        font-size: 20px;
+                                        font-size: nth($font-size, 8);
                                         font-weight: 500;
                                         letter-spacing: 0.25px;
                                         text-align: center;
@@ -240,16 +231,12 @@ main{
                                     div{
                                         .modal-content{
                                             .modal-header{
-                                                display: flex;
+                                                @extend %flex;
                                                 flex-direction: column;
-                                                justify-content: center;
-                                                align-items: center;
                                             }
                                             .modal-body{
-                                                display: flex;
+                                                @extend %flex;
                                                 flex-direction: column;
-                                                justify-content: center;
-                                                align-items: center;
                                                 img{
                                                     width: 80%;
                                                     align-items: center;
@@ -283,9 +270,9 @@ main{
                                         width: 90px;
                                         height: 90px;
                                         border-radius: 10px;
-                                        background-color: rgb(218, 163, 62);
-                                        color: white;
-                                        font-size: 13px;
+                                        background-color: $color-main;
+                                        color: $color-border;
+                                        font-size: nth($font-size, 4);
                                         letter-spacing: 1px;
                                         line-height: 20px;
                                         text-transform: uppercase;
@@ -298,7 +285,7 @@ main{
                                         display: block;
                                         max-width: 100%;
                                         color: black;
-                                        font-size: 20px;
+                                        font-size: nth($font-size, 8);
                                         font-weight: 500;
                                         letter-spacing: 0.25px;
                                         text-align: center;
@@ -312,16 +299,12 @@ main{
                                     div{
                                         .modal-content{
                                             .modal-header{
-                                                display: flex;
+                                                @extend %flex;
                                                 flex-direction: column;
-                                                justify-content: center;
-                                                align-items: center;
                                             }
                                             .modal-body{
-                                                display: flex;
+                                                @extend %flex;
                                                 flex-direction: column;
-                                                justify-content: center;
-                                                align-items: center;
                                                 img{
                                                     width: 80%;
                                                     align-items: center;
@@ -355,9 +338,9 @@ main{
                                         width: 90px;
                                         height: 90px;
                                         border-radius: 10px;
-                                        background-color: rgb(218, 163, 62);
-                                        color: white;
-                                        font-size: 13px;
+                                        background-color: $color-main;
+                                        color: $color-border;
+                                        font-size: nth($font-size, 4);
                                         letter-spacing: 1px;
                                         line-height: 20px;
                                         text-transform: uppercase;
@@ -370,7 +353,7 @@ main{
                                         display: block;
                                         max-width: 100%;
                                         color: black;
-                                        font-size: 20px;
+                                        font-size: nth($font-size, 8);
                                         font-weight: 500;
                                         letter-spacing: 0.25px;
                                         text-align: center;
@@ -384,16 +367,12 @@ main{
                                     div{
                                         .modal-content{
                                             .modal-header{
-                                                display: flex;
+                                                @extend %flex;
                                                 flex-direction: column;
-                                                justify-content: center;
-                                                align-items: center;
                                             }
                                             .modal-body{
-                                                display: flex;
+                                                @extend %flex;
                                                 flex-direction: column;
-                                                justify-content: center;
-                                                align-items: center;
                                                 img{
                                                     width: 80%;
                                                     align-items: center;
@@ -427,9 +406,9 @@ main{
                                         width: 90px;
                                         height: 90px;
                                         border-radius: 10px;
-                                        background-color: rgb(218, 163, 62);
-                                        color: white;
-                                        font-size: 13px;
+                                        background-color: $color-main;
+                                        color: $color-border;
+                                        font-size: nth($font-size, 4);
                                         letter-spacing: 1px;
                                         line-height: 20px;
                                         text-transform: uppercase;
@@ -442,7 +421,7 @@ main{
                                         display: block;
                                         max-width: 100%;
                                         color: black;
-                                        font-size: 20px;
+                                        font-size: nth($font-size, 8);
                                         font-weight: 500;
                                         letter-spacing: 0.25px;
                                         text-align: center;
@@ -456,16 +435,12 @@ main{
                                     div{
                                         .modal-content{
                                             .modal-header{
-                                                display: flex;
+                                                @extend %flex;
                                                 flex-direction: column;
-                                                justify-content: center;
-                                                align-items: center;
                                             }
                                             .modal-body{
-                                                display: flex;
+                                                @extend %flex;
                                                 flex-direction: column;
-                                                justify-content: center;
-                                                align-items: center;
                                                 img{
                                                     width: 80%;
                                                     align-items: center;

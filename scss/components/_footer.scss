@@ -1,15 +1,13 @@
 footer{
     section{
         .footer-main-container{
-            display: flex;
             background-image: linear-gradient(rgba(0, 0, 0, 0.696), rgba(238, 234, 15, 0.288)), url(../img/slider2.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             height: 100%;
             width: 100%;
-            display: flex;
-            justify-content: space-between;
+            @include justify (flex, space-between);
             color: beige;
             .footer-container-left{
                 .footer-container-left-img{
@@ -19,7 +17,7 @@ footer{
                         }
                     }
                     p{
-                        font-size: 10px;
+                        font-size: nth($font-size, 1);
                     }
                 }
             }
