@@ -264,7 +264,7 @@ body .main-screen-complete-page {
           object-fit: contain; }
 
 body .main-screen-complete-page .sign-up-container {
-  background-image: url(../img/laboom-elias.jpg);
+  background-image: url(/img/laboom-elias.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -325,8 +325,9 @@ main .heroes-main-section .grid-container {
     main .heroes-main-section .grid-container .hero-hero .heroes-container-left {
       width: 50%;
       display: flex;
-      justify-content: column;
+      justify-content: center;
       align-items: center;
+      flex-direction: column;
       padding-top: 15px;
       padding-bottom: 15px; }
       main .heroes-main-section .grid-container .hero-hero .heroes-container-left .hero-img01 img {
@@ -363,8 +364,9 @@ main .heroes-main-section .grid-container {
     main .heroes-main-section .grid-container .hero-archmage .heroes-container-left {
       width: 50%;
       display: flex;
-      justify-content: column;
+      justify-content: center;
       align-items: center;
+      flex-direction: column;
       padding-top: 15px;
       padding-bottom: 15px; }
       main .heroes-main-section .grid-container .hero-archmage .heroes-container-left .archmage-img01 img {
@@ -439,8 +441,9 @@ main .heroes-main-section .grid-container {
     main .heroes-main-section .grid-container .hero-windstalker .heroes-container-left {
       width: 50%;
       display: flex;
-      justify-content: column;
+      justify-content: center;
       align-items: center;
+      flex-direction: column;
       padding-top: 15px;
       padding-bottom: 15px; }
       main .heroes-main-section .grid-container .hero-windstalker .heroes-container-left .windstalker-img01 img {
@@ -764,7 +767,7 @@ main .news-nav-tabs-section {
   padding-right: 10px; }
 
 body .main-screen-complete-page .sign-up-container {
-  background-image: url(../img/laboom-elias.png);
+  background-image: url(/img/laboom-elias.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

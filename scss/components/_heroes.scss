@@ -24,7 +24,8 @@ main{
                 }
                 .heroes-container-left{
                     width: 50%;
-                    @include flex (flex, column, center);
+                    @include flex (flex, center, center);
+                    flex-direction: column;
                     padding-top: 15px;
                     padding-bottom: 15px;
                     .hero-img01{
@@ -73,7 +74,8 @@ main{
                 }
                 .heroes-container-left{
                     width: 50%;
-                    @include flex (flex, column, center);
+                    @include flex (flex, center, center);
+                    flex-direction: column;
                     padding-top: 15px;
                     padding-bottom: 15px;
                     .archmage-img01{
@@ -172,7 +174,8 @@ main{
                 }
                 .heroes-container-left{
                     width: 50%;
-                    @include flex (flex, column, center);
+                    @include flex (flex, center, center);
+                    flex-direction: column;
                     padding-top: 15px;
                     padding-bottom: 15px;
                     .windstalker-img01{
