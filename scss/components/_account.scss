@@ -46,6 +46,32 @@ body{
                     .account-form-button{
                         @extend %flex;
                         padding-top: 50px;
+                        .my-buttons{
+                            margin-left: 0.2rem;
+                            background-color: $color-main;
+                            color: $color-border;
+                            border-color: rgb(12, 12, 13);
+                            transition: 1s;
+                            &:hover{
+                                background-color: $color-background-bootstrap !important;
+                                color: black !important;
+                                box-shadow: none !important;
+                                border-color: $color-main !important;
+                                transform: scale(1.05);
+                            }
+                            &:active{
+                                background-color: $color-background-bootstrap !important;
+                                color: black !important;
+                                box-shadow: none !important;
+                                border-color: $color-main !important;
+                            }
+                            &:focus{
+                                background-color: $color-background-bootstrap !important;
+                                color: black !important;
+                                box-shadow: none !important;
+                                border-color: $color-main !important;
+                            }
+                        }
                     }
                 }
             }

@@ -49,6 +49,9 @@ body{
                                         background-color: $color-main;
                                         text-align: center;
                                         margin: 1px solid;
+                                        border-radius: 6px;
+                                        transition: 1s;
+                                        
                                         &:active{
                                             background-color: $color-background-bootstrap !important;
                                             color: black !important;
@@ -60,6 +63,8 @@ body{
                                             color: black !important;
                                             box-shadow: none !important;
                                             border-color: $color-main !important;
+                                            transform: scale(1.05);
+                                            border-radius: 6px !important;
                                         }
                                     }
                                 }
@@ -83,11 +88,13 @@ body{
                             background-color: $color-main;
                             color: $color-border;
                             border-color: rgb(12, 12, 13);
+                            transition: 1s;
                             &:hover{
                                 background-color: $color-background-bootstrap !important;
                                 color: black !important;
                                 box-shadow: none !important;
                                 border-color: $color-main !important;
+                                transform: scale(1.05);
                             }
                             &:active{
                                 background-color: $color-background-bootstrap !important;

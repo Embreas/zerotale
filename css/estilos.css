@@ -67,7 +67,9 @@ body header {
               color: white;
               background-color: #daa33e;
               text-align: center;
-              margin: 1px solid; }
+              margin: 1px solid;
+              border-radius: 6px;
+              transition: 1s; }
               body header nav .tale-container-fluid .navbar-dropdowns .navbar-nav li .dropdown-menu.show .dropdown-menu-box .dropdown-item:active {
                 background-color: yellow !important;
                 color: black !important;
@@ -77,7 +79,9 @@ body header {
                 background-color: yellow !important;
                 color: black !important;
                 box-shadow: none !important;
-                border-color: #daa33e !important; }
+                border-color: #daa33e !important;
+                transform: scale(1.05);
+                border-radius: 6px !important; }
     body header nav .tale-container-fluid .navbar-login .navbar-login-textbox {
       display: flex;
       justify-content: end;
@@ -95,12 +99,14 @@ body header {
         margin-left: 0.2rem;
         background-color: #daa33e;
         color: white;
-        border-color: #0c0c0d; }
+        border-color: #0c0c0d;
+        transition: 1s; }
         body header nav .tale-container-fluid .navbar-login .navbar-login-buttons .my-buttons:hover {
           background-color: yellow !important;
           color: black !important;
           box-shadow: none !important;
-          border-color: #daa33e !important; }
+          border-color: #daa33e !important;
+          transform: scale(1.05); }
         body header nav .tale-container-fluid .navbar-login .navbar-login-buttons .my-buttons:active {
           background-color: yellow !important;
           color: black !important;
@@ -147,7 +153,10 @@ main .index-main-history-section {
     main .index-main-history-section .index-main-history-container .index-history-content-right {
       width: 100%; }
       main .index-main-history-section .index-main-history-container .index-history-content-right img {
-        width: 100%; }
+        width: 100%;
+        transition: 1s; }
+        main .index-main-history-section .index-main-history-container .index-history-content-right img:hover {
+          transform: scale(1.05); }
 
 main .index-main-world-section {
   position: relative; }
@@ -162,7 +171,10 @@ main .index-main-world-section {
     main .index-main-world-section .index-main-world-container .index-world-content-left {
       width: 100%; }
       main .index-main-world-section .index-main-world-container .index-world-content-left img {
-        width: 100%; }
+        width: 100%;
+        transition: 1s; }
+        main .index-main-world-section .index-main-world-container .index-world-content-left img:hover {
+          transform: scale(1.05); }
     main .index-main-world-section .index-main-world-container .index-world-content-right {
       flex-direction: column;
       flex-wrap: wrap;
@@ -202,7 +214,10 @@ main .index-main-monster-section {
       main .index-main-monster-section .index-main-monster-container .index-monster-content-right img {
         width: 100%;
         padding-top: 15px;
-        padding-bottom: 15px; }
+        padding-bottom: 15px;
+        transition: 1s; }
+        main .index-main-monster-section .index-main-monster-container .index-monster-content-right img:hover {
+          transform: scale(1.05); }
 
 main .index-main-heroes-section {
   position: relative; }
@@ -217,7 +232,10 @@ main .index-main-heroes-section {
     main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-left {
       width: 100%; }
       main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-left img {
-        width: 100%; }
+        width: 100%;
+        transition: 1s; }
+        main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-left img:hover {
+          transform: scale(1.05); }
     main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right {
       flex-direction: column;
       color: beige;
@@ -300,6 +318,28 @@ body .main-screen-complete-page .sign-up-container {
       padding-top: 55px; }
     body .main-screen-complete-page .sign-up-container .sign-up-form-container .sign-up-form .account-form-button {
       padding-top: 50px; }
+      body .main-screen-complete-page .sign-up-container .sign-up-form-container .sign-up-form .account-form-button .my-buttons {
+        margin-left: 0.2rem;
+        background-color: #daa33e;
+        color: white;
+        border-color: #0c0c0d;
+        transition: 1s; }
+        body .main-screen-complete-page .sign-up-container .sign-up-form-container .sign-up-form .account-form-button .my-buttons:hover {
+          background-color: yellow !important;
+          color: black !important;
+          box-shadow: none !important;
+          border-color: #daa33e !important;
+          transform: scale(1.05); }
+        body .main-screen-complete-page .sign-up-container .sign-up-form-container .sign-up-form .account-form-button .my-buttons:active {
+          background-color: yellow !important;
+          color: black !important;
+          box-shadow: none !important;
+          border-color: #daa33e !important; }
+        body .main-screen-complete-page .sign-up-container .sign-up-form-container .sign-up-form .account-form-button .my-buttons:focus {
+          background-color: yellow !important;
+          color: black !important;
+          box-shadow: none !important;
+          border-color: #daa33e !important; }
 
 .main-eula {
   padding-top: 20px;
@@ -340,7 +380,10 @@ main .heroes-main-section .grid-container {
         width: 100%;
         padding-top: 5px;
         border: 1px solid white;
-        border-radius: 10px; }
+        border-radius: 10px;
+        transition: 1s; }
+        main .heroes-main-section .grid-container .hero-hero .heroes-container-left .hero-img02 img:hover {
+          transform: scale(1.05); }
     main .heroes-main-section .grid-container .hero-hero .heroes-container-right {
       width: 50%;
       flex-direction: column; }
@@ -379,7 +422,10 @@ main .heroes-main-section .grid-container {
         width: 100%;
         padding-top: 5px;
         border: 1px solid white;
-        border-radius: 10px; }
+        border-radius: 10px;
+        transition: 1s; }
+        main .heroes-main-section .grid-container .hero-archmage .heroes-container-left .archmage-img02 img:hover {
+          transform: scale(1.05); }
     main .heroes-main-section .grid-container .hero-archmage .heroes-container-right {
       width: 50%;
       flex-direction: column; }
@@ -417,7 +463,10 @@ main .heroes-main-section .grid-container {
         width: 100%;
         padding-top: 5px;
         border: 1px solid white;
-        border-radius: 10px; }
+        border-radius: 10px;
+        transition: 1s; }
+        main .heroes-main-section .grid-container .hero-savior .heroes-container-left .savior-img02 img:hover {
+          transform: scale(1.05); }
     main .heroes-main-section .grid-container .hero-savior .heroes-container-right {
       width: 50%;
       flex-direction: column; }
@@ -456,7 +505,10 @@ main .heroes-main-section .grid-container {
         width: 100%;
         padding-top: 5px;
         border: 1px solid white;
-        border-radius: 10px; }
+        border-radius: 10px;
+        transition: 1s; }
+        main .heroes-main-section .grid-container .hero-windstalker .heroes-container-left .windstalker-img02 img:hover {
+          transform: scale(1.05); }
     main .heroes-main-section .grid-container .hero-windstalker .heroes-container-right {
       width: 50%;
       flex-direction: column; }
@@ -803,6 +855,28 @@ body .main-screen-complete-page .sign-up-container {
       padding-top: 55px; }
     body .main-screen-complete-page .sign-up-container .sign-up-form-container .sign-up-form .account-form-button {
       padding-top: 50px; }
+      body .main-screen-complete-page .sign-up-container .sign-up-form-container .sign-up-form .account-form-button .my-buttons {
+        margin-left: 0.2rem;
+        background-color: #daa33e;
+        color: white;
+        border-color: #0c0c0d;
+        transition: 1s; }
+        body .main-screen-complete-page .sign-up-container .sign-up-form-container .sign-up-form .account-form-button .my-buttons:hover {
+          background-color: yellow !important;
+          color: black !important;
+          box-shadow: none !important;
+          border-color: #daa33e !important;
+          transform: scale(1.05); }
+        body .main-screen-complete-page .sign-up-container .sign-up-form-container .sign-up-form .account-form-button .my-buttons:active {
+          background-color: yellow !important;
+          color: black !important;
+          box-shadow: none !important;
+          border-color: #daa33e !important; }
+        body .main-screen-complete-page .sign-up-container .sign-up-form-container .sign-up-form .account-form-button .my-buttons:focus {
+          background-color: yellow !important;
+          color: black !important;
+          box-shadow: none !important;
+          border-color: #daa33e !important; }
 
 .main-terms {
   padding-top: 20px;
