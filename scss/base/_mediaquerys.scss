@@ -1,4 +1,3 @@
-
 @media screen and (max-width:1100px){
     main{
         .index-main-history-section{
@@ -7,7 +6,8 @@
                     font-size: nth($font-size, 4);
                     .index-history-video{
                         iframe{
-                            @include video (350px, 160px);
+                            width: 350px;
+                            height: 160px;
                         }
                     }
                 }
@@ -19,7 +19,8 @@
                     font-size: nth($font-size, 4);
                     .index-world-video{
                         iframe{
-                            @include video (350px, 160px);
+                            width: 350px;
+                            height: 160px;
                         }
                     }
                 }
@@ -31,7 +32,8 @@
                     font-size: nth($font-size, 4);
                     .index-monster-video{
                         iframe{
-                            @include video (350px, 160px);
+                            width: 350px;
+                            height: 160px;
                         }
                     }
                 }
@@ -43,7 +45,8 @@
                     font-size: nth($font-size, 4);
                     .index-heroes-video{
                         iframe{
-                            @include video (350px, 160px);
+                            width: 350px;
+                            height: 160px;
                         }
                     }
                 }
@@ -51,7 +54,8 @@
         }
     }
     .about-container-left-links{
-        @include direction (flex, column);
+        display: flex;
+        flex-direction: column;
         a{
             margin-bottom: 20px;
         }
@@ -68,7 +72,9 @@
         "wind wind"
         ;
         .hero-hero{
-            @extend %flex;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             flex-direction: column;
             padding-top: 3rem;
             padding-bottom: 3rem;
@@ -87,7 +93,9 @@
             }
         }
         .hero-archmage{
-            @extend %flex;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             flex-direction: column;
             padding-top: 3rem;
             padding-bottom: 3rem;
@@ -106,7 +114,9 @@
             }
         }
         .hero-savior{
-            @extend %flex;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             flex-direction: column;
             padding-top: 3rem;
             padding-bottom: 3rem;
@@ -125,7 +135,9 @@
             }
         }
         .hero-windstalker{
-            @extend %flex;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             flex-direction: column;
             padding-top: 3rem;
             padding-bottom: 3rem;
@@ -188,7 +200,8 @@
         }
         .navbar-dropdowns{
             .navbar-nav{
-                @include direction (flex, row);
+                display: flex;
+                flex-direction: row;
                 .dropdown-menu{
                     position: absolute !important;
                 }
@@ -236,7 +249,8 @@
 }
 @media screen and (max-width:900px){
     .tale-container-fluid{
-        @include justify (flex, space-between);
+        display: flex;
+        justify-content: space-between;
         .tale-navbar-logo{
             .tale-navbar-brand{
                 img{
@@ -251,7 +265,8 @@
         }
         .navbar-dropdowns{
             .navbar-nav{
-                @include direction (flex, row);
+                display: flex;
+                flex-direction: row;
                 justify-content: left;
                 .dropdown-menu{
                     position: absolute !important;
@@ -274,7 +289,8 @@
                     }
                     .index-history-video{
                         iframe{
-                            @include video (250px, 120px);
+                            width: 250px;
+                            height: 120px;
                         }
                     }
                 }
@@ -291,7 +307,8 @@
                     }
                     .index-world-video{
                         iframe{
-                            @include video (250px, 120px);
+                            width: 250px;
+                            height: 120px;
                         }
                     }
                 }
@@ -308,7 +325,8 @@
                     }
                     .index-monster-video{
                         iframe{
-                            @include video (250px, 120px);
+                            width: 250px;
+                            height: 120px;
                         }
                     }
                 }
@@ -325,7 +343,8 @@
                     }
                     .index-heroes-video{
                         iframe{
-                            @include video (250px, 120px);
+                            width: 250px;
+                            height: 120px;
                         }
                     }
                 }
@@ -371,7 +390,8 @@
                     .nav-item{
                         position: static;
                         .dropdown-menu{
-                            @include direction (flex, row);
+                            display: flex;
+                            flex-direction: row;
                             position: absolute;
                             left: 0;
                             left: 0%;
@@ -397,7 +417,8 @@
         position: static;
     }
     .dropdown-menu.show{
-        @include direction (flex, row);
+        display: flex;
+        flex-direction: row;
         position: absolute;
         left: 0;
         left: 0%;
@@ -411,7 +432,8 @@
     main{
         .index-main-history-section{
             .index-main-history-container{
-                @include direction (flex, column);
+                display: flex;
+                flex-direction: column;
                 padding-right: 15px;
                 padding-left: 15px;
                 .index-history-content-left{
@@ -437,7 +459,8 @@
         }
         .index-main-world-section{
             .index-main-world-container{
-                @include direction (flex, column-reverse);
+                display: flex;
+                flex-direction: column-reverse;
                 padding-right: 15px;
                 padding-left: 15px;
                 .index-world-content-right {
@@ -463,7 +486,8 @@
         }
         .index-main-monster-section{
             .index-main-monster-container{
-                @include direction (flex, column);
+                display: flex;
+                flex-direction: column;
                 padding-right: 15px;
                 padding-left: 15px;
                 .index-monster-content-left{
@@ -489,7 +513,8 @@
         }
         .index-main-heroes-section{
             .index-main-heroes-container{
-                @include direction (flex, column-reverse);
+                display: flex;
+                flex-direction: column-reverse;
                 padding-right: 15px;
                 padding-left: 15px;
                 .index-heroes-content-right {
@@ -577,7 +602,8 @@
                 .nav-item.dropdown{
                     position: static;
                     .dropdown-menu.show{
-                        @include direction (flex, column);
+                        display: flex;
+                        flex-direction: column;
                     }
                 }
             }
@@ -589,7 +615,9 @@
         padding-right: 0;
     }
     .news-nav-tabs-section{
-        @extend %flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         .tale-pill-tab{
             padding: 0;
             margin: 0;
@@ -600,7 +628,9 @@
     footer{
         .footer-main-section{
             .footer-main-container{
-                @extend %flex;
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 flex-direction: column-reverse;
                 .footer-container-left{
                     .footer-container-left-img{
@@ -615,7 +645,9 @@
                 }
                 .footer-container-right{
                     padding-bottom: 1rem;
-                    @extend %flex;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                     flex-direction: column;
                     a{
                         margin-right: 0;

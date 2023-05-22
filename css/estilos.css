@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+main .index-main-history-section .index-main-history-container .index-history-content-left, main .index-main-history-section .index-main-history-container .index-history-content-right, main .index-main-world-section .index-main-world-container .index-world-content-left, main .index-main-world-section .index-main-world-container .index-world-content-right, main .index-main-monster-section .index-main-monster-container .index-monster-content-left, main .index-main-monster-section .index-main-monster-container .index-monster-content-right, main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-left, main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right, body .main-screen-complete-page .about-main-section .about-main-container .about-container-left, body .main-screen-complete-page .sign-up-container .sign-up-form-container .sign-up-form .account-form-button, main .heroes-main-section .grid-container .hero-hero .heroes-container-right, main .heroes-main-section .grid-container .hero-archmage .heroes-container-right, main .heroes-main-section .grid-container .hero-savior .heroes-container-right, main .heroes-main-section .grid-container .hero-windstalker .heroes-container-right, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-journey .news-events-modal .tale-modal-container div .modal-content .modal-header, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-journey .news-events-modal .tale-modal-container div .modal-content .modal-body, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-gatekeeper .news-events-modal .tale-modal-container div .modal-content .modal-header, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-gatekeeper .news-events-modal .tale-modal-container div .modal-content .modal-body, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-training .news-events-modal .tale-modal-container div .modal-content .modal-header, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-training .news-events-modal .tale-modal-container div .modal-content .modal-body, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-pneuma .news-patch-modal .tale-modal-container div .modal-content .modal-header, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-pneuma .news-patch-modal .tale-modal-container div .modal-content .modal-body, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-aie .news-patch-modal .tale-modal-container div .modal-content .modal-header, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-aie .news-patch-modal .tale-modal-container div .modal-content .modal-body, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-laboom .news-patch-modal .tale-modal-container div .modal-content .modal-header, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-laboom .news-patch-modal .tale-modal-container div .modal-content .modal-body {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+main .index-main-history-section #history, main .index-main-world-section #world, main .index-main-monster-section #monsters, main .index-main-heroes-section #heroes, main .heroes-main-section .grid-container .hero-hero #hero, main .heroes-main-section .grid-container .hero-archmage #archmage, main .heroes-main-section .grid-container .hero-savior #savior, main .heroes-main-section .grid-container .hero-windstalker #windstalker {
+  display: block;
+  position: absolute;
+  top: -152.04px;
+  visibility: hidden; }
+
 * {
   margin: 0;
   padding: 0;
@@ -13,12 +24,6 @@ textarea:focus, input:focus, input[type]:focus {
 
 .main-screen-complete-page {
   height: calc(100vh - 243.3px); }
-
-#history, #world, #monsters, #heroes, #hero, #archmage, #savior, #windstalker {
-  display: block;
-  position: absolute;
-  top: -152.04px;
-  visibility: hidden; }
 
 body header {
   position: sticky;
@@ -75,16 +80,16 @@ body header {
                 border-color: #daa33e !important; }
     body header nav .tale-container-fluid .navbar-login .navbar-login-textbox {
       display: flex;
-      flex-direction: column;
       justify-content: end;
       align-items: end;
+      flex-direction: column;
       margin-bottom: 0.2rem;
       margin-top: -0.5rem; }
     body header nav .tale-container-fluid .navbar-login .navbar-login-buttons {
       display: flex;
-      flex-direction: row;
       justify-content: end;
       align-items: center;
+      flex-direction: row;
       margin-right: 0.8rem; }
       body header nav .tale-container-fluid .navbar-login .navbar-login-buttons .my-buttons {
         margin-left: 0.2rem;
@@ -113,7 +118,7 @@ body header {
       body header nav .tale-container-fluid .navbar-login .navbar-login-forgot a {
         color: white;
         text-decoration: none;
-        font-size: 0.8rem;
+        font-size: 14px;
         margin-right: 0.8rem; }
 
 main .index-main-history-section {
@@ -129,10 +134,7 @@ main .index-main-history-section {
     width: 100%;
     display: flex; }
     main .index-main-history-section .index-main-history-container .index-history-content-left {
-      display: flex;
       flex-direction: column;
-      justify-content: center;
-      align-items: center;
       color: beige;
       font-size: 15px;
       padding-left: 20px; }
@@ -143,9 +145,6 @@ main .index-main-history-section {
       main .index-main-history-section .index-main-history-container .index-history-content-left .index-history-video {
         padding-bottom: 15px; }
     main .index-main-history-section .index-main-history-container .index-history-content-right {
-      display: flex;
-      justify-content: center;
-      align-items: center;
       width: 100%; }
       main .index-main-history-section .index-main-history-container .index-history-content-right img {
         width: 100%; }
@@ -153,7 +152,7 @@ main .index-main-history-section {
 main .index-main-world-section {
   position: relative; }
   main .index-main-world-section .index-main-world-container {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background-world-001.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background-world-001.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -161,18 +160,12 @@ main .index-main-world-section {
     width: 100%;
     display: flex; }
     main .index-main-world-section .index-main-world-container .index-world-content-left {
-      display: flex;
-      justify-content: center;
-      align-items: center;
       width: 100%; }
       main .index-main-world-section .index-main-world-container .index-world-content-left img {
         width: 100%; }
     main .index-main-world-section .index-main-world-container .index-world-content-right {
-      display: flex;
       flex-direction: column;
       flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
       color: beige;
       font-size: 15px;
       margin-left: 20px;
@@ -194,10 +187,7 @@ main .index-main-monster-section {
     width: 100%;
     display: flex; }
     main .index-main-monster-section .index-main-monster-container .index-monster-content-left {
-      display: flex;
       flex-direction: column;
-      justify-content: center;
-      align-items: center;
       color: beige;
       font-size: 15px;
       margin-left: 20px;
@@ -208,9 +198,6 @@ main .index-main-monster-section {
         margin-top: 50px;
         padding-bottom: 15px; }
     main .index-main-monster-section .index-main-monster-container .index-monster-content-right {
-      display: flex;
-      justify-content: center;
-      align-items: center;
       width: 100%; }
       main .index-main-monster-section .index-main-monster-container .index-monster-content-right img {
         width: 100%;
@@ -228,17 +215,11 @@ main .index-main-heroes-section {
     width: 100%;
     display: flex; }
     main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-left {
-      display: flex;
-      justify-content: center;
-      align-items: center;
       width: 100%; }
       main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-left img {
         width: 100%; }
     main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right {
-      display: flex;
       flex-direction: column;
-      justify-content: center;
-      align-items: center;
       color: beige;
       font-size: 15px;
       margin-left: 20px;
@@ -263,10 +244,7 @@ body .main-screen-complete-page {
       display: flex;
       justify-content: space-around; }
       body .main-screen-complete-page .about-main-section .about-main-container .about-container-left {
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         color: beige;
         font-size: 15px;
         padding-left: 20px;
@@ -286,7 +264,7 @@ body .main-screen-complete-page {
           object-fit: contain; }
 
 body .main-screen-complete-page .sign-up-container {
-  background-image: url(../img/laboom-elias.png);
+  background-image: url(../img/laboom-elias.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -321,9 +299,6 @@ body .main-screen-complete-page .sign-up-container {
     body .main-screen-complete-page .sign-up-container .sign-up-form-container .sign-up-form .form-check-container .form-check {
       padding-top: 55px; }
     body .main-screen-complete-page .sign-up-container .sign-up-form-container .sign-up-form .account-form-button {
-      display: flex;
-      justify-content: center;
-      align-items: center;
       padding-top: 50px; }
 
 .main-eula {
@@ -350,7 +325,7 @@ main .heroes-main-section .grid-container {
     main .heroes-main-section .grid-container .hero-hero .heroes-container-left {
       width: 50%;
       display: flex;
-      flex-direction: column;
+      justify-content: column;
       align-items: center;
       padding-top: 15px;
       padding-bottom: 15px; }
@@ -367,10 +342,7 @@ main .heroes-main-section .grid-container {
         border-radius: 10px; }
     main .heroes-main-section .grid-container .hero-hero .heroes-container-right {
       width: 50%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center; }
+      flex-direction: column; }
       main .heroes-main-section .grid-container .hero-hero .heroes-container-right p {
         width: 100%;
         padding-bottom: 10px;
@@ -391,7 +363,7 @@ main .heroes-main-section .grid-container {
     main .heroes-main-section .grid-container .hero-archmage .heroes-container-left {
       width: 50%;
       display: flex;
-      flex-direction: column;
+      justify-content: column;
       align-items: center;
       padding-top: 15px;
       padding-bottom: 15px; }
@@ -408,10 +380,7 @@ main .heroes-main-section .grid-container {
         border-radius: 10px; }
     main .heroes-main-section .grid-container .hero-archmage .heroes-container-right {
       width: 50%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center; }
+      flex-direction: column; }
       main .heroes-main-section .grid-container .hero-archmage .heroes-container-right p {
         width: 100%;
         padding-bottom: 10px;
@@ -449,10 +418,7 @@ main .heroes-main-section .grid-container {
         border-radius: 10px; }
     main .heroes-main-section .grid-container .hero-savior .heroes-container-right {
       width: 50%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center; }
+      flex-direction: column; }
       main .heroes-main-section .grid-container .hero-savior .heroes-container-right p {
         width: 100%;
         padding-bottom: 10px;
@@ -473,7 +439,7 @@ main .heroes-main-section .grid-container {
     main .heroes-main-section .grid-container .hero-windstalker .heroes-container-left {
       width: 50%;
       display: flex;
-      flex-direction: column;
+      justify-content: column;
       align-items: center;
       padding-top: 15px;
       padding-bottom: 15px; }
@@ -490,10 +456,7 @@ main .heroes-main-section .grid-container {
         border-radius: 10px; }
     main .heroes-main-section .grid-container .hero-windstalker .heroes-container-right {
       width: 50%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center; }
+      flex-direction: column; }
       main .heroes-main-section .grid-container .hero-windstalker .heroes-container-right p {
         width: 100%;
         padding-bottom: 10px;
@@ -573,15 +536,9 @@ main .news-nav-tabs-section {
       position: relative;
       top: -20px; }
     main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-journey .news-events-modal .tale-modal-container div .modal-content .modal-header {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center; }
+      flex-direction: column; }
     main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-journey .news-events-modal .tale-modal-container div .modal-content .modal-body {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center; }
+      flex-direction: column; }
       main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-journey .news-events-modal .tale-modal-container div .modal-content .modal-body img {
         width: 80%;
         align-items: center; }
@@ -622,15 +579,9 @@ main .news-nav-tabs-section {
       position: relative;
       top: -20px; }
     main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-gatekeeper .news-events-modal .tale-modal-container div .modal-content .modal-header {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center; }
+      flex-direction: column; }
     main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-gatekeeper .news-events-modal .tale-modal-container div .modal-content .modal-body {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center; }
+      flex-direction: column; }
       main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-gatekeeper .news-events-modal .tale-modal-container div .modal-content .modal-body img {
         width: 80%;
         align-items: center; }
@@ -671,15 +622,9 @@ main .news-nav-tabs-section {
       position: relative;
       top: -20px; }
     main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-training .news-events-modal .tale-modal-container div .modal-content .modal-header {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center; }
+      flex-direction: column; }
     main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-training .news-events-modal .tale-modal-container div .modal-content .modal-body {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center; }
+      flex-direction: column; }
       main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-training .news-events-modal .tale-modal-container div .modal-content .modal-body img {
         width: 80%;
         align-items: center; }
@@ -720,15 +665,9 @@ main .news-nav-tabs-section {
       position: relative;
       top: -20px; }
     main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-pneuma .news-patch-modal .tale-modal-container div .modal-content .modal-header {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center; }
+      flex-direction: column; }
     main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-pneuma .news-patch-modal .tale-modal-container div .modal-content .modal-body {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center; }
+      flex-direction: column; }
       main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-pneuma .news-patch-modal .tale-modal-container div .modal-content .modal-body img {
         width: 80%;
         align-items: center; }
@@ -769,15 +708,9 @@ main .news-nav-tabs-section {
       position: relative;
       top: -20px; }
     main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-aie .news-patch-modal .tale-modal-container div .modal-content .modal-header {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center; }
+      flex-direction: column; }
     main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-aie .news-patch-modal .tale-modal-container div .modal-content .modal-body {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center; }
+      flex-direction: column; }
       main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-aie .news-patch-modal .tale-modal-container div .modal-content .modal-body img {
         width: 80%;
         align-items: center; }
@@ -818,15 +751,9 @@ main .news-nav-tabs-section {
       position: relative;
       top: -20px; }
     main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-laboom .news-patch-modal .tale-modal-container div .modal-content .modal-header {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center; }
+      flex-direction: column; }
     main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-laboom .news-patch-modal .tale-modal-container div .modal-content .modal-body {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center; }
+      flex-direction: column; }
       main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-laboom .news-patch-modal .tale-modal-container div .modal-content .modal-body img {
         width: 80%;
         align-items: center; }
@@ -872,9 +799,6 @@ body .main-screen-complete-page .sign-up-container {
     body .main-screen-complete-page .sign-up-container .sign-up-form-container .sign-up-form .form-check-container .form-check {
       padding-top: 55px; }
     body .main-screen-complete-page .sign-up-container .sign-up-form-container .sign-up-form .account-form-button {
-      display: flex;
-      justify-content: center;
-      align-items: center;
       padding-top: 50px; }
 
 .main-terms {
@@ -883,7 +807,6 @@ body .main-screen-complete-page .sign-up-container {
   padding-right: 10px; }
 
 footer section .footer-main-container {
-  display: flex;
   background-image: linear-gradient(rgba(0, 0, 0, 0.696), rgba(238, 234, 15, 0.288)), url(../img/slider2.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -945,9 +868,9 @@ footer .scrolltotop {
     grid-template-areas: "hero hero" "arch arch" "sav sav" "wind wind"; }
     .grid-container .hero-hero {
       display: flex;
-      flex-direction: column;
       justify-content: center;
       align-items: center;
+      flex-direction: column;
       padding-top: 3rem;
       padding-bottom: 3rem;
       padding-left: 1rem;
@@ -962,9 +885,9 @@ footer .scrolltotop {
         width: 100%; }
     .grid-container .hero-archmage {
       display: flex;
-      flex-direction: column;
       justify-content: center;
       align-items: center;
+      flex-direction: column;
       padding-top: 3rem;
       padding-bottom: 3rem;
       padding-left: 1rem;
@@ -979,9 +902,9 @@ footer .scrolltotop {
         width: 100%; }
     .grid-container .hero-savior {
       display: flex;
-      flex-direction: column;
       justify-content: center;
       align-items: center;
+      flex-direction: column;
       padding-top: 3rem;
       padding-bottom: 3rem;
       padding-left: 1rem;
@@ -996,9 +919,9 @@ footer .scrolltotop {
         width: 100%; }
     .grid-container .hero-windstalker {
       display: flex;
-      flex-direction: column;
       justify-content: center;
       align-items: center;
+      flex-direction: column;
       padding-top: 3rem;
       padding-bottom: 3rem;
       padding-left: 1rem;
@@ -1244,9 +1167,9 @@ footer .scrolltotop {
       align-items: center !important; }
   footer .footer-main-section .footer-main-container {
     display: flex;
-    flex-direction: column-reverse;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    flex-direction: column-reverse; }
     footer .footer-main-section .footer-main-container .footer-container-left .footer-container-left-img img {
       height: 40px; }
     footer .footer-main-section .footer-main-container .footer-container-left .footer-container-left-text p {
@@ -1255,9 +1178,9 @@ footer .scrolltotop {
     footer .footer-main-section .footer-main-container .footer-container-right {
       padding-bottom: 1rem;
       display: flex;
-      flex-direction: column;
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      flex-direction: column; }
       footer .footer-main-section .footer-main-container .footer-container-right a {
         margin-right: 0;
         padding-left: 0;
