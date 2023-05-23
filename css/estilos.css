@@ -351,7 +351,7 @@ main .heroes-main-section .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto auto auto auto;
-  grid-template-areas: "hero hero" "arch arch" "sav sav" "wind wind"; }
+  grid-template-areas: "hero hero" "arch arch" "sav sav" "wind wind"; }
   main .heroes-main-section .grid-container .hero-hero {
     background-image: url(../img/class-bg.jpg);
     background-repeat: no-repeat;
@@ -553,7 +553,7 @@ main .news-nav-tabs-section {
     gap: 5px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto auto auto;
-    grid-template-areas: "enews01img enews02img enews03img" "event01 event02 event03" "etitle01 etitle02 etitle03"; }
+    grid-template-areas: "enews01img enews02img enews03img" "event01 event02 event03" "etitle01 etitle02 etitle03"; }
     main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-journey .news-events-modal .modal-button-img .journey-modal {
       grid-area: enews01img;
       width: 100%; }
@@ -942,7 +942,7 @@ footer .scrolltotop {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto auto auto;
-    grid-template-areas: "hero hero" "arch arch" "sav sav" "wind wind"; }
+    grid-template-areas: "hero hero" "arch arch" "sav sav" "wind wind"; }
     .grid-container .hero-hero {
       display: flex;
       justify-content: center;
@@ -1041,7 +1041,7 @@ footer .scrolltotop {
     gap: 5px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto auto;
-    grid-template-areas: "pnews01img pnews02img" "patch01 patch02" "ptitle01 ptitle02"; }
+    grid-template-areas: "pnews01img pnews02img" "patch01 patch02" "ptitle01 ptitle02"; }
   .news-nav-tabs-section div div .news-grid-container-events {
     width: 100%;
     display: grid;
@@ -1049,7 +1049,7 @@ footer .scrolltotop {
     gap: 5px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto auto;
-    grid-template-areas: "enews01img enews02img" "event01 event02" "etitle01 etitle02"; } }
+    grid-template-areas: "enews01img enews02img" "event01 event02" "etitle01 etitle02"; } }
 
 @media screen and (max-width: 900px) {
   .tale-container-fluid {
