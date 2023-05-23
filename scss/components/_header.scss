@@ -26,52 +26,6 @@ body{
                         }
                     }
                 }
-                .navbar-dropdowns{
-                    @include justify (flex, center);
-                    .navbar-nav{
-                        li{
-                            margin-right: 4rem;
-                            border: 1px solid ;
-                            border-radius: 6px;
-                            border-color: $color-main;
-                            .nav-dropdown-section{
-                                color: $color-border !important;
-                            }
-                            .dropdown-menu.show{
-                                @include direction (flex, column);
-                                justify-content: center;
-                                background-color: rgba(241, 232, 242, 0.7);
-                                padding-left: 4rem;
-                                .dropdown-menu-box{
-                                    margin-top: 0.5rem;
-                                    .dropdown-item{
-                                        color: $color-border;
-                                        background-color: $color-main;
-                                        text-align: center;
-                                        margin: 1px solid;
-                                        border-radius: 6px;
-                                        transition: 1s;
-                                        
-                                        &:active{
-                                            background-color: $color-background-bootstrap !important;
-                                            color: black !important;
-                                            box-shadow: none !important;
-                                            border-color: $color-main !important;
-                                        }
-                                        &:hover{
-                                            background-color: $color-background-bootstrap !important;
-                                            color: black !important;
-                                            box-shadow: none !important;
-                                            border-color: $color-main !important;
-                                            transform: scale(1.05);
-                                            border-radius: 6px !important;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
                 .navbar-login{
                     .navbar-login-textbox{
                         @include flex (flex, end, end);
@@ -118,6 +72,52 @@ body{
                             text-decoration: none;
                             font-size: nth($font-size, 5);
                             margin-right: 0.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.navbar-dropdowns{
+    @include justify (flex, center);
+    .navbar-nav{
+        li{
+            margin-right: 4rem;
+            border: 1px solid ;
+            border-radius: 6px;
+            border-color: $color-main;
+            .nav-dropdown-section{
+                color: $color-border !important;
+            }
+            .dropdown-menu.show{
+                @include direction (flex, column);
+                justify-content: center;
+                background-color: rgba(241, 232, 242, 0.7);
+                padding-left: 4rem;
+                .dropdown-menu-box{
+                    margin-top: 0.5rem;
+                    .dropdown-item{
+                        color: $color-border;
+                        background-color: $color-main;
+                        text-align: center;
+                        margin: 1px solid;
+                        border-radius: 6px;
+                        transition: 1s;
+                        
+                        &:active{
+                            background-color: $color-background-bootstrap !important;
+                            color: black !important;
+                            box-shadow: none !important;
+                            border-color: $color-main !important;
+                        }
+                        &:hover{
+                            background-color: $color-background-bootstrap !important;
+                            color: black !important;
+                            box-shadow: none !important;
+                            border-color: $color-main !important;
+                            transform: scale(1.05);
+                            border-radius: 6px !important;
                         }
                     }
                 }
