@@ -49,3 +49,12 @@ $font-size:
     display: $fle;
     justify-content: $justify;
 }
+// KEYFRAMES
+@keyframes fade-inout{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
