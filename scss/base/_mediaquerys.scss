@@ -380,7 +380,7 @@
         }
     }
 }
-@media screen and (max-width:650px){
+@media screen and (max-width:768px){
     .tale-container-fluid{
         .tale-navbar-logo{
             .navbar-dropdowns{
@@ -439,21 +439,28 @@
                 .index-history-content-left{
                     padding: 0;
                     .index-history-title{
-                        h2{
+                        h1{
                             font-size: nth($font-size, 9);
                         }
                     }
                     .index-history-text{
-                        font-size: nth($font-size, 7);
+                        font-size: nth($font-size, 6);
+                        padding-left: 25px;
+                        padding-right: 25px;
+                        padding-top: 25px;
                     }
                     .index-history-video{
                         iframe{
-                            display: none;
+                            width: 450px;
+                            height: 360px;
                         }
                     }
                 }
                 .index-history-content-right{
                     display: inherit;
+                    img{
+                        width: 75%;
+                    }
                 }
             }
         }
@@ -471,16 +478,23 @@
                         }
                     }
                     .index-world-text{
-                        font-size: nth($font-size, 7);
+                        font-size: nth($font-size, 6);
+                        padding-left: 25px;
+                        padding-right: 25px;
+                        padding-top: 25px;
                     }
                     .index-world-video{
                         iframe{
-                            display: none;
+                            width: 450px;
+                            height: 360px;
                         }
                     }
                 }
                 .index-world-content-left{
                     display: inherit;
+                    img{
+                        width: 75%;
+                    }
                 }
             }
         }
@@ -498,16 +512,23 @@
                         }
                     }
                     .index-monster-text{
-                        font-size: nth($font-size, 7);
+                        font-size: nth($font-size, 6);
+                        padding-left: 25px;
+                        padding-right: 25px;
+                        padding-top: 25px;
                     }
                     .index-monster-video{
                         iframe{
-                            display: none;
+                            width: 450px;
+                            height: 360px;
                         }
                     }
                 }
                 .index-monster-content-right{
                     display: inherit;
+                    img{
+                        width: 75%;
+                    }
                 }
             }
         }
@@ -525,16 +546,23 @@
                         }
                     }
                     .index-heroes-text{
-                        font-size: nth($font-size, 7);
+                        font-size: nth($font-size, 6);
+                        padding-left: 25px;
+                        padding-right: 25px;
+                        padding-top: 25px;
                     }
                     .index-heroes-video{
                         iframe{
-                            display: none;
+                            width: 450px;
+                            height: 360px;
                         }
                     }
                 }
                 .index-heroes-content-left{
                     display: inherit;
+                    img{
+                        width: 75%;
+                    }
                 }
             }
         }
@@ -583,48 +611,360 @@
             }
         }
     }
-}
-@media screen and (max-width:460px){
-    .tale-container-fluid{
-        .tale-navbar-logo{
-            .tale-navbar-brand{
-                img{
-                    width: 55%;
+    footer{
+        .footer-main-section{
+            .footer-main-container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .footer-container-left{
+                    .footer-container-left-img{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        img{
+                            height: 40px;
+                        }
+                    }
+                    .footer-container-left-text p{
+                        margin-bottom: 0;
+                        padding-top: 1rem;
+                        font-size: 12px;
+                    }
+                }
+                .footer-container-right{
+                    padding-bottom: 1rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    a{
+                        margin-right: 0;
+                        padding-left: 0;
+                        padding-right: 0;
+                        padding-bottom: 10px;
+                        border-left: 0;
+                    }
                 }
             }
         }
-        .navbar-dropdowns{
-            .navbar-nav{
-                .nav-item{
-                    margin-left: 1rem;
-                    margin-right: 1rem;
-                }
-                .nav-item.dropdown{
-                    position: static;
-                    .dropdown-menu.show{
-                        display: flex;
-                        flex-direction: column;
+        .scrolltotop{
+            .scroll-img-top{
+                a{
+                    .sticky-top-button{
+                        display: none;
                     }
                 }
             }
         }
     }
-    .sign-up-form{
-        width: 100%;
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .news-nav-tabs-section{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        .tale-pill-tab{
-            padding: 0;
-            margin: 0;
-            justify-content: center !important;
-            align-items: center !important;
+}
+@media screen and (max-width:375px){
+    body{
+        header{
+            nav{
+                .tale-container-fluid{
+                    .tale-navbar-logo{
+                        .tale-navbar-brand{
+                            img{
+                                width: 45%;
+                            }
+                        }
+                        .tale-navbar-button{
+                            font-size: 1rem;
+                            position: fixed;
+                            top: 35px;
+                            right: 20px;
+                            .navbar-toggler-icon{
+                                width: 20px;
+                            }
+                        }
+                    }
+                    .navbar-dropdowns{
+                        .navbar-nav{
+                            .nav-item{
+                                margin-left: 1rem;
+                                margin-right: 1rem;
+                                font-size: 13px;
+                            }
+                            .nav-item.dropdown{
+                                position: static;
+                                .dropdown-menu.show{
+                                    display: flex;
+                                    flex-direction: column;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        main{
+            .index-main-history-section{
+                .index-main-history-container{
+                    .index-history-content-left{
+                        margin-left: 15px;
+                        margin-right: 15px;
+                        .index-history-title{
+                            h2{
+                                font-size: 30px;
+                            }
+                        }
+                        .index-history-text{
+                            p{
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                    .index-history-content-right{
+                        img{
+                            padding-bottom: 10px;
+                        }
+                    }
+                }
+            }
+            .index-main-world-section{
+                .index-main-world-container{
+                    .index-world-content-right{
+                        margin-left: 15px;
+                        margin-right: 15px;
+                        .index-world-video{
+                            padding-bottom: 0px;
+                            margin-top: 0px;
+                        }
+                        .index-world-title{
+                            h2{
+                                font-size: 30px;
+                            }
+                        }
+                        .index-world-text{
+                            p{
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                    .index-world-content-left{
+                        img{
+                            padding-bottom: 10px;
+                        }
+                    }
+                }
+            }
+            .index-main-monster-section{
+                .index-main-monster-container{
+                    .index-monster-content-left{
+                        margin-left: 15px;
+                        margin-right: 15px;
+                        .index-monster-video{
+                            padding-bottom: 0px;
+                            margin-top: 0px;
+                        }
+                        .index-monster-title{
+                            h2{
+                                font-size: 30px;
+                            }
+                        }
+                        .index-monster-text{
+                            p{
+                                font-size: 14px;
+                                margin-bottom: 0px;
+                            }
+                        }
+                    }
+                    .index-monster-content-right{
+                        img{
+                            padding-bottom: 10px;
+                        }
+                    }
+                }
+            }
+            .index-main-heroes-section{
+                .index-main-heroes-container{
+                    .index-heroes-content-right{
+                        margin-left: 15px;
+                        margin-right: 15px;
+                        .index-heroes-video{
+                            padding-bottom: 0px;
+                            margin-top: 0px;
+                        }
+                        .index-heroes-title{
+                            h2{
+                                font-size: 30px;
+                            }
+                        }
+                        .index-heroes-text{
+                            p{
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                    .index-heroes-content-left{
+                        img{
+                            padding-bottom: 10px;
+                        }
+                    }
+                }
+            }
+            .heroes-main-section{
+                .grid-container{
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: auto;
+                    grid-template-areas: 
+                    "hero"
+                    "arch"
+                    "sav"
+                    "wind"
+                    ;
+                    .hero-hero{
+                        .heroes-container-left{
+                            width: 80%;
+                            .hero-img01{
+                                img{
+                                    margin-left: 0;
+                                }
+                            }
+                        }
+                        .heroes-container-right{
+                            width: 75%;
+                            p{
+                                padding-right: 0;
+                                font-size: 15px;
+                                padding-bottom: 0;
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                    .hero-archmage{
+                        .heroes-container-left{
+                            width: 80%;
+                            .hero-img01{
+                                img{
+                                    margin-left: 0;
+                                }
+                            }
+                        }
+                        .heroes-container-right{
+                            width: 75%;
+                            p{
+                                padding-right: 0;
+                                font-size: 15px;
+                                padding-bottom: 0;
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                    .hero-savior{
+                        .heroes-container-left{
+                            width: 80%;
+                            .hero-img01{
+                                img{
+                                    margin-left: 0;
+                                }
+                            }
+                        }
+                        .heroes-container-right{
+                            width: 75%;
+                            p{
+                                padding-right: 0;
+                                font-size: 15px;
+                                padding-bottom: 0;
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                    .hero-windstalker{
+                        .heroes-container-left{
+                            width: 80%;
+                            .hero-img01{
+                                img{
+                                    margin-left: 0;
+                                }
+                            }
+                        }
+                        .heroes-container-right{
+                            width: 75%;
+                            p{
+                                padding-right: 0;
+                                font-size: 15px;
+                                padding-bottom: 0;
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .main-screen-complete-page{
+            height: auto;
+            .sign-up-container{
+                .sign-up-form-container{
+                    .sign-up-form{
+                        width: auto;
+                        .form-check-container{
+                            .form-check{
+                                font-size: 14px;
+                                padding-top: 20px;
+                            }
+                        }
+                        .account-form-button{
+                            padding-top: 25px;
+                        }
+                    }
+                }
+            }
+            .about-main-section{
+                .about-main-container{
+                    display: flex;
+                    flex-direction: column;
+                    .about-container-left{
+                        .about-container-left-text{
+                            font-size: 12.5px;
+                            margin-left: 10px;
+                            margin-right: 10px;
+                        }
+                        .about-container-left-links{
+                            align-items: center;
+                        }
+                    }
+                }
+            }
+        }
+        .news-main-class{
+            .news-main-container{
+                .news-main-title{
+                    font-size: 35px;
+                }
+            }
+            .news-nav-tabs-section{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .tale-pill-tab{
+                    padding: 0;
+                    margin: 0;
+                    justify-content: center !important;
+                    align-items: center !important;
+                }
+                .tab-content{
+                    div{
+                        .news-grid-container-events{
+                            display: grid;
+                            grid-template-columns: repeat(1, 1fr);
+                            grid-template-rows: auto;
+                            grid-template-areas: 
+                            "enews01img"
+                            "event01"
+                            "etitle01"
+                            ;
+                        }
+                    }
+                }
+            }
         }
     }
+
+
     footer{
         .footer-main-section{
             .footer-main-container{
@@ -634,6 +974,9 @@
                 flex-direction: column-reverse;
                 .footer-container-left{
                     .footer-container-left-img{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
                         img{
                             height: 40px;
                         }
@@ -641,6 +984,7 @@
                     .footer-container-left-text p{
                         margin-bottom: 0;
                         padding-top: 1rem;
+                        font-size: 12px;
                     }
                 }
                 .footer-container-right{
