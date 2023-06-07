@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap");
-main .index-main-history-section .index-main-history-container .index-history-content-left, main .index-main-history-section .index-main-history-container .index-history-content-right, main .index-main-world-section .index-main-world-container .index-world-content-left, main .index-main-world-section .index-main-world-container .index-world-content-right, main .index-main-monster-section .index-main-monster-container .index-monster-content-left, main .index-main-monster-section .index-main-monster-container .index-monster-content-right, main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-left, main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right, body .main-screen-complete-page .about-main-section .about-main-container .about-container-left, body .main-screen-complete-page .sign-up-container .sign-up-form-container .sign-up-form .account-form-button, main .heroes-main-section .grid-container .hero-hero .heroes-container-right, main .heroes-main-section .grid-container .hero-archmage .heroes-container-right, main .heroes-main-section .grid-container .hero-savior .heroes-container-right, main .heroes-main-section .grid-container .hero-windstalker .heroes-container-right, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-journey .news-events-modal .tale-modal-container div .modal-content .modal-header, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-journey .news-events-modal .tale-modal-container div .modal-content .modal-body, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-gatekeeper .news-events-modal .tale-modal-container div .modal-content .modal-header, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-gatekeeper .news-events-modal .tale-modal-container div .modal-content .modal-body, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-training .news-events-modal .tale-modal-container div .modal-content .modal-header, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-training .news-events-modal .tale-modal-container div .modal-content .modal-body, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-pneuma .news-patch-modal .tale-modal-container div .modal-content .modal-header, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-pneuma .news-patch-modal .tale-modal-container div .modal-content .modal-body, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-aie .news-patch-modal .tale-modal-container div .modal-content .modal-header, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-aie .news-patch-modal .tale-modal-container div .modal-content .modal-body, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-laboom .news-patch-modal .tale-modal-container div .modal-content .modal-header, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-laboom .news-patch-modal .tale-modal-container div .modal-content .modal-body {
+main .index-main-history-section .index-main-history-container .index-history-content-left, main .index-main-history-section .index-main-history-container .index-history-content-right, main .index-main-world-section .index-main-world-container .index-world-content-left, main .index-main-world-section .index-main-world-container .index-world-content-right, main .index-main-monster-section .index-main-monster-container .index-monster-content-left, main .index-main-monster-section .index-main-monster-container .index-monster-content-right, main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-left, main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right, body .main-screen-complete-page .about-main-section .about-main-container .about-container-left, body .main-screen-complete-page .sign-up-container .sign-up-form-container .sign-up-form .account-form-button, body main .heroes-main-section .grid-container .hero-hero .heroes-container-right, body main .heroes-main-section .grid-container .hero-archmage .heroes-container-right, body main .heroes-main-section .grid-container .hero-savior .heroes-container-right, body main .heroes-main-section .grid-container .hero-windstalker .heroes-container-right, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-journey .news-events-modal .tale-modal-container div .modal-content .modal-header, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-journey .news-events-modal .tale-modal-container div .modal-content .modal-body, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-gatekeeper .news-events-modal .tale-modal-container div .modal-content .modal-header, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-gatekeeper .news-events-modal .tale-modal-container div .modal-content .modal-body, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-training .news-events-modal .tale-modal-container div .modal-content .modal-header, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-training .news-events-modal .tale-modal-container div .modal-content .modal-body, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-pneuma .news-patch-modal .tale-modal-container div .modal-content .modal-header, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-pneuma .news-patch-modal .tale-modal-container div .modal-content .modal-body, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-aie .news-patch-modal .tale-modal-container div .modal-content .modal-header, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-aie .news-patch-modal .tale-modal-container div .modal-content .modal-body, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-laboom .news-patch-modal .tale-modal-container div .modal-content .modal-header, main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-patch-laboom .news-patch-modal .tale-modal-container div .modal-content .modal-body {
   display: flex;
   justify-content: center;
   align-items: center; }
 
-main .index-main-history-section #history, main .index-main-world-section #world, main .index-main-monster-section #monsters, main .index-main-heroes-section #heroes, main .heroes-main-section .grid-container .hero-hero #hero, main .heroes-main-section .grid-container .hero-archmage #archmage, main .heroes-main-section .grid-container .hero-savior #savior, main .heroes-main-section .grid-container .hero-windstalker #windstalker {
+main .index-main-history-section #history, main .index-main-world-section #world, main .index-main-monster-section #monsters, main .index-main-heroes-section #heroes, body main .heroes-main-section .grid-container .hero-hero #hero, body main .heroes-main-section .grid-container .hero-archmage #archmage, body main .heroes-main-section .grid-container .hero-savior #savior, body main .heroes-main-section .grid-container .hero-windstalker #windstalker {
   display: block;
   position: absolute;
   top: -152.04px;
@@ -27,9 +27,6 @@ textarea:focus, input:focus, input[type]:focus {
   border-color: #daa33e;
   box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px rgba(218, 163, 62, 0.671);
   outline: 0 none; }
-
-.main-screen-complete-page {
-  height: calc(100vh - 243.3px); }
 
 body header {
   position: sticky;
@@ -161,7 +158,7 @@ main .index-main-history-section {
     main .index-main-history-section .index-main-history-container .index-history-content-right {
       width: 100%; }
       main .index-main-history-section .index-main-history-container .index-history-content-right img {
-        width: 100%;
+        width: 90%;
         transition: 1s; }
         main .index-main-history-section .index-main-history-container .index-history-content-right img:hover {
           transform: scale(1.05); }
@@ -179,7 +176,7 @@ main .index-main-world-section {
     main .index-main-world-section .index-main-world-container .index-world-content-left {
       width: 100%; }
       main .index-main-world-section .index-main-world-container .index-world-content-left img {
-        width: 100%;
+        width: 90%;
         transition: 1s; }
         main .index-main-world-section .index-main-world-container .index-world-content-left img:hover {
           transform: scale(1.05); }
@@ -220,7 +217,7 @@ main .index-main-monster-section {
     main .index-main-monster-section .index-main-monster-container .index-monster-content-right {
       width: 100%; }
       main .index-main-monster-section .index-main-monster-container .index-monster-content-right img {
-        width: 100%;
+        width: 90%;
         padding-top: 15px;
         padding-bottom: 15px;
         transition: 1s; }
@@ -240,7 +237,7 @@ main .index-main-heroes-section {
     main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-left {
       width: 100%; }
       main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-left img {
-        width: 100%;
+        width: 90%;
         transition: 1s; }
         main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-left img:hover {
           transform: scale(1.05); }
@@ -256,48 +253,45 @@ main .index-main-heroes-section {
         padding-bottom: 15px;
         margin-top: 50px; }
 
-body .main-screen-complete-page {
-  height: calc(100vh - 243.3px); }
-  body .main-screen-complete-page .about-main-section {
-    height: 100%; }
-    body .main-screen-complete-page .about-main-section .about-main-container {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background01.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      height: 100%;
-      width: 100%;
+body .main-screen-complete-page .about-main-section {
+  height: 100%; }
+  body .main-screen-complete-page .about-main-section .about-main-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around; }
+    body .main-screen-complete-page .about-main-section .about-main-container .about-container-left {
+      flex-direction: column;
+      color: beige;
+      font-size: 15px;
+      padding-left: 20px;
+      padding-right: 20px; }
+      body .main-screen-complete-page .about-main-section .about-main-container .about-container-left .about-container-left-title {
+        padding-top: 25px; }
+      body .main-screen-complete-page .about-main-section .about-main-container .about-container-left .about-container-left-links {
+        display: flex; }
+        body .main-screen-complete-page .about-main-section .about-main-container .about-container-left .about-container-left-links a {
+          margin-right: 25px;
+          color: white;
+          border: 2px white solid;
+          padding: 5px; }
+    body .main-screen-complete-page .about-main-section .about-main-container .about-container-right {
       display: flex;
-      justify-content: space-around; }
-      body .main-screen-complete-page .about-main-section .about-main-container .about-container-left {
-        flex-direction: column;
-        color: beige;
-        font-size: 15px;
-        padding-left: 20px;
-        padding-right: 20px; }
-        body .main-screen-complete-page .about-main-section .about-main-container .about-container-left .about-container-left-title {
-          padding-top: 25px; }
-        body .main-screen-complete-page .about-main-section .about-main-container .about-container-left .about-container-left-links {
-          display: flex; }
-          body .main-screen-complete-page .about-main-section .about-main-container .about-container-left .about-container-left-links a {
-            margin-right: 25px;
-            color: white;
-            border: 2px white solid;
-            padding: 5px; }
-      body .main-screen-complete-page .about-main-section .about-main-container .about-container-right {
-        display: flex;
-        justify-content: center; }
-        body .main-screen-complete-page .about-main-section .about-main-container .about-container-right .fade-in-out {
-          width: 100%;
-          object-fit: contain;
-          animation: fade-inout 3s infinite alternate; }
+      justify-content: center; }
+      body .main-screen-complete-page .about-main-section .about-main-container .about-container-right .fade-in-out {
+        width: 100%;
+        object-fit: contain;
+        animation: fade-inout 3s infinite alternate; }
 
 body .main-screen-complete-page .sign-up-container {
   background-image: url(/img/laboom-elias.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  height: 100%; }
+  background-size: cover; }
   body .main-screen-complete-page .sign-up-container .sign-up-title-container {
     text-align: center;
     padding-top: 50px; }
@@ -357,13 +351,13 @@ body .main-screen-complete-page .sign-up-container {
   padding-left: 10px;
   padding-right: 10px; }
 
-main .heroes-main-section .grid-container {
+body main .heroes-main-section .grid-container {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto auto auto auto;
   grid-template-areas: "hero hero" "arch arch" "sav sav" "wind wind"; }
-  main .heroes-main-section .grid-container .hero-hero {
+  body main .heroes-main-section .grid-container .hero-hero {
     background-image: url(../img/class-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -373,7 +367,7 @@ main .heroes-main-section .grid-container {
     align-items: center;
     padding-left: 15px;
     position: relative; }
-    main .heroes-main-section .grid-container .hero-hero .heroes-container-left {
+    body main .heroes-main-section .grid-container .hero-hero .heroes-container-left {
       width: 50%;
       display: flex;
       justify-content: center;
@@ -381,31 +375,34 @@ main .heroes-main-section .grid-container {
       flex-direction: column;
       padding-top: 15px;
       padding-bottom: 15px; }
-      main .heroes-main-section .grid-container .hero-hero .heroes-container-left .hero-img01 img {
+      body main .heroes-main-section .grid-container .hero-hero .heroes-container-left .hero-img01 img {
         width: 75%;
         margin-left: 25px;
         margin-bottom: 10px;
         border: 1px solid white;
         border-radius: 10px; }
-      main .heroes-main-section .grid-container .hero-hero .heroes-container-left .hero-img02 img {
+      body main .heroes-main-section .grid-container .hero-hero .heroes-container-left .hero-img02 img {
         width: 100%;
         padding-top: 5px;
         border: 1px solid white;
         border-radius: 10px;
         transition: 1s; }
-        main .heroes-main-section .grid-container .hero-hero .heroes-container-left .hero-img02 img:hover {
+        body main .heroes-main-section .grid-container .hero-hero .heroes-container-left .hero-img02 img:hover {
           transform: scale(1.05); }
-    main .heroes-main-section .grid-container .hero-hero .heroes-container-right {
+    body main .heroes-main-section .grid-container .hero-hero .heroes-container-right {
       width: 50%;
       flex-direction: column; }
-      main .heroes-main-section .grid-container .hero-hero .heroes-container-right p {
+      body main .heroes-main-section .grid-container .hero-hero .heroes-container-right h1 {
+        color: white;
+        text-align: center; }
+      body main .heroes-main-section .grid-container .hero-hero .heroes-container-right p {
         width: 100%;
         padding-bottom: 10px;
         padding-right: 30px;
         color: white; }
-      main .heroes-main-section .grid-container .hero-hero .heroes-container-right iframe {
+      body main .heroes-main-section .grid-container .hero-hero .heroes-container-right iframe {
         padding-top: 10px; }
-  main .heroes-main-section .grid-container .hero-archmage {
+  body main .heroes-main-section .grid-container .hero-archmage {
     background-image: url(../img/class-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -415,7 +412,7 @@ main .heroes-main-section .grid-container {
     align-items: center;
     padding-left: 15px;
     position: relative; }
-    main .heroes-main-section .grid-container .hero-archmage .heroes-container-left {
+    body main .heroes-main-section .grid-container .hero-archmage .heroes-container-left {
       width: 50%;
       display: flex;
       justify-content: center;
@@ -423,31 +420,34 @@ main .heroes-main-section .grid-container {
       flex-direction: column;
       padding-top: 15px;
       padding-bottom: 15px; }
-      main .heroes-main-section .grid-container .hero-archmage .heroes-container-left .archmage-img01 img {
+      body main .heroes-main-section .grid-container .hero-archmage .heroes-container-left .archmage-img01 img {
         width: 75%;
         margin-left: 25px;
         margin-bottom: 10px;
         border: 1px solid white;
         border-radius: 10px; }
-      main .heroes-main-section .grid-container .hero-archmage .heroes-container-left .archmage-img02 img {
+      body main .heroes-main-section .grid-container .hero-archmage .heroes-container-left .archmage-img02 img {
         width: 100%;
         padding-top: 5px;
         border: 1px solid white;
         border-radius: 10px;
         transition: 1s; }
-        main .heroes-main-section .grid-container .hero-archmage .heroes-container-left .archmage-img02 img:hover {
+        body main .heroes-main-section .grid-container .hero-archmage .heroes-container-left .archmage-img02 img:hover {
           transform: scale(1.05); }
-    main .heroes-main-section .grid-container .hero-archmage .heroes-container-right {
+    body main .heroes-main-section .grid-container .hero-archmage .heroes-container-right {
       width: 50%;
       flex-direction: column; }
-      main .heroes-main-section .grid-container .hero-archmage .heroes-container-right p {
+      body main .heroes-main-section .grid-container .hero-archmage .heroes-container-right h2 {
+        color: white;
+        text-align: center; }
+      body main .heroes-main-section .grid-container .hero-archmage .heroes-container-right p {
         width: 100%;
         padding-bottom: 10px;
         padding-right: 30px;
         color: white; }
-      main .heroes-main-section .grid-container .hero-archmage .heroes-container-right iframe {
+      body main .heroes-main-section .grid-container .hero-archmage .heroes-container-right iframe {
         padding-top: 10px; }
-  main .heroes-main-section .grid-container .hero-savior {
+  body main .heroes-main-section .grid-container .hero-savior {
     background-image: url(../img/class-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -457,38 +457,41 @@ main .heroes-main-section .grid-container {
     align-items: center;
     padding-left: 15px;
     position: relative; }
-    main .heroes-main-section .grid-container .hero-savior .heroes-container-left {
+    body main .heroes-main-section .grid-container .hero-savior .heroes-container-left {
       width: 50%;
       display: flex;
       flex-direction: column;
       align-items: center;
       padding-top: 15px;
       padding-bottom: 15px; }
-      main .heroes-main-section .grid-container .hero-savior .heroes-container-left .savior-img01 img {
+      body main .heroes-main-section .grid-container .hero-savior .heroes-container-left .savior-img01 img {
         width: 75%;
         margin-left: 25px;
         margin-bottom: 10px;
         border: 1px solid white;
         border-radius: 10px; }
-      main .heroes-main-section .grid-container .hero-savior .heroes-container-left .savior-img02 img {
+      body main .heroes-main-section .grid-container .hero-savior .heroes-container-left .savior-img02 img {
         width: 100%;
         padding-top: 5px;
         border: 1px solid white;
         border-radius: 10px;
         transition: 1s; }
-        main .heroes-main-section .grid-container .hero-savior .heroes-container-left .savior-img02 img:hover {
+        body main .heroes-main-section .grid-container .hero-savior .heroes-container-left .savior-img02 img:hover {
           transform: scale(1.05); }
-    main .heroes-main-section .grid-container .hero-savior .heroes-container-right {
+    body main .heroes-main-section .grid-container .hero-savior .heroes-container-right {
       width: 50%;
       flex-direction: column; }
-      main .heroes-main-section .grid-container .hero-savior .heroes-container-right p {
+      body main .heroes-main-section .grid-container .hero-savior .heroes-container-right h2 {
+        color: white;
+        text-align: center; }
+      body main .heroes-main-section .grid-container .hero-savior .heroes-container-right p {
         width: 100%;
         padding-bottom: 10px;
         padding-right: 30px;
         color: white; }
-      main .heroes-main-section .grid-container .hero-savior .heroes-container-right iframe {
+      body main .heroes-main-section .grid-container .hero-savior .heroes-container-right iframe {
         padding-top: 10px; }
-  main .heroes-main-section .grid-container .hero-windstalker {
+  body main .heroes-main-section .grid-container .hero-windstalker {
     background-image: url(../img/class-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -498,7 +501,7 @@ main .heroes-main-section .grid-container {
     align-items: center;
     padding-left: 15px;
     position: relative; }
-    main .heroes-main-section .grid-container .hero-windstalker .heroes-container-left {
+    body main .heroes-main-section .grid-container .hero-windstalker .heroes-container-left {
       width: 50%;
       display: flex;
       justify-content: center;
@@ -506,29 +509,32 @@ main .heroes-main-section .grid-container {
       flex-direction: column;
       padding-top: 15px;
       padding-bottom: 15px; }
-      main .heroes-main-section .grid-container .hero-windstalker .heroes-container-left .windstalker-img01 img {
+      body main .heroes-main-section .grid-container .hero-windstalker .heroes-container-left .windstalker-img01 img {
         width: 75%;
         margin-left: 25px;
         margin-bottom: 10px;
         border: 1px solid white;
         border-radius: 10px; }
-      main .heroes-main-section .grid-container .hero-windstalker .heroes-container-left .windstalker-img02 img {
+      body main .heroes-main-section .grid-container .hero-windstalker .heroes-container-left .windstalker-img02 img {
         width: 100%;
         padding-top: 5px;
         border: 1px solid white;
         border-radius: 10px;
         transition: 1s; }
-        main .heroes-main-section .grid-container .hero-windstalker .heroes-container-left .windstalker-img02 img:hover {
+        body main .heroes-main-section .grid-container .hero-windstalker .heroes-container-left .windstalker-img02 img:hover {
           transform: scale(1.05); }
-    main .heroes-main-section .grid-container .hero-windstalker .heroes-container-right {
+    body main .heroes-main-section .grid-container .hero-windstalker .heroes-container-right {
       width: 50%;
       flex-direction: column; }
-      main .heroes-main-section .grid-container .hero-windstalker .heroes-container-right p {
+      body main .heroes-main-section .grid-container .hero-windstalker .heroes-container-right h2 {
+        color: white;
+        text-align: center; }
+      body main .heroes-main-section .grid-container .hero-windstalker .heroes-container-right p {
         width: 100%;
         padding-bottom: 10px;
         padding-right: 30px;
         color: white; }
-      main .heroes-main-section .grid-container .hero-windstalker .heroes-container-right iframe {
+      body main .heroes-main-section .grid-container .hero-windstalker .heroes-container-right iframe {
         padding-top: 10px; }
 
 main .news-main-container {
@@ -907,10 +913,13 @@ footer section .footer-main-container {
   display: flex;
   justify-content: space-between;
   color: beige; }
-  footer section .footer-main-container .footer-container-left .footer-container-left-img a img {
-    height: 60px; }
-  footer section .footer-main-container .footer-container-left .footer-container-left-img p {
-    font-size: 10px; }
+  footer section .footer-main-container .footer-container-left {
+    margin-left: 20px;
+    margin-top: 10px; }
+    footer section .footer-main-container .footer-container-left .footer-container-left-img a img {
+      height: 60px; }
+    footer section .footer-main-container .footer-container-left .footer-container-left-img p {
+      font-size: 10px; }
   footer section .footer-main-container .footer-container-right {
     margin-top: 15px;
     margin-right: 150px; }
@@ -925,210 +934,31 @@ footer .scrolltotop {
   right: 3%;
   bottom: 3%; }
 
-@media screen and (max-width: 1100px) {
-  main .index-main-history-section .index-main-history-container .index-history-content-left {
-    font-size: 13px; }
-    main .index-main-history-section .index-main-history-container .index-history-content-left .index-history-video iframe {
-      width: 350px;
-      height: 160px; }
-  main .index-main-world-section .index-main-world-container .index-world-content-right {
-    font-size: 13px; }
-    main .index-main-world-section .index-main-world-container .index-world-content-right .index-world-video iframe {
-      width: 350px;
-      height: 160px; }
-  main .index-main-monster-section .index-main-monster-container .index-monster-content-left {
-    font-size: 13px; }
-    main .index-main-monster-section .index-main-monster-container .index-monster-content-left .index-monster-video iframe {
-      width: 350px;
-      height: 160px; }
-  main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right {
-    font-size: 13px; }
-    main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right .index-heroes-video iframe {
-      width: 350px;
-      height: 160px; }
-  .about-container-left-links {
-    display: flex;
-    flex-direction: column; }
-    .about-container-left-links a {
-      margin-bottom: 20px; }
-  .grid-container {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto auto auto auto;
-    grid-template-areas: "hero hero" "arch arch" "sav sav" "wind wind"; }
-    .grid-container .hero-hero {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      padding-top: 3rem;
-      padding-bottom: 3rem;
-      padding-left: 1rem;
-      padding-right: 1rem;
-      align-items: center;
-      text-align: center; }
-      .grid-container .hero-hero .heroes-container-right {
-        width: 100%; }
-        .grid-container .hero-hero .heroes-container-right p {
-          padding: 0; }
-      .grid-container .hero-hero .heroes-container-left {
-        width: 100%; }
-    .grid-container .hero-archmage {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      padding-top: 3rem;
-      padding-bottom: 3rem;
-      padding-left: 1rem;
-      padding-right: 1rem;
-      align-items: center;
-      text-align: center; }
-      .grid-container .hero-archmage .heroes-container-right {
-        width: 100%; }
-        .grid-container .hero-archmage .heroes-container-right p {
-          padding: 0; }
-      .grid-container .hero-archmage .heroes-container-left {
-        width: 100%; }
-    .grid-container .hero-savior {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      padding-top: 3rem;
-      padding-bottom: 3rem;
-      padding-left: 1rem;
-      padding-right: 1rem;
-      align-items: center;
-      text-align: center; }
-      .grid-container .hero-savior .heroes-container-right {
-        width: 100%; }
-        .grid-container .hero-savior .heroes-container-right p {
-          padding: 0; }
-      .grid-container .hero-savior .heroes-container-left {
-        width: 100%; }
-    .grid-container .hero-windstalker {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      padding-top: 3rem;
-      padding-bottom: 3rem;
-      padding-left: 1rem;
-      padding-right: 1rem;
-      align-items: center;
-      text-align: center; }
-      .grid-container .hero-windstalker .heroes-container-right {
-        width: 100%; }
-        .grid-container .hero-windstalker .heroes-container-right p {
-          padding: 0; }
-      .grid-container .hero-windstalker .heroes-container-left {
-        width: 100%; }
-  footer .footer-main-section .footer-main-container .footer-container-left .footer-container-left-img img {
-    height: 50px; }
-  footer .footer-main-section .footer-main-container .footer-container-right a {
-    font-size: 14px; }
-  footer .scrolltotop .scroll-img-top a .sticky-top-button {
-    height: 60px; } }
-
-@media screen and (max-width: 990px) {
-  .tale-container-fluid .tale-navbar-logo .tale-navbar-brand img {
-    width: 60%; }
-  .tale-container-fluid .tale-navbar-logo .tale-navbar-button {
-    position: fixed;
-    top: 50px;
-    right: 45px; }
-  .tale-container-fluid .navbar-dropdowns .navbar-nav {
-    display: flex;
-    flex-direction: row; }
-    .tale-container-fluid .navbar-dropdowns .navbar-nav .dropdown-menu {
-      position: absolute !important; }
-  .tale-container-fluid .navbar-login {
-    display: none; }
-  .news-nav-tabs-section div .tale-pill-tab {
-    padding-right: 3rem; }
-  .news-nav-tabs-section div div .news-grid-container-patch-notes {
-    width: 100%;
-    display: grid;
-    padding: 20px;
-    gap: 5px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto auto auto;
-    grid-template-areas: "pnews01img pnews02img" "patch01 patch02" "ptitle01 ptitle02"; }
-  .news-nav-tabs-section div div .news-grid-container-events {
-    width: 100%;
-    display: grid;
-    padding: 20px;
-    gap: 5px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto auto auto;
-    grid-template-areas: "enews01img enews02img" "event01 event02" "etitle01 etitle02"; } }
-
-@media screen and (max-width: 900px) {
-  .tale-container-fluid {
+@media screen and (max-width: 768px) {
+  body header nav .tale-container-fluid {
     display: flex;
     justify-content: space-between; }
-    .tale-container-fluid .tale-navbar-logo .tale-navbar-brand img {
-      width: 60%; }
-    .tale-container-fluid .tale-navbar-logo .tale-navbar-button {
+    body header nav .tale-container-fluid .tale-navbar-logo .tale-navbar-brand img {
+      width: 65%; }
+    body header nav .tale-container-fluid .tale-navbar-logo .tale-navbar-button {
       position: fixed;
       top: 50px;
       right: 45px; }
-    .tale-container-fluid .navbar-dropdowns .navbar-nav {
-      display: flex;
-      flex-direction: row;
-      justify-content: left; }
-      .tale-container-fluid .navbar-dropdowns .navbar-nav .dropdown-menu {
-        position: absolute !important; }
-    .tale-container-fluid .navbar-login {
+    body header nav .tale-container-fluid .navbar-login {
       display: none; }
-  main .index-main-history-section .index-main-history-container .index-history-content-left {
-    font-size: 16px; }
-    main .index-main-history-section .index-main-history-container .index-history-content-left .index-history-title h2 {
-      font-size: 24px; }
-    main .index-main-history-section .index-main-history-container .index-history-content-left .index-history-video iframe {
-      width: 250px;
-      height: 120px; }
-  main .index-main-world-section .index-main-world-container .index-world-content-right {
-    font-size: 15px; }
-    main .index-main-world-section .index-main-world-container .index-world-content-right .index-world-title h2 {
-      font-size: 16px; }
-    main .index-main-world-section .index-main-world-container .index-world-content-right .index-world-video iframe {
-      width: 250px;
-      height: 120px; }
-  main .index-main-monster-section .index-main-monster-container .index-monster-content-left {
-    font-size: 15px; }
-    main .index-main-monster-section .index-main-monster-container .index-monster-content-left .index-monster-title h2 {
-      font-size: 16px; }
-    main .index-main-monster-section .index-main-monster-container .index-monster-content-left .index-monster-video iframe {
-      width: 250px;
-      height: 120px; }
-  main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right {
-    font-size: 15px; }
-    main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right .index-heroes-title h2 {
-      font-size: 16px; }
-    main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right .index-heroes-video iframe {
-      width: 250px;
-      height: 120px; }
-  footer .footer-main-section .footer-main-container .footer-container-left .footer-container-left-img img {
-    height: 40px; }
-  footer .footer-main-section .footer-main-container .footer-container-right {
-    margin-right: 0px; }
-    footer .footer-main-section .footer-main-container .footer-container-right a {
-      font-size: 12px; }
-  footer .scrolltotop .scroll-img-top a .sticky-top-button {
-    display: none; } }
-
-@media screen and (max-width: 768px) {
-  .tale-container-fluid .tale-navbar-logo .navbar-dropdowns .navbar-nav {
+  body header nav .navbar-dropdowns .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
     margin-left: 1rem;
     margin-right: 1rem; }
-    .tale-container-fluid .tale-navbar-logo .navbar-dropdowns .navbar-nav .nav-item {
-      position: static; }
-      .tale-container-fluid .tale-navbar-logo .navbar-dropdowns .navbar-nav .nav-item .dropdown-menu {
+    body header nav .navbar-dropdowns .navbar-nav .nav-item {
+      position: static;
+      margin-left: 2rem;
+      margin-right: 2rem; }
+      body header nav .navbar-dropdowns .navbar-nav .nav-item .dropdown-menu.show {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         position: absolute;
         left: 0;
         left: 0%;
@@ -1138,171 +968,272 @@ footer .scrolltotop {
         padding-left: 0rem;
         padding-right: 0rem;
         width: 100%; }
-        .tale-container-fluid .tale-navbar-logo .navbar-dropdowns .navbar-nav .nav-item .dropdown-menu .dropdown-menu-box li {
-          margin-left: 0.5rem;
-          margin-right: 0.5rem; }
-  .nav-item.dropdown {
-    position: static; }
-  .dropdown-menu.show {
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    left: 0;
-    left: 0%;
-    right: 0%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 0rem;
-    padding-right: 0rem;
-    width: 100%; }
-  main .index-main-history-section .index-main-history-container {
+        body header nav .navbar-dropdowns .navbar-nav .nav-item .dropdown-menu.show .dropdown-menu-box li {
+          margin-left: 15rem;
+          margin-right: 15rem; }
+  body main .index-main-history-section .index-main-history-container {
     display: flex;
     flex-direction: column;
     padding-right: 15px;
     padding-left: 15px; }
-    main .index-main-history-section .index-main-history-container .index-history-content-left {
+    body main .index-main-history-section .index-main-history-container .index-history-content-left {
       padding: 0; }
-      main .index-main-history-section .index-main-history-container .index-history-content-left .index-history-title h1 {
+      body main .index-main-history-section .index-main-history-container .index-history-content-left .index-history-title h1 {
         font-size: 24px; }
-      main .index-main-history-section .index-main-history-container .index-history-content-left .index-history-text {
+      body main .index-main-history-section .index-main-history-container .index-history-content-left .index-history-text {
         font-size: 15px;
         padding-left: 25px;
         padding-right: 25px;
         padding-top: 25px; }
-      main .index-main-history-section .index-main-history-container .index-history-content-left .index-history-video iframe {
+      body main .index-main-history-section .index-main-history-container .index-history-content-left .index-history-video iframe {
         width: 450px;
         height: 360px; }
-    main .index-main-history-section .index-main-history-container .index-history-content-right {
+    body main .index-main-history-section .index-main-history-container .index-history-content-right {
       display: inherit; }
-      main .index-main-history-section .index-main-history-container .index-history-content-right img {
+      body main .index-main-history-section .index-main-history-container .index-history-content-right img {
         width: 75%; }
-  main .index-main-world-section .index-main-world-container {
+  body main .index-main-world-section .index-main-world-container {
     display: flex;
     flex-direction: column-reverse;
     padding-right: 15px;
     padding-left: 15px; }
-    main .index-main-world-section .index-main-world-container .index-world-content-right {
+    body main .index-main-world-section .index-main-world-container .index-world-content-right {
       padding: 0; }
-      main .index-main-world-section .index-main-world-container .index-world-content-right .index-world-title h2 {
+      body main .index-main-world-section .index-main-world-container .index-world-content-right .index-world-title h2 {
         font-size: 24px; }
-      main .index-main-world-section .index-main-world-container .index-world-content-right .index-world-text {
+      body main .index-main-world-section .index-main-world-container .index-world-content-right .index-world-text {
         font-size: 15px;
         padding-left: 25px;
         padding-right: 25px;
         padding-top: 25px; }
-      main .index-main-world-section .index-main-world-container .index-world-content-right .index-world-video iframe {
+      body main .index-main-world-section .index-main-world-container .index-world-content-right .index-world-video iframe {
         width: 450px;
         height: 360px; }
-    main .index-main-world-section .index-main-world-container .index-world-content-left {
+    body main .index-main-world-section .index-main-world-container .index-world-content-left {
       display: inherit; }
-      main .index-main-world-section .index-main-world-container .index-world-content-left img {
+      body main .index-main-world-section .index-main-world-container .index-world-content-left img {
         width: 75%; }
-  main .index-main-monster-section .index-main-monster-container {
+  body main .index-main-monster-section .index-main-monster-container {
     display: flex;
     flex-direction: column;
     padding-right: 15px;
     padding-left: 15px; }
-    main .index-main-monster-section .index-main-monster-container .index-monster-content-left {
+    body main .index-main-monster-section .index-main-monster-container .index-monster-content-left {
       padding: 0; }
-      main .index-main-monster-section .index-main-monster-container .index-monster-content-left .index-monster-title h2 {
+      body main .index-main-monster-section .index-main-monster-container .index-monster-content-left .index-monster-title h2 {
         font-size: 24px; }
-      main .index-main-monster-section .index-main-monster-container .index-monster-content-left .index-monster-text {
+      body main .index-main-monster-section .index-main-monster-container .index-monster-content-left .index-monster-text {
         font-size: 15px;
         padding-left: 25px;
         padding-right: 25px;
         padding-top: 25px; }
-      main .index-main-monster-section .index-main-monster-container .index-monster-content-left .index-monster-video iframe {
+      body main .index-main-monster-section .index-main-monster-container .index-monster-content-left .index-monster-video iframe {
         width: 450px;
         height: 360px; }
-    main .index-main-monster-section .index-main-monster-container .index-monster-content-right {
+    body main .index-main-monster-section .index-main-monster-container .index-monster-content-right {
       display: inherit; }
-      main .index-main-monster-section .index-main-monster-container .index-monster-content-right img {
+      body main .index-main-monster-section .index-main-monster-container .index-monster-content-right img {
         width: 75%; }
-  main .index-main-heroes-section .index-main-heroes-container {
+  body main .index-main-heroes-section .index-main-heroes-container {
     display: flex;
     flex-direction: column-reverse;
     padding-right: 15px;
     padding-left: 15px; }
-    main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right {
+    body main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right {
       padding: 0; }
-      main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right .index-heroes-title h2 {
+      body main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right .index-heroes-title h2 {
         font-size: 24px; }
-      main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right .index-heroes-text {
+      body main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right .index-heroes-text {
         font-size: 15px;
         padding-left: 25px;
         padding-right: 25px;
         padding-top: 25px; }
-      main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right .index-heroes-video iframe {
+      body main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right .index-heroes-video iframe {
         width: 450px;
         height: 360px; }
-    main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-left {
+    body main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-left {
       display: inherit; }
-      main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-left img {
+      body main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-left img {
         width: 75%; }
-  .heroes-main-section .heroes-classes .hero-hero .heroes-container-right p {
-    font-size: 20px; }
-  .heroes-main-section .heroes-classes .hero-hero .heroes-container-right iframe {
-    display: none; }
-  .heroes-main-section .heroes-classes .hero-archmage .heroes-container-right p {
-    font-size: 20px; }
-  .heroes-main-section .heroes-classes .hero-archmage .heroes-container-right iframe {
-    display: none; }
-  .heroes-main-section .heroes-classes .hero-savior .heroes-container-right p {
-    font-size: 20px; }
-  .heroes-main-section .heroes-classes .hero-savior .heroes-container-right iframe {
-    display: none; }
-  .heroes-main-section .heroes-classes .hero-windstalker .heroes-container-right p {
-    font-size: 20px; }
-  .heroes-main-section .heroes-classes .hero-windstalker .heroes-container-right iframe {
-    display: none; }
-  footer .footer-main-section .footer-main-container {
+  body main .heroes-main-section .grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "hero" "arch" "sav" "wind"; }
+    body main .heroes-main-section .grid-container .hero-hero {
+      display: flex;
+      flex-direction: column; }
+      body main .heroes-main-section .grid-container .hero-hero .heroes-container-left {
+        width: 60%; }
+        body main .heroes-main-section .grid-container .hero-hero .heroes-container-left .hero-img01 img {
+          margin-left: 0; }
+      body main .heroes-main-section .grid-container .hero-hero .heroes-container-right {
+        width: 75%; }
+        body main .heroes-main-section .grid-container .hero-hero .heroes-container-right p {
+          padding-right: 0;
+          font-size: 15px;
+          padding-bottom: 0;
+          margin-bottom: 20px;
+          margin-top: 10px;
+          font-size: 20px; }
+        body main .heroes-main-section .grid-container .hero-hero .heroes-container-right iframe {
+          display: initial;
+          margin-bottom: 30px; }
+    body main .heroes-main-section .grid-container .hero-archmage {
+      display: flex;
+      flex-direction: column; }
+      body main .heroes-main-section .grid-container .hero-archmage .heroes-container-left {
+        width: 60%; }
+        body main .heroes-main-section .grid-container .hero-archmage .heroes-container-left .hero-img01 img {
+          margin-left: 0; }
+      body main .heroes-main-section .grid-container .hero-archmage .heroes-container-right {
+        width: 75%; }
+        body main .heroes-main-section .grid-container .hero-archmage .heroes-container-right p {
+          padding-right: 0;
+          font-size: 15px;
+          padding-bottom: 0;
+          margin-bottom: 20px;
+          margin-top: 10px;
+          font-size: 20px; }
+        body main .heroes-main-section .grid-container .hero-archmage .heroes-container-right iframe {
+          display: initial;
+          margin-bottom: 30px; }
+    body main .heroes-main-section .grid-container .hero-savior {
+      display: flex;
+      flex-direction: column; }
+      body main .heroes-main-section .grid-container .hero-savior .heroes-container-left {
+        width: 60%; }
+        body main .heroes-main-section .grid-container .hero-savior .heroes-container-left .hero-img01 img {
+          margin-left: 0; }
+      body main .heroes-main-section .grid-container .hero-savior .heroes-container-right {
+        width: 75%; }
+        body main .heroes-main-section .grid-container .hero-savior .heroes-container-right p {
+          padding-right: 0;
+          font-size: 15px;
+          padding-bottom: 0;
+          margin-bottom: 20px;
+          margin-top: 10px;
+          font-size: 20px; }
+        body main .heroes-main-section .grid-container .hero-savior .heroes-container-right iframe {
+          display: initial;
+          margin-bottom: 30px; }
+    body main .heroes-main-section .grid-container .hero-windstalker {
+      display: flex;
+      flex-direction: column; }
+      body main .heroes-main-section .grid-container .hero-windstalker .heroes-container-left {
+        width: 60%; }
+        body main .heroes-main-section .grid-container .hero-windstalker .heroes-container-left .hero-img01 img {
+          margin-left: 0; }
+      body main .heroes-main-section .grid-container .hero-windstalker .heroes-container-right {
+        width: 75%; }
+        body main .heroes-main-section .grid-container .hero-windstalker .heroes-container-right p {
+          padding-right: 0;
+          font-size: 15px;
+          padding-bottom: 0;
+          margin-bottom: 20px;
+          margin-top: 10px;
+          font-size: 20px; }
+        body main .heroes-main-section .grid-container .hero-windstalker .heroes-container-right iframe {
+          display: initial;
+          margin-bottom: 30px; }
+  .news-main-class .news-main-container .news-main-title {
+    font-size: 35px; }
+  .news-main-class .news-nav-tabs-section {
     display: flex;
     justify-content: center;
+    align-items: right; }
+    .news-main-class .news-nav-tabs-section .tale-pill-tab {
+      padding: 0;
+      padding-right: 30px;
+      margin: 0;
+      justify-content: center !important;
+      align-items: center !important; }
+    .news-main-class .news-nav-tabs-section .tab-content div .news-grid-container-events {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto;
+      grid-template-areas: "enews01img" "event01" "etitle01"; }
+  .main-screen-complete-page .about-main-section .about-main-container {
+    display: flex;
+    flex-direction: row;
     align-items: center; }
-    footer .footer-main-section .footer-main-container .footer-container-left .footer-container-left-img {
-      display: flex;
-      justify-content: center;
+    .main-screen-complete-page .about-main-section .about-main-container .about-container-left .about-container-left-title {
       align-items: center; }
-      footer .footer-main-section .footer-main-container .footer-container-left .footer-container-left-img img {
-        height: 40px; }
-    footer .footer-main-section .footer-main-container .footer-container-left .footer-container-left-text p {
-      margin-bottom: 0;
-      padding-top: 1rem;
-      font-size: 12px; }
+    .main-screen-complete-page .about-main-section .about-main-container .about-container-left .about-container-left-text {
+      font-size: 12.5px;
+      margin-left: 10px;
+      margin-right: 10px; }
+    .main-screen-complete-page .about-main-section .about-main-container .about-container-left .about-container-left-links {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .main-screen-complete-page .about-main-section .about-main-container .about-container-left .about-container-left-links a {
+        margin-bottom: 20px; }
+    .main-screen-complete-page .about-main-section .about-main-container .about-container-right {
+      width: 75%; }
+  footer .footer-main-section .footer-main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    footer .footer-main-section .footer-main-container .footer-container-left {
+      padding-left: 10px; }
+      footer .footer-main-section .footer-main-container .footer-container-left .footer-container-left-img {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        footer .footer-main-section .footer-main-container .footer-container-left .footer-container-left-img img {
+          height: 40px; }
+      footer .footer-main-section .footer-main-container .footer-container-left .footer-container-left-text p {
+        margin-bottom: 0;
+        padding-top: 1rem;
+        font-size: 12px; }
     footer .footer-main-section .footer-main-container .footer-container-right {
       padding-bottom: 1rem;
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-direction: column; }
+      flex-direction: column;
+      margin-right: 0px; }
       footer .footer-main-section .footer-main-container .footer-container-right a {
         margin-right: 0;
         padding-left: 0;
-        padding-right: 0;
+        padding-right: 100px;
         padding-bottom: 10px;
-        border-left: 0; }
+        border-left: 0;
+        font-size: 12px; }
   footer .scrolltotop .scroll-img-top a .sticky-top-button {
     display: none; } }
 
 @media screen and (max-width: 375px) {
   body header nav .tale-container-fluid .tale-navbar-logo .tale-navbar-brand img {
-    width: 45%; }
+    width: 55%; }
   body header nav .tale-container-fluid .tale-navbar-logo .tale-navbar-button {
-    font-size: 1rem;
     position: fixed;
-    top: 35px;
-    right: 20px; }
-    body header nav .tale-container-fluid .tale-navbar-logo .tale-navbar-button .navbar-toggler-icon {
-      width: 20px; }
-  body header nav .tale-container-fluid .navbar-dropdowns .navbar-nav .nav-item {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    font-size: 13px; }
-  body header nav .tale-container-fluid .navbar-dropdowns .navbar-nav .nav-item.dropdown {
-    position: static; }
-    body header nav .tale-container-fluid .navbar-dropdowns .navbar-nav .nav-item.dropdown .dropdown-menu.show {
-      display: flex;
-      flex-direction: column; }
+    top: 40px;
+    right: 25px; }
+  body header nav .navbar-dropdowns .navbar-nav {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem; }
+    body header nav .navbar-dropdowns .navbar-nav .nav-item {
+      position: static;
+      margin-top: 10px;
+      margin-right: 20px;
+      margin-left: 20px; }
+      body header nav .navbar-dropdowns .navbar-nav .nav-item .dropdown-menu.show {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        left: 0%;
+        right: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        width: 100%; }
+        body header nav .navbar-dropdowns .navbar-nav .nav-item .dropdown-menu.show .dropdown-menu-box li {
+          margin-left: 2rem;
+          margin-right: 2rem; }
   body main .index-main-history-section .index-main-history-container .index-history-content-left {
     margin-left: 15px;
     margin-right: 15px; }
@@ -1310,6 +1241,8 @@ footer .scrolltotop {
       font-size: 30px; }
     body main .index-main-history-section .index-main-history-container .index-history-content-left .index-history-text p {
       font-size: 14px; }
+    body main .index-main-history-section .index-main-history-container .index-history-content-left .index-history-video iframe {
+      display: none; }
   body main .index-main-history-section .index-main-history-container .index-history-content-right img {
     padding-bottom: 10px; }
   body main .index-main-world-section .index-main-world-container .index-world-content-right {
@@ -1322,6 +1255,8 @@ footer .scrolltotop {
       font-size: 30px; }
     body main .index-main-world-section .index-main-world-container .index-world-content-right .index-world-text p {
       font-size: 14px; }
+    body main .index-main-world-section .index-main-world-container .index-world-content-right .index-world-video iframe {
+      display: none; }
   body main .index-main-world-section .index-main-world-container .index-world-content-left img {
     padding-bottom: 10px; }
   body main .index-main-monster-section .index-main-monster-container .index-monster-content-left {
@@ -1335,6 +1270,8 @@ footer .scrolltotop {
     body main .index-main-monster-section .index-main-monster-container .index-monster-content-left .index-monster-text p {
       font-size: 14px;
       margin-bottom: 0px; }
+    body main .index-main-monster-section .index-main-monster-container .index-monster-content-left .index-monster-video iframe {
+      display: none; }
   body main .index-main-monster-section .index-main-monster-container .index-monster-content-right img {
     padding-bottom: 10px; }
   body main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right {
@@ -1347,6 +1284,8 @@ footer .scrolltotop {
       font-size: 30px; }
     body main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right .index-heroes-text p {
       font-size: 14px; }
+    body main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-right .index-heroes-video iframe {
+      display: none; }
   body main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-left img {
     padding-bottom: 10px; }
   body main .heroes-main-section .grid-container {
@@ -1357,47 +1296,59 @@ footer .scrolltotop {
     body main .heroes-main-section .grid-container .hero-hero .heroes-container-left {
       width: 80%; }
       body main .heroes-main-section .grid-container .hero-hero .heroes-container-left .hero-img01 img {
-        margin-left: 0; }
+        margin-left: 25px; }
     body main .heroes-main-section .grid-container .hero-hero .heroes-container-right {
-      width: 75%; }
+      width: 75%;
+      margin-bottom: 15px; }
       body main .heroes-main-section .grid-container .hero-hero .heroes-container-right p {
         padding-right: 0;
         font-size: 15px;
         padding-bottom: 0;
-        margin-bottom: 0; }
+        text-align: center; }
+      body main .heroes-main-section .grid-container .hero-hero .heroes-container-right iframe {
+        display: none; }
     body main .heroes-main-section .grid-container .hero-archmage .heroes-container-left {
       width: 80%; }
       body main .heroes-main-section .grid-container .hero-archmage .heroes-container-left .hero-img01 img {
-        margin-left: 0; }
+        margin-left: 25px; }
     body main .heroes-main-section .grid-container .hero-archmage .heroes-container-right {
-      width: 75%; }
+      width: 75%;
+      margin-bottom: 15px; }
       body main .heroes-main-section .grid-container .hero-archmage .heroes-container-right p {
         padding-right: 0;
         font-size: 15px;
         padding-bottom: 0;
-        margin-bottom: 0; }
+        text-align: center; }
+      body main .heroes-main-section .grid-container .hero-archmage .heroes-container-right iframe {
+        display: none; }
     body main .heroes-main-section .grid-container .hero-savior .heroes-container-left {
       width: 80%; }
       body main .heroes-main-section .grid-container .hero-savior .heroes-container-left .hero-img01 img {
-        margin-left: 0; }
+        margin-left: 25px; }
     body main .heroes-main-section .grid-container .hero-savior .heroes-container-right {
-      width: 75%; }
+      width: 75%;
+      margin-bottom: 15px; }
       body main .heroes-main-section .grid-container .hero-savior .heroes-container-right p {
         padding-right: 0;
         font-size: 15px;
         padding-bottom: 0;
-        margin-bottom: 0; }
+        text-align: center; }
+      body main .heroes-main-section .grid-container .hero-savior .heroes-container-right iframe {
+        display: none; }
     body main .heroes-main-section .grid-container .hero-windstalker .heroes-container-left {
       width: 80%; }
       body main .heroes-main-section .grid-container .hero-windstalker .heroes-container-left .hero-img01 img {
-        margin-left: 0; }
+        margin-left: 25px; }
     body main .heroes-main-section .grid-container .hero-windstalker .heroes-container-right {
-      width: 75%; }
+      width: 75%;
+      margin-bottom: 15px; }
       body main .heroes-main-section .grid-container .hero-windstalker .heroes-container-right p {
         padding-right: 0;
         font-size: 15px;
         padding-bottom: 0;
-        margin-bottom: 0; }
+        text-align: center; }
+      body main .heroes-main-section .grid-container .hero-windstalker .heroes-container-right iframe {
+        display: none; }
   body .main-screen-complete-page {
     height: auto; }
     body .main-screen-complete-page .sign-up-container .sign-up-form-container .sign-up-form {

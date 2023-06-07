@@ -10,6 +10,8 @@ footer{
             @include justify (flex, space-between);
             color: beige;
             .footer-container-left{
+                margin-left: 20px;
+                margin-top: 10px;
                 .footer-container-left-img{
                     a{
                         img{
