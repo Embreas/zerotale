@@ -17,6 +17,9 @@ main{
         @include direction (flex, column);
         align-items: end;
         padding-top: 40px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.089), rgba(130, 15, 238, 0.055)), url(../img/news-patch-aie-modal-002.png);
+        background-repeat: no-repeat;
+        background-size: cover;
         .tale-pill-tab{
             padding-right: 3rem;
             .nav-item{

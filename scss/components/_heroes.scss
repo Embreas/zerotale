@@ -1,229 +1,247 @@
-main{
-    .heroes-main-section{
-        .grid-container{
-            width: 100%;
-            display: grid;
-            grid-template-columns: repeat(2,1fr);
-            grid-template-rows: auto auto auto auto;
-            grid-template-areas:
-            "hero hero"
-            "arch arch"
-            "sav sav"
-            "wind wind"
-            ;
-            .hero-hero{
-                background-image: url(../img/class-bg.jpg);
-                background-repeat: no-repeat;
-                background-size: cover;
-                grid-area: hero;
-                @include flex (flex, space-between, center);
-                padding-left: 15px;
-                position: relative;
-                #hero{
-                    @extend %anchor;
-                }
-                .heroes-container-left{
-                    width: 50%;
-                    @include flex (flex, center, center);
-                    flex-direction: column;
-                    padding-top: 15px;
-                    padding-bottom: 15px;
-                    .hero-img01{
-                        img{
-                            width: 75%;
-                            margin-left: 25px;
-                            margin-bottom: 10px;
-                            border: 1px solid $color-border;
-                            border-radius: 10px;
-                        }
+body{
+    main{
+        .heroes-main-section{
+            .grid-container{
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                grid-template-rows: auto auto auto auto;
+                grid-template-areas:
+                "hero hero"
+                "arch arch"
+                "sav sav"
+                "wind wind"
+                ;
+                .hero-hero{
+                    background-image: url(../img/class-bg.jpg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    grid-area: hero;
+                    @include flex (flex, space-between, center);
+                    padding-left: 15px;
+                    position: relative;
+                    #hero{
+                        @extend %anchor;
                     }
-                    .hero-img02{
-                        img{
-                            width: 100%;
-                            padding-top: 5px;
-                            border: 1px solid $color-border;
-                            border-radius: 10px;
-                            transition: 1s;
-                            &:hover{
-                                transform: scale(1.05);
+                    .heroes-container-left{
+                        width: 50%;
+                        @include flex (flex, center, center);
+                        flex-direction: column;
+                        padding-top: 15px;
+                        padding-bottom: 15px;
+                        .hero-img01{
+                            img{
+                                width: 75%;
+                                margin-left: 25px;
+                                margin-bottom: 10px;
+                                border: 1px solid $color-border;
+                                border-radius: 10px;
+                            }
+                        }
+                        .hero-img02{
+                            img{
+                                width: 100%;
+                                padding-top: 5px;
+                                border: 1px solid $color-border;
+                                border-radius: 10px;
+                                transition: 1s;
+                                &:hover{
+                                    transform: scale(1.05);
+                                }
                             }
                         }
                     }
-                }
-                .heroes-container-right{
-                    width: 50%;
-                    @extend %flex;
-                    flex-direction: column;
-                    p{
-                        width: 100%;
-                        padding-bottom: 10px;
-                        padding-right: 30px;
-                        color: $color-border;
-                    }
-                    iframe{
-                        padding-top: 10px;
-                    }
-                }
-            }
-            .hero-archmage{
-                background-image: url(../img/class-bg.jpg);
-                background-repeat: no-repeat;
-                background-size: cover;
-                grid-area: arch;
-                @include flex (flex, space-between, center);
-                padding-left: 15px;
-                position: relative;
-                #archmage{
-                    @extend %anchor;
-                }
-                .heroes-container-left{
-                    width: 50%;
-                    @include flex (flex, center, center);
-                    flex-direction: column;
-                    padding-top: 15px;
-                    padding-bottom: 15px;
-                    .archmage-img01{
-                        img{
-                            width: 75%;
-                            margin-left: 25px;
-                            margin-bottom: 10px;
-                            border: 1px solid $color-border;
-                            border-radius: 10px;
+                    .heroes-container-right{
+                        width: 50%;
+                        @extend %flex;
+                        flex-direction: column;
+                        h1{
+                            color: $color-border;
+                            text-align: center;
+                        }
+                        p{
+                            width: 100%;
+                            padding-bottom: 10px;
+                            padding-right: 30px;
+                            color: $color-border;
+                        }
+                        iframe{
+                            padding-top: 10px;
                         }
                     }
-                    .archmage-img02{
-                        img{
-                            width: 100%;
-                            padding-top: 5px;
-                            border: 1px solid $color-border;
-                            border-radius: 10px;
-                            transition: 1s;
-                            &:hover{
-                                transform: scale(1.05);
+                }
+                .hero-archmage{
+                    background-image: url(../img/class-bg.jpg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    grid-area: arch;
+                    @include flex (flex, space-between, center);
+                    padding-left: 15px;
+                    position: relative;
+                    #archmage{
+                        @extend %anchor;
+                    }
+                    .heroes-container-left{
+                        width: 50%;
+                        @include flex (flex, center, center);
+                        flex-direction: column;
+                        padding-top: 15px;
+                        padding-bottom: 15px;
+                        .archmage-img01{
+                            img{
+                                width: 75%;
+                                margin-left: 25px;
+                                margin-bottom: 10px;
+                                border: 1px solid $color-border;
+                                border-radius: 10px;
+                            }
+                        }
+                        .archmage-img02{
+                            img{
+                                width: 100%;
+                                padding-top: 5px;
+                                border: 1px solid $color-border;
+                                border-radius: 10px;
+                                transition: 1s;
+                                &:hover{
+                                    transform: scale(1.05);
+                                }
                             }
                         }
                     }
-                }
-                .heroes-container-right{
-                    width: 50%;
-                    @extend %flex;
-                    flex-direction: column;
-                    p{
-                        width: 100%;
-                        padding-bottom: 10px;
-                        padding-right: 30px;
-                        color: $color-border;
-                    }
-                    iframe{
-                        padding-top: 10px;
-                    }
-                }
-            }
-            .hero-savior{
-                background-image: url(../img/class-bg.jpg);
-                background-repeat: no-repeat;
-                background-size: cover;
-                grid-area: sav;
-                @include flex (flex, space-between, center);
-                padding-left: 15px;
-                position: relative;
-                #savior{
-                    @extend %anchor;
-                }
-                .heroes-container-left{
-                    width: 50%;
-                    @include direction (flex, column);
-                    align-items: center;
-                    padding-top: 15px;
-                    padding-bottom: 15px;
-                    .savior-img01{
-                        img{
-                            width: 75%;
-                            margin-left: 25px;
-                            margin-bottom: 10px;
-                            border: 1px solid $color-border;
-                            border-radius: 10px;
+                    .heroes-container-right{
+                        width: 50%;
+                        @extend %flex;
+                        flex-direction: column;
+                        h2{
+                            color: $color-border;
+                            text-align: center;
+                        }
+                        p{
+                            width: 100%;
+                            padding-bottom: 10px;
+                            padding-right: 30px;
+                            color: $color-border;
+                        }
+                        iframe{
+                            padding-top: 10px;
                         }
                     }
-                    .savior-img02{
-                        img{
-                            width: 100%;
-                            padding-top: 5px;
-                            border: 1px solid $color-border;
-                            border-radius: 10px;
-                            transition: 1s;
-                            &:hover{
-                                transform: scale(1.05);
+                }
+                .hero-savior{
+                    background-image: url(../img/class-bg.jpg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    grid-area: sav;
+                    @include flex (flex, space-between, center);
+                    padding-left: 15px;
+                    position: relative;
+                    #savior{
+                        @extend %anchor;
+                    }
+                    .heroes-container-left{
+                        width: 50%;
+                        @include direction (flex, column);
+                        align-items: center;
+                        padding-top: 15px;
+                        padding-bottom: 15px;
+                        .savior-img01{
+                            img{
+                                width: 75%;
+                                margin-left: 25px;
+                                margin-bottom: 10px;
+                                border: 1px solid $color-border;
+                                border-radius: 10px;
+                            }
+                        }
+                        .savior-img02{
+                            img{
+                                width: 100%;
+                                padding-top: 5px;
+                                border: 1px solid $color-border;
+                                border-radius: 10px;
+                                transition: 1s;
+                                &:hover{
+                                    transform: scale(1.05);
+                                }
                             }
                         }
                     }
-                }
-                .heroes-container-right{
-                    width: 50%;
-                    @extend %flex;
-                    flex-direction: column;
-                    p{
-                        width: 100%;
-                        padding-bottom: 10px;
-                        padding-right: 30px;
-                        color: $color-border;
-                    }
-                    iframe{
-                        padding-top: 10px;
-                    }
-                }
-            }
-            .hero-windstalker{
-                background-image: url(../img/class-bg.jpg);
-                background-repeat: no-repeat;
-                background-size: cover;
-                grid-area: wind;
-                @include flex (flex, space-between, center);
-                padding-left: 15px;
-                position: relative;
-                #windstalker{
-                    @extend %anchor;
-                }
-                .heroes-container-left{
-                    width: 50%;
-                    @include flex (flex, center, center);
-                    flex-direction: column;
-                    padding-top: 15px;
-                    padding-bottom: 15px;
-                    .windstalker-img01{
-                        img{
-                            width: 75%;
-                            margin-left: 25px;
-                            margin-bottom: 10px;
-                            border: 1px solid $color-border;
-                            border-radius: 10px;
+                    .heroes-container-right{
+                        width: 50%;
+                        @extend %flex;
+                        flex-direction: column;
+                        h2{
+                            color: $color-border;
+                            text-align: center;
+                        }
+                        p{
+                            width: 100%;
+                            padding-bottom: 10px;
+                            padding-right: 30px;
+                            color: $color-border;
+                        }
+                        iframe{
+                            padding-top: 10px;
                         }
                     }
-                    .windstalker-img02{
-                        img{
-                            width: 100%;
-                            padding-top: 5px;
-                            border: 1px solid $color-border;
-                            border-radius: 10px;
-                            transition: 1s;
-                            &:hover{
-                                transform: scale(1.05);
+                }
+                .hero-windstalker{
+                    background-image: url(../img/class-bg.jpg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    grid-area: wind;
+                    @include flex (flex, space-between, center);
+                    padding-left: 15px;
+                    position: relative;
+                    #windstalker{
+                        @extend %anchor;
+                    }
+                    .heroes-container-left{
+                        width: 50%;
+                        @include flex (flex, center, center);
+                        flex-direction: column;
+                        padding-top: 15px;
+                        padding-bottom: 15px;
+                        .windstalker-img01{
+                            img{
+                                width: 75%;
+                                margin-left: 25px;
+                                margin-bottom: 10px;
+                                border: 1px solid $color-border;
+                                border-radius: 10px;
+                            }
+                        }
+                        .windstalker-img02{
+                            img{
+                                width: 100%;
+                                padding-top: 5px;
+                                border: 1px solid $color-border;
+                                border-radius: 10px;
+                                transition: 1s;
+                                &:hover{
+                                    transform: scale(1.05);
+                                }
                             }
                         }
                     }
-                }
-                .heroes-container-right{
-                    width: 50%;
-                    @extend %flex;
-                    flex-direction: column;
-                    p{
-                        width: 100%;
-                        padding-bottom: 10px;
-                        padding-right: 30px;
-                        color: $color-border;
-                    }
-                    iframe{
-                        padding-top: 10px;
+                    .heroes-container-right{
+                        width: 50%;
+                        @extend %flex;
+                        flex-direction: column;
+                        h2{
+                            color: $color-border;
+                            text-align: center;
+                        }
+                        p{
+                            width: 100%;
+                            padding-bottom: 10px;
+                            padding-right: 30px;
+                            color: $color-border;
+                        }
+                        iframe{
+                            padding-top: 10px;
+                        }
                     }
                 }
             }

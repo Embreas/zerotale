@@ -1,6 +1,5 @@
 body{
     .main-screen-complete-page{
-        height: calc(100vh - 243.3px);
         .about-main-section{
             height: 100%;
             .about-main-container {
@@ -18,6 +17,9 @@ body{
                     font-size: nth($font-size, 6);
                     padding-left: 20px;
                     padding-right: 20px;
+                    .about-container-left-title{
+                        padding-top: 25px;
+                    }
                     .about-container-left-links{
                         display: flex;
                         a{

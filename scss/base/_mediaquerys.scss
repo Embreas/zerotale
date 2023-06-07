@@ -1,352 +1,380 @@
-@media screen and (max-width:1100px){
-    main{
-        .index-main-history-section{
-            .index-main-history-container{
-                .index-history-content-left{
-                    font-size: nth($font-size, 4);
-                    .index-history-video{
-                        iframe{
-                            width: 350px;
-                            height: 160px;
+@media screen and (max-width:768px){
+    body{
+        header{
+            nav{
+                .tale-container-fluid{
+                    display: flex;
+                    justify-content: space-between;
+                    .tale-navbar-logo{
+                        .tale-navbar-brand{
+                            img{
+                                width: 65%;
+                            }
+                        }
+                        .tale-navbar-button{
+                            position: fixed;
+                            top: 50px;
+                            right: 45px;
+                        }
+                    }
+                    .navbar-login{
+                        display: none;
+                    }
+                }
+                .navbar-dropdowns{
+                    .navbar-nav{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: left;
+                        margin-left: 1rem;
+                        margin-right: 1rem;
+                        .nav-item{
+                            position: static;
+                            margin-left: 2rem;
+                            margin-right: 2rem;
+                            .dropdown-menu.show{
+                                display: flex;
+                                flex-direction: column;
+                                position: absolute;
+                                left: 0;
+                                left: 0%;
+                                right: 0%;
+                                margin-left: auto;
+                                margin-right: auto;
+                                padding-left: 0rem;
+                                padding-right: 0rem;
+                                width: 100%;
+                                .dropdown-menu-box{
+                                    li{
+                                        margin-left: 15rem;
+                                        margin-right: 15rem;
+                                    }
+                                }
+                            }
                         }
                     }
                 }
             }
         }
-        .index-main-world-section{
-            .index-main-world-container{
-                .index-world-content-right {
-                    font-size: nth($font-size, 4);
-                    .index-world-video{
-                        iframe{
-                            width: 350px;
-                            height: 160px;
+        main{
+            .index-main-history-section{
+                .index-main-history-container{
+                    display: flex;
+                    flex-direction: column;
+                    padding-right: 15px;
+                    padding-left: 15px;
+                    .index-history-content-left{
+                        padding: 0;
+                        .index-history-title{
+                            h1{
+                                font-size: nth($font-size, 9);
+                            }
+                        }
+                        .index-history-text{
+                            font-size: nth($font-size, 6);
+                            padding-left: 25px;
+                            padding-right: 25px;
+                            padding-top: 25px;
+                        }
+                        .index-history-video{
+                            iframe{
+                                width: 450px;
+                                height: 360px;
+                            }
                         }
                     }
-                }
-            }
-        }
-        .index-main-monster-section{
-            .index-main-monster-container{
-                .index-monster-content-left {
-                    font-size: nth($font-size, 4);
-                    .index-monster-video{
-                        iframe{
-                            width: 350px;
-                            height: 160px;
-                        }
-                    }
-                }
-            }
-        }
-        .index-main-heroes-section{
-            .index-main-heroes-container{
-                .index-heroes-content-right {
-                    font-size: nth($font-size, 4);
-                    .index-heroes-video{
-                        iframe{
-                            width: 350px;
-                            height: 160px;
-                        }
-                    }
-                }
-            }
-        }
-    }
-    .about-container-left-links{
-        display: flex;
-        flex-direction: column;
-        a{
-            margin-bottom: 20px;
-        }
-    }
-    .grid-container{
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: auto auto auto auto;
-        grid-template-areas:
-        "hero hero"
-        "arch arch"
-        "sav sav"
-        "wind wind"
-        ;
-        .hero-hero{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            padding-top: 3rem;
-            padding-bottom: 3rem;
-            padding-left: 1rem;
-            padding-right: 1rem;
-            align-items: center;
-            text-align: center;
-            .heroes-container-right{
-                width: 100%;
-                p{
-                    padding: 0;
-                }
-            }
-            .heroes-container-left{
-                width: 100%;
-            }
-        }
-        .hero-archmage{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            padding-top: 3rem;
-            padding-bottom: 3rem;
-            padding-left: 1rem;
-            padding-right: 1rem;
-            align-items: center;
-            text-align: center;
-            .heroes-container-right{
-                width: 100%;
-                p{
-                    padding: 0;
-                }
-            }
-            .heroes-container-left{
-                width: 100%;
-            }
-        }
-        .hero-savior{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            padding-top: 3rem;
-            padding-bottom: 3rem;
-            padding-left: 1rem;
-            padding-right: 1rem;
-            align-items: center;
-            text-align: center;
-            .heroes-container-right{
-                width: 100%;
-                p{
-                    padding: 0;
-                }
-            }
-            .heroes-container-left{
-                width: 100%;
-            }
-        }
-        .hero-windstalker{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            padding-top: 3rem;
-            padding-bottom: 3rem;
-            padding-left: 1rem;
-            padding-right: 1rem;
-            align-items: center;
-            text-align: center;
-            .heroes-container-right{
-                width: 100%;
-                p{
-                    padding: 0;
-                }
-            }
-            .heroes-container-left{
-                width: 100%;
-            }
-        }
-    }
-    footer{
-        .footer-main-section{
-            .footer-main-container{
-                .footer-container-left{
-                    .footer-container-left-img{
+                    .index-history-content-right{
+                        display: inherit;
                         img{
-                            height: 50px;
+                            width: 75%;
                         }
                     }
                 }
-                .footer-container-right{
-                    a{
-                        font-size: nth($font-size, 5);
+            }
+            .index-main-world-section{
+                .index-main-world-container{
+                    display: flex;
+                    flex-direction: column-reverse;
+                    padding-right: 15px;
+                    padding-left: 15px;
+                    .index-world-content-right {
+                        padding: 0;
+                        .index-world-title{
+                            h2{
+                                font-size: nth($font-size, 9);
+                            }
+                        }
+                        .index-world-text{
+                            font-size: nth($font-size, 6);
+                            padding-left: 25px;
+                            padding-right: 25px;
+                            padding-top: 25px;
+                        }
+                        .index-world-video{
+                            iframe{
+                                width: 450px;
+                                height: 360px;
+                            }
+                        }
+                    }
+                    .index-world-content-left{
+                        display: inherit;
+                        img{
+                            width: 75%;
+                        }
                     }
                 }
             }
-        }
-        .scrolltotop{
-            .scroll-img-top{
-                a{
-                    .sticky-top-button{
-                        height: 60px;
+            .index-main-monster-section{
+                .index-main-monster-container{
+                    display: flex;
+                    flex-direction: column;
+                    padding-right: 15px;
+                    padding-left: 15px;
+                    .index-monster-content-left{
+                        padding: 0;
+                        .index-monster-title{
+                            h2{
+                                font-size: nth($font-size, 9);
+                            }
+                        }
+                        .index-monster-text{
+                            font-size: nth($font-size, 6);
+                            padding-left: 25px;
+                            padding-right: 25px;
+                            padding-top: 25px;
+                        }
+                        .index-monster-video{
+                            iframe{
+                                width: 450px;
+                                height: 360px;
+                            }
+                        }
+                    }
+                    .index-monster-content-right{
+                        display: inherit;
+                        img{
+                            width: 75%;
+                        }
+                    }
+                }
+            }
+            .index-main-heroes-section{
+                .index-main-heroes-container{
+                    display: flex;
+                    flex-direction: column-reverse;
+                    padding-right: 15px;
+                    padding-left: 15px;
+                    .index-heroes-content-right {
+                        padding: 0;
+                        .index-heroes-title{
+                            h2{
+                                font-size: nth($font-size, 9);
+                            }
+                        }
+                        .index-heroes-text{
+                            font-size: nth($font-size, 6);
+                            padding-left: 25px;
+                            padding-right: 25px;
+                            padding-top: 25px;
+                        }
+                        .index-heroes-video{
+                            iframe{
+                                width: 450px;
+                                height: 360px;
+                            }
+                        }
+                    }
+                    .index-heroes-content-left{
+                        display: inherit;
+                        img{
+                            width: 75%;
+                        }
+                    }
+                }
+            }
+            .heroes-main-section{
+                .grid-container{
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: auto;
+                    grid-template-areas: 
+                    "hero"
+                    "arch"
+                    "sav"
+                    "wind"
+                    ;
+                    .hero-hero{
+                        display: flex;
+                        flex-direction: column;
+                        .heroes-container-left{
+                            width: 60%;
+                            .hero-img01{
+                                img{
+                                    margin-left: 0;
+                                }
+                            }
+                        }
+                        .heroes-container-right{
+                            width: 75%;
+                            p{
+                                padding-right: 0;
+                                font-size: 15px;
+                                padding-bottom: 0;
+                                margin-bottom: 20px;
+                                margin-top: 10px;
+                                font-size: nth($font-size, 8);
+                            }
+                            iframe{
+                                display: initial;
+                                margin-bottom: 30px;
+                            }
+                        }
+                    }
+                    .hero-archmage{
+                        display: flex;
+                        flex-direction: column;
+                        .heroes-container-left{
+                            width: 60%;
+                            .hero-img01{
+                                img{
+                                    margin-left: 0;
+                                }
+                            }
+                        }
+                        .heroes-container-right{
+                            width: 75%;
+                            p{
+                                padding-right: 0;
+                                font-size: 15px;
+                                padding-bottom: 0;
+                                margin-bottom: 20px;
+                                margin-top: 10px;
+                                font-size: nth($font-size, 8);
+                            }
+                            iframe{
+                                display: initial;
+                                margin-bottom: 30px;
+                            }
+                        }
+                    }
+                    .hero-savior{
+                        display: flex;
+                        flex-direction: column;
+                        .heroes-container-left{
+                            width: 60%;
+                            .hero-img01{
+                                img{
+                                    margin-left: 0;
+                                }
+                            }
+                        }
+                        .heroes-container-right{
+                            width: 75%;
+                            p{
+                                padding-right: 0;
+                                font-size: 15px;
+                                padding-bottom: 0;
+                                margin-bottom: 20px;
+                                margin-top: 10px;
+                                font-size: nth($font-size, 8);
+                            }
+                            iframe{
+                                display: initial;
+                                margin-bottom: 30px;
+                            }
+                        }
+                    }
+                    .hero-windstalker{
+                        display: flex;
+                        flex-direction: column;
+                        .heroes-container-left{
+                            width: 60%;
+                            .hero-img01{
+                                img{
+                                    margin-left: 0;
+                                }
+                            }
+                        }
+                        .heroes-container-right{
+                            width: 75%;
+                            p{
+                                padding-right: 0;
+                                font-size: 15px;
+                                padding-bottom: 0;
+                                margin-bottom: 20px;
+                                margin-top: 10px;
+                                font-size: nth($font-size, 8);
+                            }
+                            iframe{
+                                display: initial;
+                                margin-bottom: 30px;
+                            }
+                        }
                     }
                 }
             }
         }
     }
-}
-@media screen and (max-width:990px) {
-    .tale-container-fluid{
-        .tale-navbar-logo{
-            .tale-navbar-brand{
-                img{
-                    width: 60%;
-                }
-            }
-            .tale-navbar-button{
-                position: fixed;
-                top: 50px;
-                right: 45px;
+    .news-main-class{
+        .news-main-container{
+            .news-main-title{
+                font-size: 35px;
             }
         }
-        .navbar-dropdowns{
-            .navbar-nav{
-                display: flex;
-                flex-direction: row;
-                .dropdown-menu{
-                    position: absolute !important;
-                }
-            }
-        }
-        .navbar-login{
-            display: none;
-        }
-    }
-    .news-nav-tabs-section{
-        div{
+        .news-nav-tabs-section{
+            display: flex;
+            justify-content: center;
+            align-items: right;
             .tale-pill-tab{
-                padding-right: 3rem;
+                padding: 0;
+                padding-right: 30px;
+                margin: 0;
+                justify-content: center !important;
+                align-items: center !important;
             }
-            div{
-                .news-grid-container-patch-notes{
-                    width: 100%;
-                    display: grid;
-                    padding: 20px;
-                    gap: 5px;
-                    grid-template-columns: repeat(2,1fr);
-                    grid-template-rows: auto auto auto;
-                    grid-template-areas:
-                    "pnews01img pnews02img"
-                    "patch01 patch02"
-                    "ptitle01 ptitle02"
-                    ;
-                }
-                .news-grid-container-events{
-                    width: 100%;
-                    display: grid;
-                    padding: 20px;
-                    gap: 5px;
-                    grid-template-columns: repeat(2,1fr);
-                    grid-template-rows: auto auto auto;
-                    grid-template-areas:
-                    "enews01img enews02img"
-                    "event01 event02"
-                    "etitle01 etitle02"
-                    ;
+            .tab-content{
+                div{
+                    .news-grid-container-events{
+                        display: grid;
+                        grid-template-columns: repeat(2, 1fr);
+                        grid-template-rows: auto;
+                        grid-template-areas: 
+                        "enews01img"
+                        "event01"
+                        "etitle01"
+                        ;
+                    }
                 }
             }
         }
     }
-}
-@media screen and (max-width:900px){
-    .tale-container-fluid{
-        display: flex;
-        justify-content: space-between;
-        .tale-navbar-logo{
-            .tale-navbar-brand{
-                img{
-                    width: 60%;
-                }
-            }
-            .tale-navbar-button{
-                position: fixed;
-                top: 50px;
-                right: 45px;
-            }
-        }
-        .navbar-dropdowns{
-            .navbar-nav{
+    .main-screen-complete-page{
+        .about-main-section{
+            .about-main-container{
                 display: flex;
                 flex-direction: row;
-                justify-content: left;
-                .dropdown-menu{
-                    position: absolute !important;
-                }
-            }
-        }
-        .navbar-login{
-            display: none;
-        }
-    }
-    main{
-        .index-main-history-section{
-            .index-main-history-container{
-                .index-history-content-left{
-                    font-size: nth($font-size, 7);
-                    .index-history-title{
-                        h2{
-                            font-size: nth($font-size, 9);
-                        }
+                align-items: center;
+                .about-container-left{
+                    .about-container-left-title{
+                        align-items: center;
                     }
-                    .index-history-video{
-                        iframe{
-                            width: 250px;
-                            height: 120px;
+                    .about-container-left-text{
+                        font-size: 12.5px;
+                        margin-left: 10px;
+                        margin-right: 10px;
+                    }
+                    .about-container-left-links{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        a{
+                            margin-bottom: 20px;
                         }
                     }
                 }
-            }
-        }
-        .index-main-world-section{
-            .index-main-world-container{
-                .index-world-content-right {
-                    font-size: nth($font-size, 6);
-                    .index-world-title{
-                        h2{
-                            font-size: nth($font-size, 7);
-                        }
-                    }
-                    .index-world-video{
-                        iframe{
-                            width: 250px;
-                            height: 120px;
-                        }
-                    }
-                }
-            }
-        }
-        .index-main-monster-section{
-            .index-main-monster-container{
-                .index-monster-content-left {
-                    font-size: nth($font-size, 6);
-                    .index-monster-title{
-                        h2{
-                            font-size: nth($font-size, 7);
-                        }
-                    }
-                    .index-monster-video{
-                        iframe{
-                            width: 250px;
-                            height: 120px;
-                        }
-                    }
-                }
-            }
-        }
-        .index-main-heroes-section{
-            .index-main-heroes-container{
-                .index-heroes-content-right {
-                    font-size: nth($font-size, 6);
-                    .index-heroes-title{
-                        h2{
-                            font-size: nth($font-size, 7);
-                        }
-                    }
-                    .index-heroes-video{
-                        iframe{
-                            width: 250px;
-                            height: 120px;
-                        }
-                    }
+                .about-container-right{
+                    width: 75%;
                 }
             }
         }
@@ -354,16 +382,38 @@
     footer{
         .footer-main-section{
             .footer-main-container{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
                 .footer-container-left{
+                    padding-left: 10px;
                     .footer-container-left-img{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
                         img{
                             height: 40px;
                         }
                     }
+                    .footer-container-left-text p{
+                        margin-bottom: 0;
+                        padding-top: 1rem;
+                        font-size: 12px;
+                    }
                 }
                 .footer-container-right{
+                    padding-bottom: 1rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
                     margin-right: 0px;
                     a{
+                        margin-right: 0;
+                        padding-left: 0;
+                        padding-right: 100px;
+                        padding-bottom: 10px;
+                        border-left: 0;
                         font-size: nth($font-size, 3);
                     }
                 }
@@ -380,31 +430,50 @@
         }
     }
 }
-@media screen and (max-width:650px){
-    .tale-container-fluid{
-        .tale-navbar-logo{
-            .navbar-dropdowns{
-                .navbar-nav{
-                    margin-left: 1rem;
-                    margin-right: 1rem;
-                    .nav-item{
-                        position: static;
-                        .dropdown-menu{
-                            display: flex;
-                            flex-direction: row;
-                            position: absolute;
-                            left: 0;
-                            left: 0%;
-                            right: 0%;
-                            margin-left: auto;
-                            margin-right: auto;
-                            padding-left: 0rem;
-                            padding-right: 0rem;
-                            width: 100%;
-                            .dropdown-menu-box{
-                                li{
-                                    margin-left: 0.5rem;
-                                    margin-right: 0.5rem;
+@media screen and (max-width:375px){
+    body{
+        header{
+            nav{
+                .tale-container-fluid{
+                    .tale-navbar-logo{
+                        .tale-navbar-brand{
+                            img{
+                                width: 55%;
+                            }
+                        }
+                        .tale-navbar-button{
+                            position: fixed;
+                            top: 40px;
+                            right: 25px;
+                        }
+                    }
+                }
+                .navbar-dropdowns{
+                    .navbar-nav{
+                        margin-left: 0.5rem;
+                        margin-right: 0.5rem;
+                        .nav-item{
+                            position: static;
+                            margin-top: 10px;
+                            margin-right: 20px;
+                            margin-left: 20px;
+                            .dropdown-menu.show{
+                                display: flex;
+                                flex-direction: column;
+                                position: absolute;
+                                left: 0;
+                                left: 0%;
+                                right: 0%;
+                                margin-left: auto;
+                                margin-right: auto;
+                                padding-left: 0rem;
+                                padding-right: 0rem;
+                                width: 100%;
+                                .dropdown-menu-box{
+                                    li{
+                                        margin-left: 2rem;
+                                        margin-right: 2rem;
+                                    }
                                 }
                             }
                         }
@@ -412,217 +481,304 @@
                 }
             }
         }
-    }
-    .nav-item.dropdown{
-        position: static;
-    }
-    .dropdown-menu.show{
-        display: flex;
-        flex-direction: row;
-        position: absolute;
-        left: 0;
-        left: 0%;
-        right: 0%;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 0rem;
-        padding-right: 0rem;
-        width: 100%;
-    }
-    main{
-        .index-main-history-section{
-            .index-main-history-container{
+        main{
+            .index-main-history-section{
+                .index-main-history-container{
+                    .index-history-content-left{
+                        margin-left: 15px;
+                        margin-right: 15px;
+                        .index-history-title{
+                            h2{
+                                font-size: 30px;
+                            }
+                        }
+                        .index-history-text{
+                            p{
+                                font-size: 14px;
+                            }
+                        }
+                        .index-history-video{
+                            iframe{
+                                display: none;
+                            }
+                        }
+                    }
+                    .index-history-content-right{
+                        img{
+                            padding-bottom: 10px;
+                        }
+                    }
+                }
+            }
+            .index-main-world-section{
+                .index-main-world-container{
+                    .index-world-content-right{
+                        margin-left: 15px;
+                        margin-right: 15px;
+                        .index-world-video{
+                            padding-bottom: 0px;
+                            margin-top: 0px;
+                        }
+                        .index-world-title{
+                            h2{
+                                font-size: 30px;
+                            }
+                        }
+                        .index-world-text{
+                            p{
+                                font-size: 14px;
+                            }
+                        }
+                        .index-world-video{
+                            iframe{
+                                display: none;
+                            }
+                        }
+                    }
+                    .index-world-content-left{
+                        img{
+                            padding-bottom: 10px;
+                        }
+                    }
+                }
+            }
+            .index-main-monster-section{
+                .index-main-monster-container{
+                    .index-monster-content-left{
+                        margin-left: 15px;
+                        margin-right: 15px;
+                        .index-monster-video{
+                            padding-bottom: 0px;
+                            margin-top: 0px;
+                        }
+                        .index-monster-title{
+                            h2{
+                                font-size: 30px;
+                            }
+                        }
+                        .index-monster-text{
+                            p{
+                                font-size: 14px;
+                                margin-bottom: 0px;
+                            }
+                        }
+                        .index-monster-video{
+                            iframe{
+                                display: none;
+                            }
+                        }
+                    }
+                    .index-monster-content-right{
+                        img{
+                            padding-bottom: 10px;
+                        }
+                    }
+                }
+            }
+            .index-main-heroes-section{
+                .index-main-heroes-container{
+                    .index-heroes-content-right{
+                        margin-left: 15px;
+                        margin-right: 15px;
+                        .index-heroes-video{
+                            padding-bottom: 0px;
+                            margin-top: 0px;
+                        }
+                        .index-heroes-title{
+                            h2{
+                                font-size: 30px;
+                            }
+                        }
+                        .index-heroes-text{
+                            p{
+                                font-size: 14px;
+                            }
+                        }
+                        .index-heroes-video{
+                            iframe{
+                                display: none;
+                            }
+                        }
+                    }
+                    .index-heroes-content-left{
+                        img{
+                            padding-bottom: 10px;
+                        }
+                    }
+                }
+            }
+            .heroes-main-section{
+                .grid-container{
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: auto;
+                    grid-template-areas: 
+                    "hero"
+                    "arch"
+                    "sav"
+                    "wind"
+                    ;
+                    .hero-hero{
+                        .heroes-container-left{
+                            width: 80%;
+                            .hero-img01{
+                                img{
+                                    margin-left: 25px;
+                                }
+                            }
+                        }
+                        .heroes-container-right{
+                            width: 75%;
+                            margin-bottom: 15px;
+                            p{
+                                padding-right: 0;
+                                font-size: nth($font-size, 6);
+                                padding-bottom: 0;
+                                text-align: center;
+                            }
+                            iframe{
+                                display: none;
+                            }
+                        }
+                    }
+                    .hero-archmage{
+                        .heroes-container-left{
+                            width: 80%;
+                            .hero-img01{
+                                img{
+                                    margin-left: 25px;
+                                }
+                            }
+                        }
+                        .heroes-container-right{
+                            width: 75%;
+                            margin-bottom: 15px;
+                            p{
+                                padding-right: 0;
+                                font-size: nth($font-size, 6);
+                                padding-bottom: 0;
+                                text-align: center;
+                            }
+                            iframe{
+                                display: none;
+                            }
+                        }
+                    }
+                    .hero-savior{
+                        .heroes-container-left{
+                            width: 80%;
+                            .hero-img01{
+                                img{
+                                    margin-left: 25px;
+                                }
+                            }
+                        }
+                        .heroes-container-right{
+                            width: 75%;
+                            margin-bottom: 15px;
+                            p{
+                                padding-right: 0;
+                                font-size: nth($font-size, 6);
+                                padding-bottom: 0;
+                                text-align: center;
+                            }
+                            iframe{
+                                display: none;
+                            }
+                        }
+                    }
+                    .hero-windstalker{
+                        .heroes-container-left{
+                            width: 80%;
+                            .hero-img01{
+                                img{
+                                    margin-left: 25px;
+                                }
+                            }
+                        }
+                        .heroes-container-right{
+                            width: 75%;
+                            margin-bottom: 15px;
+                            p{
+                                padding-right: 0;
+                                font-size: nth($font-size, 6);
+                                padding-bottom: 0;
+                                text-align: center;
+                            }
+                            iframe{
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .main-screen-complete-page{
+            height: auto;
+            .sign-up-container{
+                .sign-up-form-container{
+                    .sign-up-form{
+                        width: auto;
+                        .form-check-container{
+                            .form-check{
+                                font-size: 14px;
+                                padding-top: 20px;
+                            }
+                        }
+                        .account-form-button{
+                            padding-top: 25px;
+                        }
+                    }
+                }
+            }
+            .about-main-section{
+                .about-main-container{
+                    display: flex;
+                    flex-direction: column;
+                    .about-container-left{
+                        .about-container-left-text{
+                            font-size: 12.5px;
+                            margin-left: 10px;
+                            margin-right: 10px;
+                        }
+                        .about-container-left-links{
+                            align-items: center;
+                        }
+                    }
+                }
+            }
+        }
+        .news-main-class{
+            .news-main-container{
+                .news-main-title{
+                    font-size: 35px;
+                }
+            }
+            .news-nav-tabs-section{
                 display: flex;
-                flex-direction: column;
-                padding-right: 15px;
-                padding-left: 15px;
-                .index-history-content-left{
+                justify-content: center;
+                align-items: center;
+                .tale-pill-tab{
                     padding: 0;
-                    .index-history-title{
-                        h2{
-                            font-size: nth($font-size, 9);
-                        }
-                    }
-                    .index-history-text{
-                        font-size: nth($font-size, 7);
-                    }
-                    .index-history-video{
-                        iframe{
-                            display: none;
-                        }
-                    }
+                    margin: 0;
+                    justify-content: center !important;
+                    align-items: center !important;
                 }
-                .index-history-content-right{
-                    display: inherit;
-                }
-            }
-        }
-        .index-main-world-section{
-            .index-main-world-container{
-                display: flex;
-                flex-direction: column-reverse;
-                padding-right: 15px;
-                padding-left: 15px;
-                .index-world-content-right {
-                    padding: 0;
-                    .index-world-title{
-                        h2{
-                            font-size: nth($font-size, 9);
-                        }
-                    }
-                    .index-world-text{
-                        font-size: nth($font-size, 7);
-                    }
-                    .index-world-video{
-                        iframe{
-                            display: none;
+                .tab-content{
+                    div{
+                        .news-grid-container-events{
+                            display: grid;
+                            grid-template-columns: repeat(1, 1fr);
+                            grid-template-rows: auto;
+                            grid-template-areas: 
+                            "enews01img"
+                            "event01"
+                            "etitle01"
+                            ;
                         }
                     }
                 }
-                .index-world-content-left{
-                    display: inherit;
-                }
             }
-        }
-        .index-main-monster-section{
-            .index-main-monster-container{
-                display: flex;
-                flex-direction: column;
-                padding-right: 15px;
-                padding-left: 15px;
-                .index-monster-content-left{
-                    padding: 0;
-                    .index-monster-title{
-                        h2{
-                            font-size: nth($font-size, 9);
-                        }
-                    }
-                    .index-monster-text{
-                        font-size: nth($font-size, 7);
-                    }
-                    .index-monster-video{
-                        iframe{
-                            display: none;
-                        }
-                    }
-                }
-                .index-monster-content-right{
-                    display: inherit;
-                }
-            }
-        }
-        .index-main-heroes-section{
-            .index-main-heroes-container{
-                display: flex;
-                flex-direction: column-reverse;
-                padding-right: 15px;
-                padding-left: 15px;
-                .index-heroes-content-right {
-                    padding: 0;
-                    .index-heroes-title{
-                        h2{
-                            font-size: nth($font-size, 9);
-                        }
-                    }
-                    .index-heroes-text{
-                        font-size: nth($font-size, 7);
-                    }
-                    .index-heroes-video{
-                        iframe{
-                            display: none;
-                        }
-                    }
-                }
-                .index-heroes-content-left{
-                    display: inherit;
-                }
-            }
-        }
-    }
-    .heroes-main-section{
-        .heroes-classes{
-            .hero-hero{
-                .heroes-container-right{
-                    p{
-                        font-size: nth($font-size, 8);
-                    }
-                    iframe{
-                        display: none;
-                    }
-                }
-            }
-            .hero-archmage{
-                .heroes-container-right{
-                    p{
-                        font-size: nth($font-size, 8);
-                    }
-                    iframe{
-                        display: none;
-                    }
-                }
-            }
-            .hero-savior{
-                .heroes-container-right{
-                    p{
-                        font-size: nth($font-size, 8);
-                    }
-                    iframe{
-                        display: none;
-                    }
-                }
-            }
-            .hero-windstalker{
-                .heroes-container-right{
-                    p{
-                        font-size: nth($font-size, 8);
-                    }
-                    iframe{
-                        display: none;
-                    }
-                }
-            }
-        }
-    }
-}
-@media screen and (max-width:460px){
-    .tale-container-fluid{
-        .tale-navbar-logo{
-            .tale-navbar-brand{
-                img{
-                    width: 55%;
-                }
-            }
-        }
-        .navbar-dropdowns{
-            .navbar-nav{
-                .nav-item{
-                    margin-left: 1rem;
-                    margin-right: 1rem;
-                }
-                .nav-item.dropdown{
-                    position: static;
-                    .dropdown-menu.show{
-                        display: flex;
-                        flex-direction: column;
-                    }
-                }
-            }
-        }
-    }
-    .sign-up-form{
-        width: 100%;
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .news-nav-tabs-section{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        .tale-pill-tab{
-            padding: 0;
-            margin: 0;
-            justify-content: center !important;
-            align-items: center !important;
         }
     }
     footer{
@@ -634,6 +790,9 @@
                 flex-direction: column-reverse;
                 .footer-container-left{
                     .footer-container-left-img{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
                         img{
                             height: 40px;
                         }
@@ -641,6 +800,7 @@
                     .footer-container-left-text p{
                         margin-bottom: 0;
                         padding-top: 1rem;
+                        font-size: 12px;
                     }
                 }
                 .footer-container-right{
