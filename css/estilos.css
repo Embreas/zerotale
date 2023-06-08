@@ -148,7 +148,8 @@ main .index-main-history-section {
       flex-direction: column;
       color: beige;
       font-size: 15px;
-      padding-left: 20px; }
+      padding-left: 20px;
+      width: 100%; }
       main .index-main-history-section .index-main-history-container .index-history-content-left .index-history-title {
         padding-top: 25px; }
       main .index-main-history-section .index-main-history-container .index-history-content-left .index-history-text {
@@ -177,6 +178,7 @@ main .index-main-world-section {
       width: 100%; }
       main .index-main-world-section .index-main-world-container .index-world-content-left img {
         width: 90%;
+        height: 90%;
         transition: 1s; }
         main .index-main-world-section .index-main-world-container .index-world-content-left img:hover {
           transform: scale(1.05); }
@@ -208,7 +210,8 @@ main .index-main-monster-section {
       color: beige;
       font-size: 15px;
       margin-left: 20px;
-      margin-right: 20px; }
+      margin-right: 20px;
+      width: 100%; }
       main .index-main-monster-section .index-main-monster-container .index-monster-content-left .index-monster-title {
         padding-top: 15px; }
       main .index-main-monster-section .index-main-monster-container .index-monster-content-left .index-monster-video {
@@ -218,6 +221,7 @@ main .index-main-monster-section {
       width: 100%; }
       main .index-main-monster-section .index-main-monster-container .index-monster-content-right img {
         width: 90%;
+        height: 90%;
         padding-top: 15px;
         padding-bottom: 15px;
         transition: 1s; }
@@ -238,6 +242,7 @@ main .index-main-heroes-section {
       width: 100%; }
       main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-left img {
         width: 90%;
+        height: 90%;
         transition: 1s; }
         main .index-main-heroes-section .index-main-heroes-container .index-heroes-content-left img:hover {
           transform: scale(1.05); }
@@ -291,7 +296,9 @@ body .main-screen-complete-page .sign-up-container {
   background-image: url(/img/laboom-elias.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  padding-bottom: 10%;
+  padding-top: 1%; }
   body .main-screen-complete-page .sign-up-container .sign-up-title-container {
     text-align: center;
     padding-top: 50px; }
@@ -557,11 +564,17 @@ main .news-nav-tabs-section {
   padding-top: 40px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.089), rgba(130, 15, 238, 0.055)), url(../img/news-patch-aie-modal-002.png);
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  padding-bottom: 61px; }
   main .news-nav-tabs-section .tale-pill-tab {
     padding-right: 3rem; }
     main .news-nav-tabs-section .tale-pill-tab .nav-item .nav-link {
-      color: black; }
+      color: white;
+      background-color: rgba(218, 163, 62, 0.678) !important;
+      border-radius: 10px;
+      padding: 4px 10px 4px 10px;
+      margin-left: 5px;
+      margin-right: 5px; }
     main .news-nav-tabs-section .tale-pill-tab .nav-item .nav-link.active {
       background-color: #daa33e !important;
       border-radius: 10px;
@@ -1019,7 +1032,8 @@ footer .scrolltotop {
     padding-right: 15px;
     padding-left: 15px; }
     body main .index-main-monster-section .index-main-monster-container .index-monster-content-left {
-      padding: 0; }
+      padding: 0;
+      margin-left: 0; }
       body main .index-main-monster-section .index-main-monster-container .index-monster-content-left .index-monster-title h2 {
         font-size: 24px; }
       body main .index-main-monster-section .index-main-monster-container .index-monster-content-left .index-monster-text {
@@ -1155,7 +1169,7 @@ footer .scrolltotop {
       grid-template-areas: "enews01img" "event01" "etitle01"; }
   .main-screen-complete-page .about-main-section .about-main-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center; }
     .main-screen-complete-page .about-main-section .about-main-container .about-container-left .about-container-left-title {
       align-items: center; }
@@ -1388,16 +1402,21 @@ footer .scrolltotop {
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse; }
-    footer .footer-main-section .footer-main-container .footer-container-left .footer-container-left-img {
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-      footer .footer-main-section .footer-main-container .footer-container-left .footer-container-left-img img {
-        height: 40px; }
-    footer .footer-main-section .footer-main-container .footer-container-left .footer-container-left-text p {
-      margin-bottom: 0;
-      padding-top: 1rem;
-      font-size: 12px; }
+    footer .footer-main-section .footer-main-container .footer-container-left {
+      padding-left: 0;
+      margin-left: 0;
+      margin-top: 0; }
+      footer .footer-main-section .footer-main-container .footer-container-left .footer-container-left-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px; }
+        footer .footer-main-section .footer-main-container .footer-container-left .footer-container-left-img img {
+          height: 40px; }
+      footer .footer-main-section .footer-main-container .footer-container-left .footer-container-left-text p {
+        margin-bottom: 0;
+        padding-top: 1rem;
+        font-size: 12px; }
     footer .footer-main-section .footer-main-container .footer-container-right {
       padding-bottom: 1rem;
       display: flex;
