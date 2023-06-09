@@ -20,11 +20,17 @@ main{
         background-image: linear-gradient(rgba(0, 0, 0, 0.089), rgba(130, 15, 238, 0.055)), url(../img/news-patch-aie-modal-002.png);
         background-repeat: no-repeat;
         background-size: cover;
+        padding-bottom: 61px;
         .tale-pill-tab{
             padding-right: 3rem;
             .nav-item{
                 .nav-link{
-                    color: black;
+                    color: white;
+                    background-color: $color-background !important;
+                    border-radius: 10px;
+                    padding: 4px 10px 4px 10px;
+                    margin-left: 5px;
+                    margin-right: 5px;
                 }
                 .nav-link.active{
                     background-color: $color-main !important;

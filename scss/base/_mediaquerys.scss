@@ -133,6 +133,7 @@
                     padding-left: 15px;
                     .index-monster-content-left{
                         padding: 0;
+                        margin-left: 0;
                         .index-monster-title{
                             h2{
                                 font-size: nth($font-size, 9);
@@ -353,7 +354,7 @@
         .about-main-section{
             .about-main-container{
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
                 align-items: center;
                 .about-container-left{
                     .about-container-left-title{
@@ -789,10 +790,14 @@
                 align-items: center;
                 flex-direction: column-reverse;
                 .footer-container-left{
+                    padding-left: 0;
+                    margin-left: 0;
+                    margin-top: 0;
                     .footer-container-left-img{
                         display: flex;
                         justify-content: center;
                         align-items: center;
+                        gap: 5px;
                         img{
                             height: 40px;
                         }
