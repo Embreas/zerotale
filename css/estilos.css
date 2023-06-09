@@ -356,10 +356,7 @@ body main .heroes-main-section .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto auto auto auto;
-  grid-template-areas: "hero hero"
- "arch arch"
- "sav sav"
- "wind wind"; }
+  grid-template-areas: "hero hero" "arch arch" "sav sav" "wind wind"; }
   body main .heroes-main-section .grid-container .hero-hero {
     background-image: url(../img/class-bg.jpg);
     background-repeat: no-repeat;
@@ -576,9 +573,7 @@ main .news-nav-tabs-section {
     gap: 5px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto auto auto;
-    grid-template-areas: "enews01img enews02img enews03img"
- "event01 event02 event03"
- "etitle01 etitle02 etitle03"; }
+    grid-template-areas: "enews01img enews02img enews03img" "event01 event02 event03" "etitle01 etitle02 etitle03"; }
     main .news-nav-tabs-section .tab-content div .news-grid-container-events section .news-events-journey .news-events-modal .modal-button-img .journey-modal {
       grid-area: enews01img;
       width: 100%; }
@@ -1064,10 +1059,7 @@ footer .scrolltotop {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
-    grid-template-areas: "hero"
- "arch"
- "sav"
- "wind"; }
+    grid-template-areas: "hero" "arch" "sav" "wind"; }
     body main .heroes-main-section .grid-container .hero-hero {
       display: flex;
       flex-direction: column; }
@@ -1160,9 +1152,7 @@ footer .scrolltotop {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: auto;
-      grid-template-areas: "enews01img"
- "event01"
- "etitle01"; }
+      grid-template-areas: "enews01img" "event01" "etitle01"; }
   .main-screen-complete-page .about-main-section .about-main-container {
     display: flex;
     flex-direction: row;
@@ -1302,10 +1292,7 @@ footer .scrolltotop {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
-    grid-template-areas: "hero"
- "arch"
- "sav"
- "wind"; }
+    grid-template-areas: "hero" "arch" "sav" "wind"; }
     body main .heroes-main-section .grid-container .hero-hero .heroes-container-left {
       width: 80%; }
       body main .heroes-main-section .grid-container .hero-hero .heroes-container-left .hero-img01 img {
@@ -1395,9 +1382,7 @@ footer .scrolltotop {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       grid-template-rows: auto;
-      grid-template-areas: "enews01img"
- "event01"
- "etitle01"; }
+      grid-template-areas: "enews01img" "event01" "etitle01"; }
   footer .footer-main-section .footer-main-container {
     display: flex;
     justify-content: center;
